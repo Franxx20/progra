@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1626629649 source:d:\2021_07_19_rec_entregable_32_bits\recparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+	"../TDACola/TDACola.h"
+	"../SolucionParcialArchivoCola/SolucionParcialArchivoCola.h"
+
+1624545232 d:\2021_07_19_rec_entregable_32_bits\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1621523906 d:\2021_07_19_rec_entregable_32_bits\nodo\nodo.h
+	<stddef.h>
+
+1622128152 d:\2021_07_19_rec_entregable_32_bits\tdacola\tdacola.h
+	<stddef.h>
+
+1626627760 d:\2021_07_19_rec_entregable_32_bits\solucionparcialarchivocola\solucionparcialarchivocola.h
+	<stdio.h>
+

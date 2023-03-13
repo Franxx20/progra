@@ -1,0 +1,5 @@
+Nro. Cuenta:	Digito Verificador Correcto:
+525667		1
+425867		7
+425867		7
+340376		4

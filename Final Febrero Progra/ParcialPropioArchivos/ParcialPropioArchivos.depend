@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1675469251 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parcialpropioarchivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1675469816 source:c:\users\franq\desktop\final febrero progra\parcialpropioarchivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1676586096 source:c:\users\franq\desktop\final-renata-17-12-a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

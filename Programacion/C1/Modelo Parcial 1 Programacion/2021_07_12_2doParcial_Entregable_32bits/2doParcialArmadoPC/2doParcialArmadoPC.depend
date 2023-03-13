@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1626035559 source:d:\agustinunlam\programacionbase\modelo parcial 1 programacion\2021_07_12_2doparcial_entregable_32bits\2doparcialarmadopc\main.c
+	<locale.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"../Solucion2doParcialArmadoPC/Solucion2doParcialArmadoPC.h"
+
+1626035451 d:\agustinunlam\programacionbase\modelo parcial 1 programacion\2021_07_12_2doparcial_entregable_32bits\solucion2doparcialarmadopc\solucion2doparcialarmadopc.h
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1623682906 d:\agustinunlam\programacionbase\modelo parcial 1 programacion\2021_07_12_2doparcial_entregable_32bits\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1623682882 d:\agustinunlam\programacionbase\modelo parcial 1 programacion\2021_07_12_2doparcial_entregable_32bits\nodo\nodod.h
+	<stddef.h>
+
+1624891480 d:\agustinunlam\programacionbase\modelo parcial 1 programacion\2021_07_12_2doparcial_entregable_32bits\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1625872472 d:\agustinunlam\programacionbase\modelo parcial 1 programacion\2021_07_12_2doparcial_entregable_32bits\nodo\nodoa.h
+	<stddef.h>
+

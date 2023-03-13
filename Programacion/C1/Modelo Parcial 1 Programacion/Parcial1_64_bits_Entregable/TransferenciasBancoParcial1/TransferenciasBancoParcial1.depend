@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1623880460 source:d:\onedrive - universidad nacional de la matanza\unlam\programacion\examenesenmaquina\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623880292 d:\onedrive - universidad nacional de la matanza\unlam\programacion\examenesenmaquina\2021-06-17_banco_nuevo\proyectos\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\onedrive - universidad nacional de la matanza\unlam\programacion\examenesenmaquina\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.h
+
+1623880460 source:d:\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623880292 d:\2021-06-17_banco_nuevo\proyectos\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.h
+
+1623889687 source:d:\2021_06_17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623884012 d:\2021_06_17_banco_nuevo\proyectos\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\2021_06_17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.h
+
+1623902131 source:d:\2021_06_17_banco_nuevo\proyectos\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623901957 d:\2021_06_17_banco_nuevo\proyectos\parcial1_64_bits_entregable\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\2021_06_17_banco_nuevo\proyectos\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.h
+
+1636498706 source:c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+	"../SolucionParcialBanco/Transferencia.h"
+	"../SolucionParcialBanco/Cuenta.h"
+	"../TDALista/TDALista.h"
+
+1623901957 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.h
+
+1623853977 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\solucionparcialbanco\transferencia.h
+	"../Fecha/Fecha.h"
+
+1623843100 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\fecha\fecha.h
+
+1623850124 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\solucionparcialbanco\cuenta.h
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+
+1623684532 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1621523906 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623687546 c:\users\caste\desktop\modelo parcial 1 programacion\parcial1_64_bits_entregable\tdalista\tdalista.h
+
+1665444564 source:d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+	"../SolucionParcialBanco/Transferencia.h"
+	"../SolucionParcialBanco/Cuenta.h"
+	"../TDALista/TDALista.h"
+
+1623901957 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.h
+
+1623853977 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\solucionparcialbanco\transferencia.h
+	"../Fecha/Fecha.h"
+
+1623843100 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\fecha\fecha.h
+
+1623850124 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\solucionparcialbanco\cuenta.h
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+
+1623684532 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1621523906 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623687546 d:\programacion\c\modelo parcial 1 programacion\parcial1_64_bits_entregable\tdalista\tdalista.h
+

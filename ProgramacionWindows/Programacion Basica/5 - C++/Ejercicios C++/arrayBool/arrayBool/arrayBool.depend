@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1638467104 source:/home/phosu/Documents/Programacion/Ejercicios C++/arrayBool/arrayBool/src/VectorBool.cpp
+	"VectorBool.h"
+
+1638467104 /home/phosu/Documents/Programacion/Ejercicios C++/arrayBool/arrayBool/include/VectorBool.h
+	<iostream>
+
+1638466591 source:/home/phosu/Documents/Programacion/Ejercicios C++/arrayBool/arrayBool/main.cpp
+	<iostream>
+	"include/VectorBool.h"
+

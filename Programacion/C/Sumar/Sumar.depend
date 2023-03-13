@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1664460474 source:/home/pilum/Facultad/programacion2c/C/Sumar/main.c
+	"pila.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1664458845 /home/pilum/Facultad/programacion2c/C/Sumar/pila.h
+	<stdbool.h>
+
+1664460081 source:/home/pilum/Facultad/programacion2c/C/Sumar/Pila.c
+	"pila.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

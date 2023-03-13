@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1574802106 source:/home/psoligo/git/All/Programacion/REC_P1_TT/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"./Lib/LIB_REC_P1_TT/Tipos.h"
+	"./Lib/LIB_REC_P1_TT/Cola.h"
+	"./Lib/LIB_REC_P1_TT/Utilitarias.h"
+
+1574801519 /home/psoligo/git/All/Programacion/REC_P1_TT/Lib/LIB_REC_P1_TT/Tipos.h
+
+1574803087 /home/psoligo/git/All/Programacion/REC_P1_TT/Lib/LIB_REC_P1_TT/Cola.h
+	"Tipos.h"
+
+1574802047 /home/psoligo/git/All/Programacion/REC_P1_TT/Lib/LIB_REC_P1_TT/Utilitarias.h
+
+1574804804 source:/home/psoligo/git/All/Programacion/REC_P1_TT/Proyecto/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1574801519 /home/psoligo/git/All/Programacion/REC_P1_TT/Comunes/Tipos.h
+
+1574803087 /home/psoligo/git/All/Programacion/REC_P1_TT/Comunes/Cola.h
+	"Tipos.h"
+
+1574802047 /home/psoligo/git/All/Programacion/REC_P1_TT/Comunes/Utilitarias.h
+
+1574879903 source:c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\ejercicios\all\rec_p1_tt\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1574879903 c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\ejercicios\all\rec_p1_tt\comunes\tipos.h
+
+1574879903 c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\ejercicios\all\rec_p1_tt\comunes\cola.h
+	"Tipos.h"
+
+1574879903 c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\ejercicios\all\rec_p1_tt\comunes\utilitarias.h
+
+1574880075 source:c:\users\pabli\desktop\ctemporal\rec_p1_tt\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1574879903 c:\users\pabli\desktop\ctemporal\rec_p1_tt\comunes\tipos.h
+
+1574879903 c:\users\pabli\desktop\ctemporal\rec_p1_tt\comunes\cola.h
+	"Tipos.h"
+
+1574879903 c:\users\pabli\desktop\ctemporal\rec_p1_tt\comunes\utilitarias.h
+
+1574880075 source:c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\examenes\misparciales\entregable_2019-11-29\parcialc\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1574879903 c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\examenes\misparciales\entregable_2019-11-29\parcialc\comunes\tipos.h
+
+1574879903 c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\examenes\misparciales\entregable_2019-11-29\parcialc\comunes\cola.h
+	"Tipos.h"
+
+1574879903 c:\users\pabli\onedrive - universidad nacional de la matanza\unlam\programacion2\examenes\misparciales\entregable_2019-11-29\parcialc\comunes\utilitarias.h
+
+1575056876 source:c:\users\laboratorios\desktop\garofalo, maria\parcialc\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1575056771 c:\users\laboratorios\desktop\garofalo, maria\parcialc\comunes\tipos.h
+
+1575054000 c:\users\laboratorios\desktop\garofalo, maria\parcialc\comunes\cola.h
+	"Tipos.h"
+
+1575056225 c:\users\laboratorios\desktop\garofalo, maria\parcialc\comunes\utilitarias.h
+	<stdio.h>
+
+1575056876 source:c:\users\laboratorios\desktop\garofalo, maria\parcialc\proyecto\utilitarias.c
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1575056078 source:c:\users\laboratorios\desktop\garofalo, maria\parcialc\proyecto\cola.c
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+
+1575056080 source:e:\garofalo, maria\garofalo, maria\parcialc\proyecto\cola.c
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+
+1575056772 e:\garofalo, maria\garofalo, maria\parcialc\comunes\tipos.h
+
+1575315006 e:\garofalo, maria\garofalo, maria\parcialc\comunes\cola.h
+	<stdio.h>
+	<stdlib.h>
+	"Tipos.h"
+
+1575315614 source:e:\garofalo, maria\garofalo, maria\parcialc\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1575314978 e:\garofalo, maria\garofalo, maria\parcialc\comunes\utilitarias.h
+	<stdio.h>
+
+1575317818 source:e:\garofalo, maria\garofalo, maria\parcialc\proyecto\utilitarias.c
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1575325683 source:c:\users\mauro\desktop\parcialc\proyecto\cola.c
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+
+1575326010 c:\users\mauro\desktop\parcialc\comunes\tipos.h
+
+1575325683 c:\users\mauro\desktop\parcialc\comunes\cola.h
+	<stdio.h>
+	<stdlib.h>
+	"Tipos.h"
+
+1575322723 source:c:\users\mauro\desktop\parcialc\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+
+1575314978 c:\users\mauro\desktop\parcialc\comunes\utilitarias.h
+	<stdio.h>
+
+1575329537 source:c:\users\mauro\desktop\parcialc\proyecto\utilitarias.c
+	"../Comunes/Tipos.h"
+	"../Comunes/Cola.h"
+	"../Comunes/Utilitarias.h"
+

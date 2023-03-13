@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667167061 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\racionalcpp\main.cpp
+	<iostream>
+	"Racional.h"
+
+1667167518 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\racionalcpp\racional.h
+	<iostream>
+
+1667167518 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\racionalcpp\racional.cpp
+	"Racional.h"
+

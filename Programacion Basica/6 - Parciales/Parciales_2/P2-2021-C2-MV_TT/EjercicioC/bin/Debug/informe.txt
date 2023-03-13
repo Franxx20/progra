@@ -1,0 +1,8 @@
+Error 1 - Sector A - Vehiculo     GKM925
+Error 2 - Sector B - Vehiculo     BCC333
+Error 3 - Sector D - Vehiculo     KAL663
+Error 4 - Sector C - Vehiculo     ABC999
+Error 5 - Sector A - Vehiculo     GKM925
+Error 5 - Sector B - Vehiculo     ARR111
+Error 5 - Sector B - Vehiculo     BCC333
+Error 5 - Sector D - Vehiculo     KAL663

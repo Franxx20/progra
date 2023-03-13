@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1618438342 source:/home/phosu/Documents/Programacion Trabjos/fechas/fechas.c
+	"fechas.h"
+
+1618492449 /home/phosu/Documents/Programacion Trabjos/fechas/fechas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1618492395 source:/home/phosu/Documents/Programacion Trabjos/fechas/main.c
+	"main.h"
+
+1618411625 /home/phosu/Documents/Programacion Trabjos/fechas/main.h
+	"fechas.h"
+

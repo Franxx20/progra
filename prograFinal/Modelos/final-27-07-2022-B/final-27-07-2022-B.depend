@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1671216465 source:c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-b\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDoble.h"
+	"arbol.h"
+	<string.h>
+
+1671212422 source:c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-b\arbol.c
+	"Arbol.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1671213101 c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-b\arbol.h
+	"comun.h"
+
+1671214106 c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-b\comun.h
+
+1671216223 source:c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-b\listadoble.c
+	"listaDoble.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1671216172 c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-b\listadoble.h
+	"comun.h"
+

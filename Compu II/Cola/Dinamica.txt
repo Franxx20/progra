@@ -1,0 +1,82 @@
+void crearCola_alu(Cola* pc)
+{
+    pc->fondo=pc->frente=NULL;
+}
+
+int encolar_alu(Cola* pc,const void* elem,size_t tamElem)
+{
+    Nodo* nue = crearNodo_alu(elem,tamElem);
+    if(!nue)
+	return SIN_MEM;
+
+    if(pc->fondo)
+        pc->fondo->sig = nue;
+    else
+        pc->frente = nue;
+    pc->fondo = nue;
+
+    return TODO_OK;
+}
+
+booleano desencolar_alu(Cola* pc,void* elem,size_t tamElem)
+{
+    if(!pc->frente)
+        return falso;
+
+    Nodo* nae = pc->frente;
+
+    pc->frente = nae->sig;
+
+    eliminarNodo_alu(nae,elem,tamElem);
+
+    return verdadero;
+}
+
+booleano verFrenteDeCola_alu(const Cola* pc,void* elem,size_t tamElem)
+{
+    if(!pc->frente)
+        return falso;
+
+    memcpy(elem,pc->frente->elem,MIN(tamElem,pc->frente->tamElem));
+
+    return verdadero;
+}
+
+booleano colaLLena_alu(const Cola* pc,size_t tamElem)
+{
+    Nodo* nue = (Nodo*)malloc(sizeof(Nodo));
+    void* nueElem = malloc(tamElem);
+
+    if(!nue || !nueElem)
+    {
+        free(nue);
+        free(nueElem);
+        return verdadero;
+    }
+
+    free(nue);
+    free(nueElem);
+    return falso; 
+}
+
+booleano colaVacia_alu(const Cola* pc)
+{
+    return (pc->fondo==NULL)? verdadero:falso;
+}
+
+void vaciarCola_alu(Cola* pc)
+{
+    Nodo* nae = pc->frente;
+
+    while(nae)
+    {
+        pc->frente = nae->sig;
+
+        free(nae->elem);
+        free(nae);
+
+        nae = pc->frente; 
+    }
+
+    pc->fondo = NULL;
+}

@@ -1,0 +1,78 @@
+#ifndef COMPLEJO_H
+#define COMPLEJO_H
+
+#include <iostream>
+
+using namespace std;
+
+class Complejo
+{
+	private:
+
+	  int real, imag;
+
+	public:
+
+	    Complejo(int r, int i);
+
+	    Complejo operator + (Complejo& complejo);
+	    Complejo& operator = (Complejo& complejo);
+	    Complejo operator * (Complejo& complejo);
+
+	    friend Complejo operator * (int x , Complejo& complejo);
+	    friend ostream& operator << (ostream& output, Complejo& complejo);
+};
+
+#include "Complejo.h"
+
+Complejo::Complejo(int r, int i)
+:r(r),i(i)
+{}
+
+Complejo Complejo::operator + (Complejo& complejo)
+{
+    Complejo res;
+
+    res.real = this->real + complejo.real;
+    res.imag = this->imag + complejo.imag;
+
+    return res;
+}
+
+Complejo Complejo::operator * (Complejo& complejo)
+{
+    Complejo res;
+
+    res.real = (this->real * complejo.real - this->imag * complejo.imag);
+    res.imag = (this->real * complejo.imag + this->imag * complejo.real);
+
+    return res;
+}
+
+Complejo operator * (int escalar , Complejo& complejo)
+{
+    Complejo res;
+
+    res.real = complejo.real * escalar;
+    res.imag = complejo.imag * escalar;
+
+    return res;
+}
+
+
+Complejo& Complejo::operator = (Complejo& complejo)
+{
+    this->real = complejo.real;
+    this->imag = complejo.imag;
+
+    return *this;
+}
+
+ostream& operator << (ostream& output, Complejo& complejo)
+{
+    output << complejo.real << ' + ' << complejo.imag << 'i' << endl;
+    return output;
+}
+
+
+#endif // COMPLEJO_H

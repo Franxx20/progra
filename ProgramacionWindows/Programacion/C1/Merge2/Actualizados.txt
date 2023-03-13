@@ -1,0 +1,7 @@
+ana       anana        200.00  100
+ban       banana       200.00  150
+cer       cereza       300.00  200
+dur       durazno     1000.00 -100
+man       naranja        0.00  260
+nar       naranja      500.00   70
+zan                      0.00  100

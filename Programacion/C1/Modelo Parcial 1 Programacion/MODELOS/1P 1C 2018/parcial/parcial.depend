@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1636835194 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+
+1636837564 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\include\lista.h
+	<tipos.h>
+
+1559347279 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\include\tipos.h
+
+1636835766 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\parcial\utilitarias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<utilitarias.h>
+	<banco.h>
+
+1559347279 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\include\utilitarias.h
+	<banco.h>
+
+1559347279 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1636835073 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1636834935 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2018\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+

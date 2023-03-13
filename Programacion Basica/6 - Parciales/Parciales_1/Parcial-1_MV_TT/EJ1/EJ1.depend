@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1634507917 source:/home/phosu/Downloads/EJ1/main.c
+	"include/main.h"
+
+1634506207 /home/phosu/Downloads/EJ1/include/main.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../pilaDinamica/pila.h"
+
+1634505072 /home/phosu/Downloads/EJ1/pilaDinamica/pila.h
+
+1634505064 source:/home/phosu/Downloads/EJ1/pilaDinamica/pila.c
+	<stdlib.h>
+	<string.h>
+	"pila.h"
+
+1634598072 source:/home/phosu/Downloads/EJ1/src/pila.c
+	<stdlib.h>
+	<string.h>
+	"../include/pila.h"
+
+1634505072 /home/phosu/Downloads/EJ1/include/pila.h
+
+1634650145 source:/home/phosu/Downloads/EJ1/src/virus.c
+	<stdio.h>
+	<stdlib.h>
+	"../include/virus.h"
+	"../include/my_strings.h"
+
+1634605004 /home/phosu/Downloads/EJ1/include/virus.h
+	"pila.h"
+
+1634608319 source:/home/phosu/Downloads/EJ1/src/my_strings.c
+	<stdlib.h>
+	"../include/my_strings.h"
+
+1634608242 /home/phosu/Downloads/EJ1/include/my_strings.h
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1662639164 source:/home/pilum/Facultad/programacion2c/C/CadenaClase/Palabra.c
+	"Palabra.h"
+	<ctype.h>
+	<stdio.h>
+
+1662639105 /home/pilum/Facultad/programacion2c/C/CadenaClase/Palabra.h
+	<stdbool.h>
+

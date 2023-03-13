@@ -1,0 +1,45 @@
+Lista antes de procesar:
+33333333 | Rodriguez, Pedro     | Programacion    | P1:  7 | P2:  0 R1:  0 | R2:  0 | AU |  0
+38888888 | Perez, Juan          | Matematica      | P1:  0 | P2:  6 R1:  0 | R2:  0 | AU |  0
+29999999 | Diaz, Bruno          | Historia        | P1:  5 | P2:  0 R1:  0 | R2:  0 | AU |  0
+26111111 | Coronel, Luis        | Programacion    | P1:  0 | P2:  2 R1:  0 | R2:  0 | AU |  0
+35555555 | De La Vega, Diego    | Matematica      | P1:  0 | P2:  7 R1:  0 | R2:  0 | AU |  0
+34444444 | Garcia, Demetrio     | Programacion    | P1:  0 | P2:  4 R1:  0 | R2:  0 | AU |  0
+36666666 | Saravia, Gustavo     | Humanidades     | P1:  0 | P2:  0 R1:  5 | R2:  0 | AU |  0
+35555555 | De La Vega, Diego    | Programacion    | P1:  8 | P2:  0 R1:  0 | R2:  0 | AU |  0
+27777777 | Benitez, Aurelio     | Historia        | P1:  0 | P2:  4 R1:  0 | R2:  0 | AU |  0
+39999999 | Pereira, Francisco   | Matematica      | P1:  2 | P2:  0 R1:  0 | R2:  0 | AU |  0
+30000000 | Nigma, Eduardo       | Matematica      | P1:  0 | P2:  0 R1:  0 | R2:  0 | AU |  0
+26111111 | Coronel, Luis        | Programacion    | P1:  6 | P2:  0 R1:  0 | R2:  0 | AU |  0
+35555555 | De La Vega, Diego    | Matematica      | P1:  8 | P2:  0 R1:  0 | R2:  0 | AU |  0
+36666666 | Saravia, Gustavo     | Historia        | P1:  0 | P2: 10 R1:  0 | R2:  0 | AU |  0
+34444444 | Garcia, Demetrio     | Programacion    | P1:  7 | P2:  0 R1:  0 | R2:  0 | AU |  0
+26111111 | Coronel, Luis        | Programacion    | P1:  0 | P2:  0 R1:  0 | R2:  4 | AU |  0
+33333333 | Rodriguez, Pedro     | Programacion    | P1:  0 | P2:  9 R1:  0 | R2:  0 | AU |  0
+38888888 | Perez, Juan          | Matematica      | P1:  4 | P2:  0 R1:  0 | R2:  0 | AU |  0
+35555555 | De La Vega, Diego    | Programacion    | P1:  0 | P2:  4 R1:  0 | R2:  0 | AU |  0
+39999999 | Pereira, Francisco   | Matematica      | P1:  0 | P2: 10 R1:  0 | R2:  0 | AU |  0
+36666666 | Saravia, Gustavo     | Historia        | P1:  9 | P2:  0 R1:  0 | R2:  0 | AU |  0
+28777777 | Kent, Clark          | Programacion    | P1:  0 | P2:  4 R1:  0 | R2:  0 | AU |  0
+27777777 | Benitez, Aurelio     | Historia        | P1:  5 | P2:  0 R1:  0 | R2:  0 | AU |  0
+36666666 | Saravia, Gustavo     | Humanidades     | P1:  0 | P2:  2 R1:  0 | R2:  0 | AU |  0
+34444444 | Garcia, Demetrio     | Programacion    | P1:  0 | P2:  0 R1:  0 | R2:  9 | AU |  0
+28777777 | Kent, Clark          | Programacion    | P1:  2 | P2:  0 R1:  0 | R2:  0 | AU |  0
+29999999 | Diaz, Bruno          | Historia        | P1:  0 | P2:  5 R1:  0 | R2:  0 | AU |  0
+36666666 | Saravia, Gustavo     | Humanidades     | P1:  0 | P2:  0 R1:  0 | R2:  4 | AU |  0
+30000000 | Nigma, Eduardo       | Matematica      | P1:  0 | P2:  0 R1:  0 | R2:  0 | AU |  0
+
+Lista despues de procesar:
+36666666 | Saravia, Gustavo     | Historia        | P1:  9 | P2: 10 R1:  0 | R2:  0 | PR | 10
+33333333 | Rodriguez, Pedro     | Programacion    | P1:  7 | P2:  9 R1:  0 | R2:  0 | PR |  8
+35555555 | De La Vega, Diego    | Matematica      | P1:  8 | P2:  7 R1:  0 | R2:  0 | PR |  8
+34444444 | Garcia, Demetrio     | Programacion    | P1:  7 | P2:  4 R1:  0 | R2:  9 | PR |  8
+35555555 | De La Vega, Diego    | Programacion    | P1:  8 | P2:  4 R1:  0 | R2:  0 | CU |  6
+38888888 | Perez, Juan          | Matematica      | P1:  4 | P2:  6 R1:  0 | R2:  0 | CU |  5
+27777777 | Benitez, Aurelio     | Historia        | P1:  5 | P2:  4 R1:  0 | R2:  0 | CU |  5
+36666666 | Saravia, Gustavo     | Humanidades     | P1:  0 | P2:  2 R1:  5 | R2:  4 | CU |  5
+29999999 | Diaz, Bruno          | Historia        | P1:  5 | P2:  5 R1:  0 | R2:  0 | CU |  5
+26111111 | Coronel, Luis        | Programacion    | P1:  6 | P2:  2 R1:  0 | R2:  4 | CU |  5
+39999999 | Pereira, Francisco   | Matematica      | P1:  2 | P2: 10 R1:  0 | R2:  0 | RE |  2
+28777777 | Kent, Clark          | Programacion    | P1:  2 | P2:  4 R1:  0 | R2:  0 | RE |  2
+30000000 | Nigma, Eduardo       | Matematica      | P1:  0 | P2:  0 R1:  0 | R2:  0 | AU |  0

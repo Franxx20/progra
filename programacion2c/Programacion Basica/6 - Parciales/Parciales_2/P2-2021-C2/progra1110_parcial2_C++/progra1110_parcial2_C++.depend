@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1637958952 source:c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial2_c++\main.cpp
+	<iostream>
+	"Cadena.h"
+
+1637959025 
+
+1637959025 c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial2_c++\include\cadena.h
+	<iostream>
+
+1637959025 source:c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial2_c++\src\cadena.cpp
+	"Cadena.h"
+
+1637958954 source:/home/phosu/Downloads/progra1110_parcial2_C++/main.cpp
+	<iostream>
+	"Cadena.h"
+
+1637959026 /home/phosu/Downloads/progra1110_parcial2_C++/include/Cadena.h
+	<iostream>
+
+1638384603 source:/home/phosu/Downloads/progra1110_parcial2_C++/src/Cadena.cpp
+	"Cadena.h"
+
+1637958954 source:/home/phosu/Documents/Programacion/Parciales_2/P2-2021-C2/progra1110_parcial2_C++/main.cpp
+	<iostream>
+	"Cadena.h"
+
+1646427989 /home/phosu/Documents/Programacion/Parciales_2/P2-2021-C2/progra1110_parcial2_C++/include/Cadena.h
+	<iostream>
+
+1646428333 source:/home/phosu/Documents/Programacion/Parciales_2/P2-2021-C2/progra1110_parcial2_C++/src/Cadena.cpp
+	<string.h>
+	"Cadena.h"
+

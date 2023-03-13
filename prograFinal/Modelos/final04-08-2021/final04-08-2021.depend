@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1670815523 source:c:\users\franq\desktop\progra\prografinal\modelos\final04-08-2021\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+

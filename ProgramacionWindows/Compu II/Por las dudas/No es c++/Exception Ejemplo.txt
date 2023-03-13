@@ -1,0 +1,18 @@
+class PersonaExc
+{
+    public:
+        PersonaExc(const Cadena& mensaje);
+        const Cadena& getMensaje()const;
+
+    private:
+        Cadena mensaje;
+};
+
+PersonaExc::PersonaExc(const Cadena& mensaje){
+    this->mensaje = mensaje;
+}
+
+const Cadena& PersonaExc::getMensaje()const{
+
+    return mensaje;
+}

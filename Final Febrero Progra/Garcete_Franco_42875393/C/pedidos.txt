@@ -1,0 +1,10 @@
+1|lapiz     |10|v|venta
+2|hoja      |100|g|gerencia
+3|lapiz     |30|v|ventas
+4|monitor   |3|a|atencion
+5|hoja      |100|c|compras
+6|impresora |1|g|gerencia
+7|hoja      |150|g|gerencia
+8|impresora |3|c|compras
+9|hoja      |75|g|gerencia
+10|clips     |400|a|atencion

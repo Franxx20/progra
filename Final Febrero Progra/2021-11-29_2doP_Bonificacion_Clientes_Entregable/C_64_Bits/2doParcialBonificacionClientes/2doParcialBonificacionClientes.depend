@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1668298065 source:c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\2doparcialbonificacionclientes\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"../Solucion2doParcialBonificacionClientes/Utilitarias2doParcialBonificacionClientes.h"
+	"../Solucion2doParcialBonificacionClientes/Solucion2doParcialBonificacionClientes.h"
+	"../Solucion2doParcialBonificacionClientes/TiposArchivos.h"
+	"../TDAArbol/TDAArbol.h"
+	"../TDALista/TDALista.h"
+	<stdbool.h>
+
+1638109740 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\solucion2doparcialbonificacionclientes\utilitarias2doparcialbonificacionclientes.h
+
+1676065552 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\solucion2doparcialbonificacionclientes\solucion2doparcialbonificacionclientes.h
+
+1638110850 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\solucion2doparcialbonificacionclientes\tiposarchivos.h
+
+1638104330 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1636840240 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\comun\comun.h
+
+1624891480 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1638113872 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\nodo\nodoa.h
+	<stddef.h>
+
+1638060016 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1623682906 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059878 c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\nodo\nodod.h
+	<stddef.h>
+
+1676073158 source:c:\users\franq\desktop\2021-11-29_2dop_bonificacion_clientes_entregable\c_64_bits\2doparcialbonificacionclientes\main2.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"../Solucion2doParcialBonificacionClientes/Utilitarias2doParcialBonificacionClientes.h"
+	"../Solucion2doParcialBonificacionClientes/Solucion2doParcialBonificacionClientes.h"
+	"../Solucion2doParcialBonificacionClientes/TiposArchivos.h"
+	"../TDAArbol/TDAArbol.h"
+	"../TDALista/TDALista.h"
+	<stdbool.h>
+

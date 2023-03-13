@@ -1,0 +1,23 @@
+EXPORTS
+    buscarEnListaDesordenada @1
+    buscarEnListaOrdenada @2
+    crearLista @3
+    crearNodo @4
+    destruirNodo @5
+    eliminarDeListaAlFinal @6
+    eliminarDeListaAlInicio @7
+    eliminarDeListaPorPos @8
+    eliminarDuplicadosListaDes @9
+    eliminarDuplicadosListaOrd @10
+    insertarEnListaAlFinal @11
+    insertarEnListaAlInicio @12
+    insertarEnListaOrdenada @13
+    insertarEnListaPorPos @14
+    listaLlena @15
+    listaVacia @16
+    ordenarLista @17
+    recorrerLista @18
+    vaciarLista @19
+    verEnListaAlFinal @20
+    verEnListaAlInicio @21
+    verEnListaPorPos @22

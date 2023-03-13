@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1626629649 source:d:\2021_07_19_rec_entregable_64_bits\recparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+	"../TDACola/TDACola.h"
+	"../SolucionParcialArchivoCola/SolucionParcialArchivoCola.h"
+
+1624545232 d:\2021_07_19_rec_entregable_64_bits\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1621523906 d:\2021_07_19_rec_entregable_64_bits\nodo\nodo.h
+	<stddef.h>
+
+1622128152 d:\2021_07_19_rec_entregable_64_bits\tdacola\tdacola.h
+	<stddef.h>
+
+1626627760 d:\2021_07_19_rec_entregable_64_bits\solucionparcialarchivocola\solucionparcialarchivocola.h
+	<stdio.h>
+
+1667156532 source:d:\codigo86\escritorio\parciales\c\1er parcial\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\recparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDAColaImplEstatica/TDAColaImplEstatica.h"
+	"../TDACola/TDACola.h"
+	"../SolucionParcialArchivoCola/SolucionParcialArchivoCola.h"
+
+1622128006 d:\codigo86\escritorio\parciales\c\1er parcial\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\tdacolaimplestatica\tdacolaimplestatica.h
+
+1622128152 d:\codigo86\escritorio\parciales\c\1er parcial\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\tdacola\tdacola.h
+	<stddef.h>
+
+1626627760 d:\codigo86\escritorio\parciales\c\1er parcial\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\solucionparcialarchivocola\solucionparcialarchivocola.h
+	<stdio.h>
+

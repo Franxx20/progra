@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1662389805 source:c:\users\laboratorios\desktop\ej fechas\fecha\cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Cadena/Cadena.h"
+
+1662389805 /Cadena.h"
+
+1662388504 c:\users\laboratorios\desktop\ej fechas\fecha\cadena\cadena.h
+	<stdbool.h>
+
+1662388504 >
+
+1662521214 source:/home/pilum/Facultad/programacion2c/C/Cadenas/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Cadena/Cadena.h"
+
+1662388504 /home/pilum/Facultad/programacion2c/C/Cadena/Cadena.h
+	<stdbool.h>
+

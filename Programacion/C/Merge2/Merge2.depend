@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1663964658 source:/home/pilum/Facultad/programacion2c/C/Merge2/main.c
+	"Merge.h"
+	<stdio.h>
+	<stdlib.h>
+
+1663969453 /home/pilum/Facultad/programacion2c/C/Merge2/Merge.h
+	<stdbool.h>
+	<stdio.h>
+
+1663964773 source:/home/pilum/Facultad/programacion2c/C/Merge2/Merge.c
+	"Merge.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

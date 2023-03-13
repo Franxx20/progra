@@ -1,0 +1,68 @@
+void crearPila_alu(Pila* pp)
+{
+    *pp = NULL;
+}
+
+booleano apilar_alu(Pila* pp, const void* elem, size_t tamElem)
+{
+    Nodo* nue = crearNodo_alu(elem,tamElem);
+
+    nue->sig = *pp;
+
+    *pp = nue;
+
+    return verdadero;
+}
+
+booleano desapilar_alu(Pila* pp, void* elem, size_t tamElem)
+{
+    if(!*pp)
+        return falso;
+
+    Nodo* nae = *pp;
+    *pp = nae->sig;
+
+    eliminarNodo(nae,elem,tamElem);
+
+    return verdadero;
+}
+
+booleano verTopePila_alu(Pila* pp, void* elem, size_t tamElem)
+{
+    if(!*pp)
+        return falso;
+
+    Nodo* tope = *pp;
+    memcpy(elem,tope->elem,MIN(tamElem,tope->tamElem));
+
+    return verdadero;
+}
+
+booleano pilaLLena_alu(Pila* pp,size_t tamElem)
+{
+    Nodo* nodo=malloc(sizeof(Nodo));
+    void* elem=malloc(tamElem);
+
+    free(nodo);
+    free(elem);
+
+    return (!nodo || !elem);
+}
+
+booleano pilaVacia_alu(Pila* pp)
+{
+    return *pp==NULL? verdadero:falso;
+}
+
+void vaciarPila_alu(Pila* pp)
+{
+    Nodo* nae = *pp;
+
+    while(nae)
+    {
+        *pp = nae->sig;
+        free(nae->elem);
+        free(nae);
+        nae = *pp;
+    }
+}

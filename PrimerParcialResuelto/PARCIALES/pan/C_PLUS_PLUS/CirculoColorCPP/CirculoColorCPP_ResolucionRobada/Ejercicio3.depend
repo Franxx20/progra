@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1531252331 source:c:\users\aleja\documents\unlam\programacion\parciales\segundo parcial\parcial com062017\ejercicio3\main.cpp
+	<iostream>
+	"funciones.h"
+
+1531252508 source:c:\users\aleja\documents\unlam\programacion\parciales\segundo parcial\parcial com062017\ejercicio3\funciones.cpp
+	<string.h>
+	<iostream>
+	"funciones.h"
+
+1531252496 c:\users\aleja\documents\unlam\programacion\parciales\segundo parcial\parcial com062017\ejercicio3\funciones.h
+

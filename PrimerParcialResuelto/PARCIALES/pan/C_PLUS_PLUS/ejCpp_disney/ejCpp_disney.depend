@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1634521956 source:c:\users\a\desktop\programacion\ejcpp_disney\src\animal.cpp
+	"Animal.h"
+
+1634522157 c:\users\a\desktop\programacion\ejcpp_disney\include\animal.h
+	<iostream>
+
+1634522244 source:c:\users\a\desktop\programacion\ejcpp_disney\src\gato.cpp
+	"Gato.h"
+	<string.h>
+
+1634522254 c:\users\a\desktop\programacion\ejcpp_disney\include\gato.h
+	"Animal.h"
+
+1634522218 source:c:\users\a\desktop\programacion\ejcpp_disney\src\perro.cpp
+	"Perro.h"
+	<string.h>
+
+1634522211 c:\users\a\desktop\programacion\ejcpp_disney\include\perro.h
+	"Animal.h"
+
+1634521672 source:c:\users\a\desktop\programacion\ejcpp_disney\main.cpp
+	<iostream>
+	"Perro.h"
+	"Gato.h"
+

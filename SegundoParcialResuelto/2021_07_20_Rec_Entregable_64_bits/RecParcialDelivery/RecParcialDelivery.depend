@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1670959344 source:c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\recparcialdelivery\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<memory.h>
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+	"../TDACola/TDACola.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+	"../TDALista/TDALista.h"
+	"../SolucionParcialDelivery/TiposDelivery.h"
+	"../SolucionParcialDelivery/SolucionParcialDelivery.h"
+	"../Utilitarias/Utilitarias.h"
+
+1626737097 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\solucionparcialdelivery\tiposdelivery.h
+
+1626733407 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\solucionparcialdelivery\solucionparcialdelivery.h
+	<stdio.h>
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+	"../TDACola/TDACola.h"
+
+1624545232 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1621523906 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\nodo\nodo.h
+	<stddef.h>
+
+1670956167 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\tdacola\tdacola.h
+	<stddef.h>
+
+1623682906 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1623682882 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\nodo\nodod.h
+	<stddef.h>
+
+1625956800 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\tdalista\tdalista.h
+
+1626652326 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\utilitarias\utilitarias.h
+	"../TDA/TDA.h"
+
+1625502226 c:\users\franq\desktop\2021_07_20_rec_entregable_64_bits\tda\tda.h
+

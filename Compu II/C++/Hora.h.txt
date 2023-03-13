@@ -1,0 +1,66 @@
+#ifndef HORA_H
+#define HORA_H
+
+#include <iomanip>
+#include <iostream>
+
+using namespace std;
+
+class Hora
+{
+    private:
+        int horas;
+        int minutos;
+        int segundos;
+
+    public:
+        Hora();
+        Hora(int);
+
+        Hora operator + (Hora&) const;
+        Hora operator ++ ();
+
+        friend ostream& operator << (ostream&, const Hora&);
+};
+
+Hora::Hora()
+{
+    this->horas = 0;
+    this->minutos = 0;
+    this->segundos = 0;
+}
+
+Hora::Hora(int seg)
+{
+    seg %= 86400;
+
+    this->horas = seg/(3600);
+    this->minutos = (seg%3600)/60;
+    this->segundos = (seg%3600)%60;
+
+}
+
+Hora Hora::operator + (Hora& hora) const
+{
+    int suma;
+    suma = (hora.horas + this->horas)*3600 + (hora.minutos + this->minutos)*60 + (hora.segundos + this->segundos);
+    Hora horaSuma(suma);
+    return horaSuma;
+}
+
+Hora Hora::operator ++ ()
+{
+    int suma;
+    suma = (this->horas)*3600 + (this->minutos)*60 + (this->segundos);
+    suma++;
+    Hora horaSuma(suma);
+    *this = horaSuma;
+    return *this;
+}
+
+
+ostream& operator << (ostream& output, const Hora& hora)
+{
+    return output << setfill('0') << setw(2) << hora.horas << ":" << setfill('0') << setw(2) << hora.minutos << ":" << setfill('0') << setw(2) << hora.segundos;
+}
+#endif // HORA_H

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1675469312 source:c:\users\franq\desktop\practicamergeo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

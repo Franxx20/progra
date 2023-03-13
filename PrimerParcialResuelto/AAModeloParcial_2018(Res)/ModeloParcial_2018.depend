@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1571772000 source:c:\users\lab265\desktop\modeloparcial_2018\funciones.c
+	"Modelo_Parcial.h"
+
+1571775774 c:\users\lab265\desktop\modeloparcial_2018\modelo_parcial.h
+	<stdio.h>
+	<stdlib.h>
+
+1571774807 source:c:\users\lab265\desktop\modeloparcial_2018\main.c
+	"Modelo_Parcial.h"
+
+1571944688 source:c:\users\lu\desktop\modeloparcial_2018\funciones.c
+	"Modelo_Parcial.h"
+
+1571940622 c:\users\lu\desktop\modeloparcial_2018\modelo_parcial.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571944817 source:c:\users\lu\desktop\modeloparcial_2018\main.c
+	"Modelo_Parcial.h"
+

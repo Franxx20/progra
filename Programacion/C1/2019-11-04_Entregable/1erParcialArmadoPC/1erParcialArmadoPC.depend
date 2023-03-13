@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1572829889 source:/home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/1erParcialArmadoPC/main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion1erParcialArmadoPC.h>
+
+1572828219 /home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/include/Solucion1erParcialArmadoPC.h
+	<Lista.h>
+
+1572816876 /home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/include/Lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1572818144 /home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/include/TipoTDA.h
+	<TiposArmadoPC.h>
+
+1572825861 /home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/include/TiposArmadoPC.h
+
+1464182109 /home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/include/PunterosAFuncion.h
+
+1572829889 source:g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialarmadopc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion1erParcialArmadoPC.h>
+
+1572828219 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\solucion1erparcialarmadopc.h
+	<Lista.h>
+
+1572816876 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1572818144 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipotda.h
+	<TiposArmadoPC.h>
+
+1572825861 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tiposarmadopc.h
+
+1464182109 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\punterosafuncion.h
+
+1572829889 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\1erparcialarmadopc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion1erParcialArmadoPC.h>
+
+1572828219 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\include\solucion1erparcialarmadopc.h
+	<Lista.h>
+
+1572816876 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1572818144 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\include\tipotda.h
+	<TiposArmadoPC.h>
+
+1572825861 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\include\tiposarmadopc.h
+
+1464182109 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\include\punterosafuncion.h
+
+1572829889 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\2019-11-04_entregable\1erparcialarmadopc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion1erParcialArmadoPC.h>
+
+1572828219 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\2019-11-04_entregable\include\solucion1erparcialarmadopc.h
+	<Lista.h>
+
+1572816876 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\2019-11-04_entregable\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1572818144 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\2019-11-04_entregable\include\tipotda.h
+	<TiposArmadoPC.h>
+
+1572825861 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\2019-11-04_entregable\include\tiposarmadopc.h
+
+1464182109 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-04_armadopc\2019-11-04_entregable\include\punterosafuncion.h
+
+1572878407 source:c:\users\lab3\desktop\2019-11-04_entregable\1erparcialarmadopc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Solucion1erParcialArmadoPC.h>
+	<Lista.h>
+
+1572877121 c:\users\lab3\desktop\2019-11-04_entregable\include\solucion1erparcialarmadopc.h
+	<Lista.h>
+
+1572816876 c:\users\lab3\desktop\2019-11-04_entregable\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1572818144 c:\users\lab3\desktop\2019-11-04_entregable\include\tipotda.h
+	<TiposArmadoPC.h>
+
+1572825862 c:\users\lab3\desktop\2019-11-04_entregable\include\tiposarmadopc.h
+
+1464182110 c:\users\lab3\desktop\2019-11-04_entregable\include\punterosafuncion.h
+
+1575239710 source:d:\programacion\c\2019-11-04_entregable\1erparcialarmadopc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Solucion1erParcialArmadoPC.h>
+	<Lista.h>
+
+1575239706 d:\programacion\c\2019-11-04_entregable\include\solucion1erparcialarmadopc.h
+	<Lista.h>
+
+1575239702 d:\programacion\c\2019-11-04_entregable\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1575239708 d:\programacion\c\2019-11-04_entregable\include\tipotda.h
+	<TiposArmadoPC.h>
+
+1575239708 d:\programacion\c\2019-11-04_entregable\include\tiposarmadopc.h
+
+1575239706 d:\programacion\c\2019-11-04_entregable\include\punterosafuncion.h
+

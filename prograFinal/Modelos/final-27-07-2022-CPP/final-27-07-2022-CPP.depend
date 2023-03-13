@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1671244811 source:c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-cpp\main.cpp
+	<iostream>
+	"VectorEnteros.h"
+
+1671203905 c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-cpp\include\vectorenteros.h
+	<iostream>
+
+1671244879 source:c:\users\franq\desktop\progra\prografinal\modelos\final-27-07-2022-cpp\src\vectorenteros.cpp
+	"VectorEnteros.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1677622554 source:c:\users\franq\desktop\finalarbolconindice\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667189179 source:d:\programacion\c\tp2\testslista6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Lista6/Lista.h"
+
+1667186385 d:\programacion\c\tp2\lista6\lista.h
+	<stdbool.h>
+

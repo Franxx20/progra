@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1664640504 source:c:\users\laboratorios.unlmlab\desktop\2022-06-06_1erparcialecommerce\complejocpp\complejo.cpp
+	"Complejo.h"
+
+1664640452 c:\users\laboratorios.unlmlab\desktop\2022-06-06_1erparcialecommerce\complejocpp\complejo.h
+	<iostream>
+
+1664640517 source:c:\users\laboratorios.unlmlab\desktop\2022-06-06_1erparcialecommerce\complejocpp\main.cpp
+	<iostream>
+	"Complejo.h"
+

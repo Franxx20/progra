@@ -1,0 +1,370 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <memory.h>
+#include <math.h>
+#include "Prototipos.h"
+
+void imprimirArbolRec_alu(const Arbol* pa, ImprimirElemArbol imprimir, void* datosImprimir, int nivel);
+const Arbol* buscarRaizArbol_alu(const Arbol* pa, const void* elem, Cmp cmp);
+void eliminarRaizArbol_alu(Arbol* pae);
+const Arbol* menorDeArbol_alu(const Arbol* pa);
+const Arbol* mayorDeArbol_alu(const Arbol* pa);
+int cantNodosArbol_alu(const Arbol* pa);
+int cantNodosArbolHastaNvl_alu(const Arbol* pa, int nivel);
+
+
+NodoA* crearNodoA_alu(const void* elem, size_t tamElem)
+{
+    NodoA* nue = (NodoA*)malloc(sizeof(NodoA));
+    void* elemNodoA = malloc(tamElem);
+
+    if(!nue || !elemNodoA)
+    {
+        free(nue);
+        free(elemNodoA);
+        return NULL;
+    }
+
+    memcpy(elemNodoA,elem,tamElem);
+    nue->elem = elemNodoA;
+    nue->tamElem = tamElem;
+    nue->der = NULL;
+    nue->izq = NULL;
+
+    return nue;
+}
+
+
+void crearArbol_alu(Arbol* pa)
+{
+    *pa = NULL;
+}
+
+
+int insertarEnArbol_alu(Arbol* pa, const void* elem, size_t tamElem, Cmp cmp, Actualizar actualizar)
+{
+    if(!*pa)
+    {
+        *pa = crearNodoA_alu(elem, tamElem);
+
+        return !*pa ? SIN_MEM : TODO_OK;
+    }
+
+    int comp = cmp(elem, (*pa)->elem);
+
+    if(comp == 0)
+    {
+        if(actualizar)
+        {
+            return actualizar((*pa)->elem, elem);
+        }
+
+        return DUPLICADO;
+    }
+
+    return insertarEnArbol_alu(((comp < 0) ? &(*pa)->izq : &(*pa)->der), elem, tamElem, cmp, actualizar);
+}
+
+
+Booleano buscarEnArbol_alu(Arbol* pa, void* elem, size_t tamElem, Cmp cmp)
+{
+    if(!*pa)
+    {
+        return FALSO;
+    }
+
+    int comp = cmp(elem, (*pa)->elem);
+
+    if(comp == 0)
+    {
+        memcpy(elem, (*pa)->elem, min(tamElem, (*pa)->tamElem));
+        return VERDADERO;
+    }
+
+    return buscarEnArbol_alu((comp < 0 ? &(*pa)->izq : &(*pa)->der), elem, tamElem, cmp);
+}
+
+
+Booleano eliminarDeArbol_alu(Arbol* pa, void* elem, size_t tamElem, Cmp cmp)
+{
+    Arbol* pae = (Arbol*) buscarRaizArbol_alu(pa, elem, cmp); //Casteo?
+
+    if(!pae)
+    {
+        return FALSO;
+    }
+
+    memcpy(elem, (*pae)->elem, min(tamElem, (*pae)->tamElem));
+
+    free((*pae)->elem);
+
+    eliminarRaizArbol_alu(pae);
+
+    return VERDADERO;
+}
+
+
+const Arbol* buscarRaizArbol_alu(const Arbol* pa, const void* elem, Cmp cmp)
+{
+    if(!*pa)
+    {
+        return NULL;
+    }
+
+    int comp = cmp(elem,(*pa)->elem);
+
+    if(comp == 0)
+    {
+        return pa;
+    }
+
+    return buscarRaizArbol_alu(comp < 0 ? &(*pa)->izq : &(*pa)->der, elem, cmp);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void eliminarRaizArbol_alu(Arbol* pae)
+{
+    if(!(*pae)->izq && !(*pae)->der) // es hoja
+    {
+        free(*pae);
+        *pae = NULL;
+        return;
+    }
+
+    int hi = alturaArbol_alu(&(*pae)->izq);
+    int hd = alturaArbol_alu(&(*pae)->der);
+
+    Arbol* par = (Arbol*) ((hi > hd) ? mayorDeArbol_alu(&(*pae)->izq) : menorDeArbol_alu(&(*pae)->der));
+
+    (*pae)->elem = ((*par)->elem);
+    (*pae)->tamElem = (*par)->tamElem;
+
+    eliminarRaizArbol_alu(par);
+}
+
+
+Booleano arbolVacio_alu(Arbol* pa);
+
+
+int alturaArbol_alu(const Arbol* pa)
+{
+    if(!*pa)
+    {
+        return 0;
+    }
+
+    return max(alturaArbol_alu(&(*pa)->izq), alturaArbol_alu(&(*pa)->der)) + 1;
+}
+
+
+const Arbol* menorDeArbol_alu(const Arbol* pa)
+{
+    if(!(*pa)->izq)
+    {
+        return pa;
+    }
+
+    return menorDeArbol_alu(&(*pa)->izq);
+}
+
+
+const Arbol* mayorDeArbol_alu(const Arbol* pa)
+{
+    if(!(*pa)->der)
+    {
+        return pa;
+    }
+
+    return mayorDeArbol_alu(&(*pa)->der);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void recorrerArbolPre_alu(Arbol* pa, Accion accion, void* datosAccion)
+{
+    if(!*pa)
+    {
+        return;
+    }
+
+    accion((*pa)->elem, datosAccion);
+    recorrerArbolPre_alu(&(*pa)->izq, accion, datosAccion);
+    recorrerArbolPre_alu(&(*pa)->der, accion, datosAccion);
+}
+
+
+void recorrerArbolEn_alu(Arbol* pa, Accion accion, void* datosAccion)
+{
+    if(!*pa)
+    {
+        return;
+    }
+    recorrerArbolPre_alu(&(*pa)->izq, accion, datosAccion);
+    accion((*pa)->elem, datosAccion);
+    recorrerArbolPre_alu(&(*pa)->der, accion, datosAccion);
+}
+
+
+void recorrerArbolPos_alu(Arbol* pa, Accion accion, void* datosAccion)
+{
+    if(!*pa)
+    {
+        return;
+    }
+    recorrerArbolPre_alu(&(*pa)->izq, accion, datosAccion);
+    recorrerArbolPre_alu(&(*pa)->der, accion, datosAccion);
+    accion((*pa)->elem, datosAccion);
+}
+
+
+void vaciarArbol_alu(Arbol* pa)
+{
+    if(!(*pa)->izq && !(*pa)->der)
+    {
+        free((*pa)->elem);
+        free(*pa);
+
+        *pa = NULL;
+
+        return;
+    }
+
+    if((*pa)->izq)
+    {
+        vaciarArbol_alu(&(*pa)->izq);
+    }
+
+    if((*pa)->der)
+    {
+        vaciarArbol(&(*pa)->der);
+    }
+
+    free((*pa)->elem);
+    free(*pa);
+    *pa = NULL;
+
+}
+
+
+Booleano esArbolCompleto_alu(const Arbol* pa);
+Booleano esArbolBalanceado_alu(const Arbol* pa);
+Booleano esArbolAVL_alu(const Arbol* pa);
+TipoArbol tipoArbol_alu(const Arbol* pa);
+
+
+void imprimirArbol_alu(const Arbol* pa, ImprimirElemArbol imprimir, void* datosImprimir)
+{
+    imprimirArbolRec_alu(pa, imprimir, datosImprimir, 0);
+}
+
+
+void imprimirArbolRec_alu(const Arbol* pa, ImprimirElemArbol imprimir, void* datosImprimir, int nivel)
+{
+    if(!*pa)
+    {
+        return;
+    }
+    imprimirArbolRec_alu(&(*pa)->der, imprimir, datosImprimir, nivel + 1);
+    imprimir((*pa)->elem, datosImprimir, nivel);
+    imprimirArbolRec_alu(&(*pa)->izq, imprimir, datosImprimir, nivel + 1);
+}
+
+
+Booleano esArbolCompleto_alu(const Arbol* pa)
+{
+    int cantNodosReq = pow(2, alturaArbol_alu(pa)) - 1;
+    int cantNodosReales = cantNodosArbol_alu(pa);
+
+    return cantNodosReales == cantNodosReq;
+}
+
+
+int cantNodosArbol_alu(const Arbol* pa)
+{
+    if(!*pa)
+    {
+        return 0;
+    }
+
+    return cantNodosArbol_alu(&(*pa)->izq) + cantNodosArbol_alu(&(*pa)->der) + 1;
+}
+
+
+Booleano esArbolBalanceado_alu(const Arbol* pa)
+{
+    int altura = alturaArbol_alu(pa);
+
+    if(altura <= 2)
+    {
+        return VERDADERO;
+    }
+
+    int cantNodosReq = pow(2, altura - 1) - 1;
+    int cantNodosReales = cantNodosArbolHastaNvl_alu(pa, altura - 2);
+
+    return cantNodosReq == cantNodosReales;
+}
+
+
+int cantNodosArbolHastaNvl_alu(const Arbol* pa, int nivel)
+{
+    if(!*pa)
+    {
+        return 0;
+    }
+
+    if(nivel == 0)
+    {
+        return 1;
+    }
+
+    return cantNodosArbolHastaNvl_alu(&(*pa)->izq, nivel - 1) +
+           cantNodosArbolHastaNvl_alu(&(*pa)->der, nivel - 1) + 1;
+}
+
+
+Booleano esArbolAVL_alu(const Arbol* pa)
+{
+    if(!*pa)
+    {
+        return VERDADERO;
+    }
+
+    int hi = alturaArbol_alu(&(*pa)->izq);
+    int hd = alturaArbol_alu(&(*pa)->der);
+
+    if(abs(hi - hd) > 1)
+    {
+        return FALSO;
+    }
+
+    return esArbolAVL_alu(&(*pa)->izq) && esArbolAVL_alu(&(*pa)->der);
+}
+
+void cargarArbolEnOrden_alu(Arbol* pa, FILE* pt, size_t tamElem)
+{
+    int inicio = 0;
+    int fin;
+
+    fseek(pt, 0l, SEEK_END);
+
+    fin = (ftell(pt) / tamElem) - 1;
+
+    cargarArbolRec_ALU(pa, pt, tamElem, inicio, fin, cmpCod_ALU);
+}
+void cargarArbolRec_alu(FILE* pf, Arbol* pa, size_t tamElem, int inicio, int fin, Cmp cmp)
+{
+    if(inicio > fin)
+        return;
+
+    int medio = (inicio + fin)/2;
+
+    char vec[tamElem];
+
+    fseek(pf, medio*tamElem, SEEK_SET);
+    fread(vec, tamElem, 1, pf);
+
+    insertarEnArbol_alu(pa, vec, tamElem, cmp, NULL);
+
+    cargarArbolRec_alu(pf, pa, tamElem, inicio, medio-1, cmp);
+    cargarArbolRec_alu(pf, pa, tamElem, medio+1, fin, cmp);
+}

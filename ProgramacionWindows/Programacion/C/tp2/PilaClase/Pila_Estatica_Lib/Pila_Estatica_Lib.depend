@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1664808246 source:/home/pilum/Facultad/programacion2c/C/tp2/PilaClase/Pila_Estatica_Lib/Pila_Estatica_Lib.c
+	"Pila_Estatica_Lib.h"
+	<string.h>
+
+1664808652 /home/pilum/Facultad/programacion2c/C/tp2/PilaClase/Pila_Estatica_Lib/Pila_Estatica_Lib.h
+	<stdbool.h>
+	<stdio.h>
+	"../TDA_Pila/TDA_PILA.h"
+

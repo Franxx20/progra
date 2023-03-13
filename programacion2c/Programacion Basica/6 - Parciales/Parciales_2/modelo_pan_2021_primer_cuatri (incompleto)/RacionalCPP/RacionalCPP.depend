@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1574949001 source:c:\users\lab3\desktop\2019-11-28_entregable\racionalcpp\main.cpp
+	"Racional.h"
+
+1574945410 c:\users\lab3\desktop\2019-11-28_entregable\racionalcpp\include\racional.h
+	<iostream>
+
+1574945165 source:c:\users\lab3\desktop\2019-11-28_entregable\racionalcpp\src\racional.cpp
+	"Racional.h"
+
+1574949077 source:c:\users\lab3\desktop\2019-11-28_entregable\racionalcpp\racional.cpp
+	"Racional.h"
+
+1574948573 c:\users\lab3\desktop\2019-11-28_entregable\racionalcpp\racional.h
+	<iostream>
+
+1575120488 source:i:\programación\2019\2019-11-28_entregable\racionalcpp\main.cpp
+	"Racional.h"
+
+1575120846 i:\programación\2019\2019-11-28_entregable\racionalcpp\racional.h
+	<iostream>
+	<stdexcept>
+
+1575120666 source:i:\programación\2019\2019-11-28_entregable\racionalcpp\racional.cpp
+	"Racional.h"
+

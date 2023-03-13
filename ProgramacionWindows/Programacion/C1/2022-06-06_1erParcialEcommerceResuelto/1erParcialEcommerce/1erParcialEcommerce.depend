@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1665372010 source:d:\programacion\c\2022-06-06_1erparcialecommerceresuelto\1erparcialecommerce\main.c
+	"../Solucion1erParcialEcommerce/Solucion1erParcialEcommerce.h"
+	<stdio.h>
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	<stdlib.h>
+	<string.h>
+
+1654456186 d:\programacion\c\2022-06-06_1erparcialecommerceresuelto\solucion1erparcialecommerce\solucion1erparcialecommerce.h
+	"../Comun/Comun.h"
+
+1653648806 d:\programacion\c\2022-06-06_1erparcialecommerceresuelto\comun\comun.h
+
+1653648806 d:\programacion\c\2022-06-06_1erparcialecommerceresuelto\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648806 d:\programacion\c\2022-06-06_1erparcialecommerceresuelto\nodo\nodo.h
+	<stddef.h>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1660857968 source:/home/pilum/programacion/CPP/NumerosComplejos/main.cpp
+	"include/Complejos.h"
+	<iostream>
+
+1660857839 /home/pilum/programacion/CPP/NumerosComplejos/include/Complejos.h
+	<iostream>
+	<ostream>
+
+1660857873 source:/home/pilum/programacion/CPP/NumerosComplejos/src/Complejos.cpp
+	"../include/Complejos.h"
+

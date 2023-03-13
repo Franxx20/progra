@@ -1,0 +1,67 @@
+class Cadena{
+    public:
+        Cadena();
+        Cadena(const Cadena& cad2);
+        Cadena(int num);
+        Cadena(char c);
+        Cadena(const float& num);
+        Cadena(const char* str);
+        ~Cadena();
+
+        Cadena& operator =(const Cadena& cad2);
+        Cadena& operator =(const char* str);
+        Cadena& operator +=(const Cadena& cad2);    //Devuelvo una referencia ya que conservo el objeto llamador
+        char operator [](int i) const;
+
+        //El operador va a convertir implictamente algun argumento a una cadena
+        //utilizando el constructor que necesite segun el tipo de dato
+        friend Cadena operator +(const Cadena& cad1,const Cadena& cad2);
+        friend ostream& operator <<(ostream& os,const Cadena& cad1);
+        friend istream& operator >>(istream& is,Cadena& cad1);
+
+        bool esEnteroPositivo();
+        unsigned longitud() const;
+
+    private:
+
+        char* cadena;
+        static int cantDigitos(int num);
+        Cadena(char* str);
+
+};
+
+Cadena::Cadena(){
+    cadena = new char[1];
+    cadena[0]= '\0';
+}
+
+Cadena::Cadena(const char* str){
+
+    this->cadena = new char[strlen(str)+1];
+    strcpy(this->cadena,str);
+
+
+}
+
+Cadena::Cadena(const Cadena& cad2){
+
+    this->cadena = new char[strlen(cad2.cadena)+1];
+    strcpy(this->cadena,cad2.cadena);
+}
+
+Cadena::~Cadena(){
+    delete [] this->cadena;
+}
+
+Cadena& Cadena::operator =(const char* str){
+
+    if(strlen(this->cadena)!=strlen(str)){
+        delete [] this->cadena;
+        this->cadena = new char[strlen(str)+1];
+    }
+
+    strcpy(this->cadena,str);
+
+    return *this;
+}
+

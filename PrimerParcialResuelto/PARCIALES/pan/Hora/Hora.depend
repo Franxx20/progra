@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1626481638 source:c:\users\pc\onedrive - ministerio de educacion ciencia y tecnologia\escritorio\programacion\2021\2bibliotecas-funcione-utiles\1parciales-edas\alumnos p2 renata 1c 2021\c++\hora\main.cpp
+	<iostream>
+	"Hora.h"
+
+1626481714 c:\users\pc\onedrive - ministerio de educacion ciencia y tecnologia\escritorio\programacion\2021\2bibliotecas-funcione-utiles\1parciales-edas\alumnos p2 renata 1c 2021\c++\hora\include\hora.h
+	<iostream>
+
+1626480844 source:c:\users\pc\onedrive - ministerio de educacion ciencia y tecnologia\escritorio\programacion\2021\2bibliotecas-funcione-utiles\1parciales-edas\alumnos p2 renata 1c 2021\c++\hora\src\hora.cpp
+	"Hora.h"
+
+1630975860 source:h:\userdata\facultad\programmin_v2\parciales\pan\hora\main.cpp
+	<iostream>
+	"Hora.h"
+
+1630975860 h:\userdata\facultad\programmin_v2\parciales\pan\hora\include\hora.h
+	<iostream>
+
+1638215180 source:h:\userdata\facultad\programmin_v2\parciales\pan\hora\src\hora.cpp
+	"Hora.h"
+	<iomanip>
+

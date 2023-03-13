@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667833682 source:c:\users\franq\desktop\arbolrodri\arbol.c
+	"Arbol.h"
+	<stdlib.h>
+	<string.h>
+
+1667832104 c:\users\franq\desktop\arbolrodri\arbol.h
+	<stdio.h>
+

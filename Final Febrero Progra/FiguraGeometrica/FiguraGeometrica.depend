@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1677454890 source:c:\users\franq\desktop\figurageometrica\src\circulo.cpp
+	"Circulo.h"
+
+1677455101 c:\users\franq\desktop\figurageometrica\include\circulo.h
+	<iostream>
+	"FiguraGeometrica.h"
+
+1677454514 c:\users\franq\desktop\figurageometrica\include\figurageometrica.h
+	<string.h>
+	<iostream>
+
+1677454739 source:c:\users\franq\desktop\figurageometrica\src\cuadrado.cpp
+	"Cuadrado.h"
+
+1677454936 c:\users\franq\desktop\figurageometrica\include\cuadrado.h
+	"FiguraGeometrica.h"
+
+1677454515 source:c:\users\franq\desktop\figurageometrica\src\figurageometrica.cpp
+	"FiguraGeometrica.h"
+

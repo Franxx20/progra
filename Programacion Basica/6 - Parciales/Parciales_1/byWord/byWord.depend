@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1634823184 source:/home/phosu/Downloads/byWord/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pilaEstatica/pila.h"
+
+1634821654 source:/home/phosu/Downloads/byWord/colaEstatica/cola.c
+	<string.h>
+	"cola.h"
+
+1634822180 /home/phosu/Downloads/byWord/colaEstatica/cola.h
+
+1634822359 source:/home/phosu/Downloads/byWord/colaDinamica/cola.c
+	<stdlib.h>
+	<string.h>
+	"cola.h"
+
+1634822373 /home/phosu/Downloads/byWord/colaDinamica/cola.h
+
+1634823084 /home/phosu/Downloads/byWord/pilaEstatica/pila.h
+
+1634677232 source:/home/phosu/Downloads/byWord/pilaEstatica/pila.c
+	<string.h>
+	"pila.h"
+

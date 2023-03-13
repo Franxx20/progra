@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1677276302 source:c:\users\franq\desktop\final-05-03-22\cpp\src\llamada.cpp
+	"Llamada.h"
+	<string.h>
+	<iostream>
+
+1677275814 c:\users\franq\desktop\final-05-03-22\cpp\include\llamada.h
+	<iostream>
+
+1677276124 source:c:\users\franq\desktop\final-05-03-22\cpp\main.cpp
+	<iostream>
+	"../include/Llamada.h"
+

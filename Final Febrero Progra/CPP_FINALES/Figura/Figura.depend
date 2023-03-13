@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1676997588 source:c:\users\seba_\onedrive\escritorio\programacion\c++\figura\figura.cpp
+	"Figura.h"
+
+1676997588 c:\users\seba_\onedrive\escritorio\programacion\c++\figura\figura.h
+
+1676997976 source:c:\users\seba_\onedrive\escritorio\programacion\c++\figura\cuadrado.cpp
+	"Cuadrado.h"
+
+1676997825 c:\users\seba_\onedrive\escritorio\programacion\c++\figura\cuadrado.h
+	"Figura.h"
+
+1676997976 source:c:\users\seba_\onedrive\escritorio\programacion\c++\figura\main.cpp
+	<iostream>
+	"Triangulo.h"
+	"Cuadrado.h"
+	"Figura.h"
+
+1676997976 c:\users\seba_\onedrive\escritorio\programacion\c++\figura\triangulo.h
+	"Figura.h"
+
+1676997976 source:c:\users\seba_\onedrive\escritorio\programacion\c++\figura\triangulo.cpp
+	"Triangulo.h"
+

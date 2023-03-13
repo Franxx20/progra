@@ -1,0 +1,11 @@
+
+2538|Producto_1|8|A|Valve_HQQQQQQQQQZZZZZZZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+5897|Producto_2|4|B|Mic_HQ
+5897|Producto_2|4|G|Mic_HQ
+1235|Producto_3|6|A|FM_HQ
+4568|Producto_4|2|D|S_HQ
+9872|Producto_5|7|E|IBM_HQ
+4569|Producto_4|2|D|S_HQ
+6789|Producto_6|3|B|L_MQ
+2539|Producto_1|2|A|D_HQ
+2589|Producto_1|3|B|Q_HQ

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677782548 source:c:\users\franq\desktop\medicion\main.cpp
+	<iostream>
+	"Medicion.h"
+
+1677781835 c:\users\franq\desktop\medicion\include\medicion.h
+	<iostream>
+	<string.h>
+
+1677782519 source:c:\users\franq\desktop\medicion\src\medicion.cpp
+	"Medicion.h"
+

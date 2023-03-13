@@ -1,0 +1,68 @@
+int procesarArchProductos_alu(const char* nombreArchProd, const char* nombreArchProdMas1000, const char* nombreArchProdMenos1000)
+{
+    float costo;
+
+    Cola colaProd;
+    crearCola(&colaProd);
+    encolarProd(&colaProd, nombreArchProd);
+
+    FILE* archProd = fopen(nombreArchProd, "rb");
+    FILE* mas1000 = fopen(nombreArchProdMas1000, "wb");
+    FILE* menos1000 = fopen(nombreArchProdMenos1000, "wb");
+    if(!archProd || !mas1000 || !menos1000)
+    {
+        fclose(archProd);
+        fclose(mas1000);
+        fclose(menos1000);
+        return 1;
+    }
+
+    Articulo artAct;
+    char* artAnt = malloc(sizeof(artAct.COD_ART));
+
+    fread(&artAct, sizeof(Articulo), 1, archProd);
+    while(!colaVacia(&colaProd))
+    {
+        desencolar(&colaProd, &costo, sizeof(float));
+        strcpy(artAnt, artAct.COD_ART);
+        while(!strcmp(artAct.COD_ART, artAnt) && !feof(archProd))
+        {
+            if(costo>=1000)
+                fwrite(&artAct, sizeof(Articulo), 1, mas1000);
+            else
+                fwrite(&artAct, sizeof(Articulo), 1, menos1000);
+            fread(&artAct, sizeof(artAct), 1, archProd);
+        }
+    }
+    fclose(archProd);
+    fclose(mas1000);
+    fclose(menos1000);
+    return 0;
+}
+
+void encolarProd(Cola* pc, const char* nombreArchProd)
+{
+    FILE* archProd = fopen(nombreArchProd, "rb");
+    if(!archProd)
+    {
+        fclose(archProd);
+        return;
+    }
+
+    Articulo artAct;
+    float costo;
+    char* artAnt = malloc(sizeof(artAct.COD_ART));
+    fread(&artAct, sizeof(Articulo), 1, archProd);
+    while(!feof(archProd))
+    {
+        costo = 0;
+        strcpy(artAnt, artAct.COD_ART);
+        while(!strcmp(artAct.COD_ART, artAnt) && !feof(archProd))
+        {
+            costo += artAct.CANTIDAD * artAct.COSTO_UNIT;
+            fread(&artAct, sizeof(artAct), 1, archProd);
+        }
+        encolar(pc, &costo, sizeof(float));
+    }
+    fclose(archProd);
+}

@@ -1,0 +1,106 @@
+class Circulo
+{
+    public:
+        Circulo();
+        Circulo(float,float,unsigned,const char*);
+
+        Circulo(const Circulo&);
+        ~Circulo();
+        Circulo& operator =(const Circulo&);
+
+        Circulo operator--(int);
+        Circulo operator++(int);
+
+        void CambiarColor(const char*);
+
+        friend ostream& operator<<(ostream& out,const Circulo& c1);
+
+    private:
+        float x;         // coordenada x
+        float y;         // coordenada y
+        unsigned diam;          // diametro (si es cero, no hay punto que mostrar)
+        char* Color;             // color del círculo
+};
+
+Circulo::Circulo()
+{
+    this->x = 0;
+    this->y = 0;
+    this->diam = 0;
+    this->Color = new char[1];
+    this->Color[0] = '\0';
+}
+
+Circulo::Circulo(float _x,float _y, unsigned _diam,const char* _color)
+{
+    this->x = _x;
+    this->y = _y;
+    this->diam = _diam;
+    this->Color = new char[strlen(_color)+1];
+    strcpy(this->Color,_color);
+}
+
+Circulo::Circulo(const Circulo& c1)
+{
+    this->x = c1.x;
+    this->y = c1.y;
+    this->diam = c1.diam;
+    this->Color = new char[strlen(c1.Color)+1];
+    strcpy(this->Color,c1.Color);
+}
+
+Circulo::~Circulo()
+{
+    delete [] this->Color;
+}
+
+Circulo& Circulo::operator =(const Circulo& c1)
+{
+    this->x = c1.x;
+    this->y = c1.y;
+    this->diam = c1.diam;
+
+    delete [] this->Color;
+    this->Color = new char[strlen(c1.Color)+1];
+
+    strcpy(this->Color,c1.Color);
+
+    return *this;
+}
+
+Circulo Circulo::operator --(int)
+{
+    if(this->diam<1)
+        return *this;
+
+    Circulo circAnt = *this;
+    this->diam--;
+
+    return circAnt;
+}
+
+Circulo Circulo::operator ++(int)
+{
+    if(this->diam<1)
+        return *this;
+
+    Circulo circAnt = *this;
+    this->diam++;
+
+    return circAnt;
+}
+
+
+void Circulo::CambiarColor(const char* nueCol)
+{
+    delete[] this->Color;
+
+    this->Color = new char[strlen(nueCol)+1];
+    strcpy(this->Color,nueCol);
+}
+
+ostream& operator<<(ostream& out,const Circulo& c1)
+{
+    out << "x:" << c1.x << " " <<"y:" << c1.y << " " << "diam:" << c1.diam << " " << "color:" << c1.Color<<"\n";
+    return out;
+}

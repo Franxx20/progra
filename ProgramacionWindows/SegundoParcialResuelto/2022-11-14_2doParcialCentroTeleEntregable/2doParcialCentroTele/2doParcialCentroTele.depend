@@ -1,0 +1,204 @@
+# depslib dependency file v1.0
+1668378841 source:d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Cadena/Cadena.h"
+	"../Fecha/Fecha.h"
+	"../Solucion2doParcialCentroTele/Solucion2doParcialCentroTele.h"
+	"../TDALista/TDALista.h"
+	"../TDAArbol/TDAArbol.h"
+
+1667144359 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\cadena\cadena.h
+	<stddef.h>
+
+1668375926 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\fecha\fecha.h
+
+1668368497 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\solucion2doparcialcentrotele\solucion2doparcialcentrotele.h
+	"../Fecha/Fecha.h"
+
+1668364439 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\comun\comun.h
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\nodo\nodod.h
+	<stddef.h>
+
+1656276101 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\2doparcial\2doparcialentregable\nodo\nodoa.h
+	<stddef.h>
+
+1668378841 source:d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Cadena/Cadena.h"
+	"../Fecha/Fecha.h"
+	"../Solucion2doParcialCentroTele/Solucion2doParcialCentroTele.h"
+	"../TDALista/TDALista.h"
+	"../TDAArbol/TDAArbol.h"
+
+1667144359 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\cadena\cadena.h
+	<stddef.h>
+
+1668375926 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\fecha\fecha.h
+
+1668368497 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\solucion2doparcialcentrotele\solucion2doparcialcentrotele.h
+	"../Fecha/Fecha.h"
+
+1668364439 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\comun\comun.h
+
+1653648805 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648805 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\nodo\nodod.h
+	<stddef.h>
+
+1656276101 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648805 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648805 d:\unlam\test\2022-11-14_2doparcialcentroteleentregable\nodo\nodoa.h
+	<stddef.h>
+
+1668437687 source:c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Cadena/Cadena.h"
+	"../Fecha/Fecha.h"
+	"../Solucion2doParcialCentroTele/Solucion2doParcialCentroTele.h"
+	"../TDALista/TDALista.h"
+	"../TDAArbol/TDAArbol.h"
+
+1667144359 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\cadena\cadena.h
+	<stddef.h>
+
+1668375926 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\fecha\fecha.h
+
+1668368497 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\solucion2doparcialcentrotele\solucion2doparcialcentrotele.h
+	"../Fecha/Fecha.h"
+
+1668364439 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\comun\comun.h
+
+1653648805 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648805 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\nodo\nodod.h
+	<stddef.h>
+
+1656276101 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648805 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648805 c:\users\laboratorios\desktop\parcial2\2022-11-14_2doparcialcentroteleentregable\nodo\nodoa.h
+	<stddef.h>
+
+1668746437 source:c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\2doparcialcentrotele\main2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Cadena/Cadena.h"
+	"../Fecha/Fecha.h"
+	"../Solucion2doParcialCentroTele/Solucion2doParcialCentroTele.h"
+	"../TDALista/TDALista.h"
+	"../TDAArbol/TDAArbol.h"
+
+1667144360 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\cadena\cadena.h
+	<stddef.h>
+
+1668375928 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\fecha\fecha.h
+
+1668368498 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\solucion2doparcialcentrotele\solucion2doparcialcentrotele.h
+	"../Fecha/Fecha.h"
+
+1668364440 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648806 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\comun\comun.h
+
+1653648806 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648806 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\nodo\nodod.h
+	<stddef.h>
+
+1656276102 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648806 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648806 c:\users\franq\desktop\2022-11-14_2doparcialcentroteleentregable\nodo\nodoa.h
+	<stddef.h>
+
+1668803939 source:c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\2doparcialcentrotele\main2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Cadena/Cadena.h"
+	"../Fecha/Fecha.h"
+	"../Solucion2doParcialCentroTele/Solucion2doParcialCentroTele.h"
+	"../TDALista/TDALista.h"
+	"../TDAArbol/TDAArbol.h"
+
+1667144360 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\cadena\cadena.h
+	<stddef.h>
+
+1668375928 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\fecha\fecha.h
+
+1668368498 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\solucion2doparcialcentrotele\solucion2doparcialcentrotele.h
+	"../Fecha/Fecha.h"
+
+1668364440 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648806 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\comun\comun.h
+
+1653648806 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648806 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\nodo\nodod.h
+	<stddef.h>
+
+1656276102 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648806 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648806 c:\users\franq\desktop\segundoparcialresuelto\2022-11-14_2doparcialcentroteleentregable\nodo\nodoa.h
+	<stddef.h>
+

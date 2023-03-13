@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1671151925 source:c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\main.cpp
+	<iostream>
+	"Circulo.h"
+	"Cuadrado.h"
+
+1671150974 c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\include\circulo.h
+	"FiguraGeometrica.h"
+
+1671151902 c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\include\figurageometrica.h
+
+1671151260 c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\include\cuadrado.h
+	"FiguraGeometrica.h"
+
+1671151021 source:c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\src\circulo.cpp
+	"Circulo.h"
+
+1671151365 source:c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\src\cuadrado.cpp
+	"Cuadrado.h"
+
+1671151911 source:c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022-cpp\src\figurageometrica.cpp
+	"FiguraGeometrica.h"
+	<string.h>
+

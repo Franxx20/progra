@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1668187885 source:c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\parcialmuebles\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDAArbol/TDAArbol.h"
+	"../TDALista/TDALista.h"
+	"../SolucionMuebles/MueblesComun.h"
+	"../SolucionMuebles/SolucionMuebles.h"
+	<string.h>
+
+1668092707 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\comun\comun.h
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\nodo\nodoa.h
+	<stddef.h>
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\nodo\nodo.h
+	<stddef.h>
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648806 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\nodo\nodod.h
+	<stddef.h>
+
+1657474064 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\solucionmuebles\mueblescomun.h
+
+1668092614 c:\users\tomi\onedrive\escritorio\unlam\2doaño\programacion1\modelos p2\2022-07-11_recmueblesenunc\solucionmuebles\solucionmuebles.h
+
+1670450118 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\parcialmuebles\main2.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDAArbol/TDAArbol.h"
+	"../TDALista/TDALista.h"
+	"../SolucionMuebles/MueblesComun.h"
+	"../SolucionMuebles/SolucionMuebles.h"
+	<string.h>
+
+1668092708 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\comun\comun.h
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\nodo\nodoa.h
+	<stddef.h>
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\nodo\nodo.h
+	<stddef.h>
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1653648806 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\nodo\nodod.h
+	<stddef.h>
+
+1657474064 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\solucionmuebles\mueblescomun.h
+
+1668092616 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\solucionmuebles\solucionmuebles.h
+

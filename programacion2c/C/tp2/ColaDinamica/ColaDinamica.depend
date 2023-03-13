@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1662757462 source:/home/pilum/Facultad/programacion2c/C/tp2/ColaDinamica/ColaDinamica.c
+	"ColaDinamica.h"
+	<stdlib.h>
+	<string.h>
+
+1662755550 /home/pilum/Facultad/programacion2c/C/tp2/ColaDinamica/ColaDinamica.h
+	<stdbool.h>
+

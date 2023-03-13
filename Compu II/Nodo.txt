@@ -1,0 +1,27 @@
+Nodo* crearNodo_alu(const void* elem, size_t tamElem)
+{
+    Nodo* nueNodo = (Nodo*)malloc(sizeof(Nodo));
+    void* nueElem = malloc(tamElem);
+
+    if(!nueNodo || !nueElem)
+    {
+        free(nueNodo);
+        free(nueElem);
+        return NULL;
+    }
+
+    memcpy(nueElem,elem,tamElem);
+
+    nueNodo->elem = nueElem;
+    nueNodo->tamElem = tamElem;
+    nueNodo->sig = NULL;
+
+    return nueNodo;
+}
+
+void eliminarNodo_alu(Nodo* nae,void* elem,size_t tamElem)
+{
+    memcpy(elem,nae->elem,MIN(tamElem,nae->tamElem));
+    free(nae->elem);
+    free(nae);
+}

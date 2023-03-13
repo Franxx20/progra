@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1667145995 source:d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\recalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDALista/TDAlista.h"
+	"../SolucionAlumnos/SolucionAlumnos.h"
+	"../SolucionAlumnos/Nota.h"
+	"../SolucionAlumnos/EstadoAlumnoMateria.h"
+	<string.h>
+	<math.h>
+
+1638740462 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1636840240 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\comun\comun.h
+
+1623684532 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1636840234 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623682906 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059878 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\nodo\nodod.h
+	<stddef.h>
+
+1638744028 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\solucionalumnos\solucionalumnos.h
+	<stdio.h>
+	"../TDALista/TDALista.h"
+
+1638733810 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\solucionalumnos\nota.h
+
+1638733662 d:\codigo86\escritorio\parciales\c\1er parcial\2021-12-06_recalumnos_entregable\solucionalumnos\estadoalumnomateria.h
+
+1667145996 source:d:\programacion\2021-12-06_recalumnos_entregable\recalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDALista/TDAlista.h"
+	"../SolucionAlumnos/SolucionAlumnos.h"
+	"../SolucionAlumnos/Nota.h"
+	"../SolucionAlumnos/EstadoAlumnoMateria.h"
+	<string.h>
+	<math.h>
+
+1638740462 d:\programacion\2021-12-06_recalumnos_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1636840240 d:\programacion\2021-12-06_recalumnos_entregable\comun\comun.h
+
+1623684532 d:\programacion\2021-12-06_recalumnos_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1636840234 d:\programacion\2021-12-06_recalumnos_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623682906 d:\programacion\2021-12-06_recalumnos_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059878 d:\programacion\2021-12-06_recalumnos_entregable\nodo\nodod.h
+	<stddef.h>
+
+1638744028 d:\programacion\2021-12-06_recalumnos_entregable\solucionalumnos\solucionalumnos.h
+	<stdio.h>
+	"../TDALista/TDALista.h"
+
+1638733810 d:\programacion\2021-12-06_recalumnos_entregable\solucionalumnos\nota.h
+
+1638733662 d:\programacion\2021-12-06_recalumnos_entregable\solucionalumnos\estadoalumnomateria.h
+

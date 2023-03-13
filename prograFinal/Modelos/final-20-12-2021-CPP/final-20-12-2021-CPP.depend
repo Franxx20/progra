@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1670984928 source:c:\users\franq\desktop\progra\prografinal\modelos\final-20-12-2021-cpp\main.cpp
+	<iostream>
+	<string>
+	"Medicion.h"
+
+1671046144 c:\users\franq\desktop\progra\prografinal\modelos\final-20-12-2021-cpp\include\medicion.h
+	<iostream>
+
+1670984556 source:c:\users\franq\desktop\progra\prografinal\modelos\final-20-12-2021-cpp\src\medicion.cpp
+	"Medicion.h"
+	<string.h>
+

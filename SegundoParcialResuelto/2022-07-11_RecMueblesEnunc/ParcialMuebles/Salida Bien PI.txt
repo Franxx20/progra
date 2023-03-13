@@ -1,0 +1,84 @@
+Transferencias:
+Dep Orig | Dep Dest | Cod Prod | Cant
+2|343|SILLA_PETIRI5|IB4
+12|27|MESA_CE2|ORD5
+11|22|CAMA_3|ELBOR7
+12|22|ROPERO_WATA4|UBM5
+445|5|SILLA_PET1|IBIRI7
+19|80|CAMA_ROBLE|40
+9ASEM|21|02|ORDEC_8
+31|41|CAMA9|ELBOR_8
+2|223|SILLA_PETIRIBI|31
+8MAC|21|08|ELBOR_A9
+
+Depositos antes de actualizar:
+Depositos:
+Dep | Producto        | Stock
+ 23 | SILLA_PETIRIBI  | 250
+ 11 | CAMA_ROBLE      |  60
+ 90 | MESA_CEDRO      | 150
+ 12 | ROPERO_WATAMBU  |  80
+ 19 | CAMA_ROBLE      | 100
+ 54 | SILLA_PETIRIBI  |  20
+ 22 | CAMA_ROBLE      |  10
+ 80 | CAMA_ROBLE      |  80
+ 22 | SILLA_PETIRIBI  | 170
+ 12 | CAMA_ROBLE      |  30
+ 27 | MESA_CEDRO      |  10
+ 34 | CAMA_ROBLE      |  98
+ 43 | SILLA_PETIRIBI  |  20
+ 22 | ROPERO_WATAMBU  |  20
+ 12 | MESA_CEDRO      |  50
+ 45 | SILLA_PETIRIBI  | 200
+
+Transferencias desencriptadas:
+Transferencias:
+Dep Orig | Dep Dest | Cod Prod | Cant
+23|43|SILLA_PETIRIBI|54
+12|27|MESA_CEDRO|25
+11|22|CAMA_ROBLE|37
+12|22|ROPERO_WATAMBU|45
+45|54|SILLA_PETIRIBI|17
+19|80|CAMA_ROBLE|40
+90|12|MESA_CEDRO|28
+34|11|CAMA_ROBLE|98
+22|23|SILLA_PETIRIBI|31
+80|12|CAMA_ROBLE|89
+
+Arbol Indice:
+                                90|MESA_CEDRO
+                        80|CAMA_ROBLE
+                54|SILLA_PETIRIBI
+                        45|SILLA_PETIRIBI
+        43|SILLA_PETIRIBI
+                        34|CAMA_ROBLE
+                27|MESA_CEDRO
+                        23|SILLA_PETIRIBI
+22|SILLA_PETIRIBI
+                        22|ROPERO_WATAMBU
+                22|CAMA_ROBLE
+                        19|CAMA_ROBLE
+        12|ROPERO_WATAMBU
+                        12|MESA_CEDRO
+                12|CAMA_ROBLE
+                        11|CAMA_ROBLE
+
+Depositos despues de actualizar:
+Depositos:
+Dep | Producto        | Stock
+ 23 | SILLA_PETIRIBI  | 227
+ 11 | CAMA_ROBLE      | 121
+ 90 | MESA_CEDRO      | 122
+ 12 | ROPERO_WATAMBU  |  35
+ 19 | CAMA_ROBLE      |  60
+ 54 | SILLA_PETIRIBI  |  37
+ 22 | CAMA_ROBLE      |  47
+ 80 | CAMA_ROBLE      |  31
+ 22 | SILLA_PETIRIBI  | 139
+ 12 | CAMA_ROBLE      | 119
+ 27 | MESA_CEDRO      |  35
+ 34 | CAMA_ROBLE      |   0
+ 43 | SILLA_PETIRIBI  |  74
+ 22 | ROPERO_WATAMBU  |  65
+ 12 | MESA_CEDRO      |  53
+ 45 | SILLA_PETIRIBI  | 183

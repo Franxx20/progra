@@ -1,0 +1,11 @@
+1|MANAOS|10|F|Factory
+10|COCA|12|T|Trayectory
+9|COCA|5|F|Factory
+5|MANAOS|7|A|Abiline
+3|MALBORO|20|L|Larry
+2|MALBORO|10|C|Carry
+6|REXONA|4|B|Billy
+8|DOVE|10|A|Abiline
+4|DOVE|5|L|Larry
+7|ARROZ|10|B|Billy
+11|MALBORO|2|C|Carry

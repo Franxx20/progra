@@ -1,0 +1,30 @@
+Codigo: 123
+Descripcion: Pizza
+Precio: 10
+Stock: 15
+
+Codigo: 456
+Descripcion: Pollo
+Precio: 20
+Stock: 125
+
+Codigo: 789
+Descripcion: Hamburguesa
+Precio: 30
+Stock: 35
+Descuento: 10
+Precio con descuento: 27
+
+Codigo: 012
+Descripcion: Arroz
+Precio: 40
+Stock: 45
+Descuento: 20
+Precio con descuento: 32
+
+Codigo: 789
+Descripcion: Hamburguesa
+Precio: 30
+Stock: 235
+Descuento: 10
+Precio con descuento: 27

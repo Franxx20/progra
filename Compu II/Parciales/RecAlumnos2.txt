@@ -1,0 +1,64 @@
+void procesarLista_ALU(Lista* plAM)
+{
+    eliminarDeListaDesordDuplicados(plAM, cmpAlumno_alu, actNota_alu);
+    recorrerLista(plAM, notaFinal, NULL);
+    ordenarLista(plAM, cmpNota_alu);
+}
+
+int cmpAlumno_alu(const void* e1, const void* e2)
+{
+    EstadoAlumnoMateria* a1 = (EstadoAlumnoMateria*)e1;
+    EstadoAlumnoMateria* a2 = (EstadoAlumnoMateria*)e2;
+
+    return a1->dni - a2->dni + strcmp(a1->materia, a2->materia);
+}
+
+void actNota_alu(void* actualizado, const void* actualizador)
+{
+    EstadoAlumnoMateria* a1 = (EstadoAlumnoMateria*)actualizado;
+    EstadoAlumnoMateria* a2 = (EstadoAlumnoMateria*)actualizador;
+
+    if(a2->notaP1)
+        a1->notaP1 = a2->notaP1;
+    else if(a2->notaP2)
+        a1->notaP2 = a2->notaP2;
+    else if(a2->notaR1)
+        a1->notaR1 = a2->notaR1;
+    else
+        a1->notaR2 = a2->notaR2;
+}
+
+void notaFinal(void* elem, void* datosAccion)
+{
+    EstadoAlumnoMateria* estado = (EstadoAlumnoMateria*)elem;
+
+    int N1 = estado->notaP1>estado->notaR1? estado->notaP1:estado->notaR1;
+    int N2 = estado->notaP2>estado->notaR2? estado->notaP2:estado->notaR2;
+
+    if(!N1 || !N2)
+        estado->condicion = AU;
+    else if(N1>=7 && N2>=7)
+        estado->condicion = PR;
+    else if(N1>=4 && N2>=4)
+        estado->condicion = CU;
+    else
+        estado->condicion = RE;
+
+    if(estado->condicion == PR)
+        estado->notaFinal = round(((float)N1+N2)/2);
+    else if(estado->condicion == CU)
+        if(N1+N2/2 >= 7)
+            estado->notaFinal = 6;
+        else
+            estado->notaFinal = round(((float)N1+N2)/2);
+    else if(estado->condicion == RE)
+        estado->notaFinal = 2;
+}
+
+int cmpNota_alu(const void* e1, const void* e2)
+{
+    EstadoAlumnoMateria* n1 = (EstadoAlumnoMateria*)e1;
+    EstadoAlumnoMateria* n2 = (EstadoAlumnoMateria*)e2;
+
+    return n2->notaFinal - n1->notaFinal;
+}

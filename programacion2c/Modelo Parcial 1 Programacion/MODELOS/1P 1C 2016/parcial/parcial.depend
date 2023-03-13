@@ -1,0 +1,208 @@
+# depslib dependency file v1.0
+1433234000 source:c:\users\federico\dropbox\examenesenmaquina\2015-06-02\entregable_2015-06-02\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1433234090 c:\users\federico\dropbox\examenesenmaquina\2015-06-02\entregable_2015-06-02\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1433234145 c:\users\federico\dropbox\examenesenmaquina\2015-06-02\entregable_2015-06-02\include\tipos.h
+
+1433229122 c:\users\federico\dropbox\examenesenmaquina\2015-06-02\entregable_2015-06-02\include\lista.h
+	<tipos.h>
+
+1433229739 c:\users\federico\dropbox\examenesenmaquina\2015-06-02\entregable_2015-06-02\include\utilitarias.h
+	<banco.h>
+
+1433234000 source:i:\entregable_2015-06-02\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1433234090 i:\entregable_2015-06-02\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1433234146 i:\entregable_2015-06-02\include\tipos.h
+
+1433229122 i:\entregable_2015-06-02\include\lista.h
+	<tipos.h>
+
+1433229740 i:\entregable_2015-06-02\include\utilitarias.h
+	<banco.h>
+
+1433263204 source:i:\entregable_2015-06-02\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1433263210 source:i:\entregable_2015-06-02\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<banco.h>
+
+1433263190 source:i:\entregable_2015-06-02\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+
+1433263668 source:c:\users\federico\dropbox\examenesenmaquina\2016-05-26\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+
+1464211756 c:\users\federico\dropbox\examenesenmaquina\2016-05-26\include\lista.h
+	<tipos.h>
+
+1433234145 c:\users\federico\dropbox\examenesenmaquina\2016-05-26\include\tipos.h
+
+1464213407 source:c:\users\federico\dropbox\examenesenmaquina\2016-05-26\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<banco.h>
+
+1464211093 c:\users\federico\dropbox\examenesenmaquina\2016-05-26\include\utilitarias.h
+	<banco.h>
+
+1464211613 c:\users\federico\dropbox\examenesenmaquina\2016-05-26\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1464213393 source:c:\users\federico\dropbox\examenesenmaquina\2016-05-26\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1464213314 source:c:\users\federico\dropbox\examenesenmaquina\2016-05-26\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1508706095 source:c:\users\richi\downloads\entregable_2016-05-26\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1464211613 c:\users\richi\downloads\entregable_2016-05-26\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1508647484 c:\users\richi\downloads\entregable_2016-05-26\include\tipos.h
+
+1508699450 c:\users\richi\downloads\entregable_2016-05-26\include\lista.h
+	<tipos.h>
+
+1508649219 c:\users\richi\downloads\entregable_2016-05-26\include\utilitarias.h
+	<banco.h>
+
+1508705880 source:c:\users\richi\downloads\entregable_2016-05-26\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+
+1508706035 source:c:\users\richi\downloads\entregable_2016-05-26\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1508657157 source:c:\users\richi\downloads\entregable_2016-05-26\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<banco.h>
+	<stdlib.h>
+
+1519017187 source:c:\users\richi\desktop\entregable_2016-05-26\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1464211614 c:\users\richi\desktop\entregable_2016-05-26\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1508647486 c:\users\richi\desktop\entregable_2016-05-26\include\tipos.h
+
+1508699452 c:\users\richi\desktop\entregable_2016-05-26\include\lista.h
+	<tipos.h>
+
+1508649220 c:\users\richi\desktop\entregable_2016-05-26\include\utilitarias.h
+	<banco.h>
+
+1519078267 source:c:\users\richi\desktop\entregable_2016-05-26\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+
+1519013293 source:c:\users\richi\desktop\entregable_2016-05-26\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<banco.h>
+	<stdlib.h>
+
+1519016035 source:c:\users\richi\desktop\entregable_2016-05-26\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1539835256 source:g:\parciales\entregable_2016-05-26\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1464211614 g:\parciales\entregable_2016-05-26\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1508647486 g:\parciales\entregable_2016-05-26\include\tipos.h
+
+1508699452 g:\parciales\entregable_2016-05-26\include\lista.h
+	<tipos.h>
+
+1508649220 g:\parciales\entregable_2016-05-26\include\utilitarias.h
+	<banco.h>
+
+1539835312 source:g:\parciales\entregable_2016-05-26\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1539834456 source:g:\parciales\entregable_2016-05-26\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<banco.h>
+	<stdlib.h>
+
+1539826294 source:g:\parciales\entregable_2016-05-26\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+

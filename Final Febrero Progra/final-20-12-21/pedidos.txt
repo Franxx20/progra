@@ -1,0 +1,12 @@
+1|lapiz|10|v|ventas
+2|hoja|500|c|compras
+3|lapiz|20|c|compras
+4|goma|5|a|atencion
+5|clip|400|v|ventas
+6|lapiz|30|c|compras
+7|clip|300|a|atencion
+8|hoja|1000|v|ventas
+9|monitor|2|g|gestoria
+10|monitor|4|s|servicio
+11|monitor|4|s|servicio
+12|clip|300|v|ventas

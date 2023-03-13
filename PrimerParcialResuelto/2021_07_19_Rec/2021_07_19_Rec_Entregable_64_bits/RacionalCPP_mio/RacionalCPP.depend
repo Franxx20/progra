@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667167772 source:c:\users\franq\downloads\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\racionalcpp_mio\main.cpp
+	<iostream>
+	"Racional.h"
+
+1667167949 c:\users\franq\downloads\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\racionalcpp_mio\include\racional.h
+	<iostream>
+
+1667168178 source:c:\users\franq\downloads\2021_07_19_rec\2021_07_19_rec_entregable_64_bits\racionalcpp_mio\src\racional.cpp
+	"Racional.h"
+

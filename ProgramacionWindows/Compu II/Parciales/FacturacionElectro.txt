@@ -1,0 +1,119 @@
+int generarFacturas_ALU(const char* nombreArchivoClientes, const char* nombreArchivoMediciones, const char* nombreArchivoFacturas, int proximoNroFactura, const Mes* mesesAFacturar, int cantMesesAFacturar)
+{
+    Lista listaMediciones;
+    crearLista(&listaMediciones);
+
+    cargarMediciones(nombreArchivoMediciones, &listaMediciones); //Funciona
+    printf("\n\nLISTA\n");
+    recorrerLista(&listaMediciones, mostrarMedicion, NULL);
+    printf("\n\nFacturas\n");
+
+    FILE* archCli = fopen(nombreArchivoClientes, "r+b");
+    FILE* archFac = fopen(nombreArchivoFacturas, "wb");
+    if(!archCli || !archFac)
+    {
+        fclose(archCli);
+        fclose(archFac);
+        return 2;
+    }
+
+    Cliente cliAct;
+    Medicion medAct;
+    Factura facAct;
+
+    int i, dm, dd, ultMed;
+    double cde, cm;
+    Fecha ultFecha;
+
+    fread(&cliAct, sizeof(Cliente), 1, archCli);
+    while(!feof(archCli))
+    {
+        ultFecha = cliAct.fechaUltMedicion;
+        ultMed = cliAct.valorMedidor;
+        for(i=0; i<cantMesesAFacturar; i++)
+        {
+            eliminarDeListaPrimero(&listaMediciones, &medAct, sizeof(Medicion));
+            dm = medAct.valorMedidor - ultMed;
+            dd = difEnDiasEntreFechas(&ultFecha, &medAct.fechaMedicion);
+            cde = (double)dm/dd;
+            cm = cde*cantDiasMes(medAct.fechaMedicion.mes, medAct.fechaMedicion.anio);
+            facAct.nroFactura = proximoNroFactura;
+            proximoNroFactura++;
+            facAct.nroCliente = cliAct.nroCliente;
+            facAct.fechaUltMedicion = medAct.fechaMedicion;
+            facAct.valorMedidor = medAct.valorMedidor;
+            facAct.mesFacturado.mes = medAct.fechaMedicion.mes;
+            facAct.mesFacturado.anio = medAct.fechaMedicion.anio;
+            facAct.consumoMes = cm;
+            ultFecha = medAct.fechaMedicion;
+            ultMed = medAct.valorMedidor;
+            mostrarFactura(facAct);
+            fwrite(&facAct, sizeof(Factura), 1, archFac);
+        }
+        cliAct.fechaUltMedicion = facAct.fechaUltMedicion;
+        cliAct.valorMedidor = facAct.valorMedidor;
+        cliAct.ultMesFacturado = facAct.mesFacturado;
+        cliAct.ultConsumoMes = facAct.consumoMes;
+
+        fseek(archCli, (long int)-sizeof(Cliente), SEEK_CUR);
+        fwrite(&cliAct, sizeof(Cliente), 1, archCli);
+        fseek(archCli, 0, SEEK_CUR);
+        fread(&cliAct, sizeof(Cliente), 1, archCli);
+    }
+
+    fclose(archCli);
+    fclose(archFac);
+    return 0;
+}
+
+
+
+void cargarMediciones(const char* nombreArchivoMediciones, Lista* pl)
+{
+    FILE* archMed = fopen(nombreArchivoMediciones, "rt");
+    if(!archMed)
+        return;
+
+    char linea[256];
+    char* act;
+
+    Medicion medAct;
+
+    while(fgets(linea, 256, archMed) != NULL)
+    {
+        act = strchr(linea, '\n');
+        if(!act)
+            return;
+
+        act = strrchr(linea, '|');
+        sscanf(act+1, "%d", &medAct.valorMedidor);
+        *act = '\0';
+
+        act = strrchr(linea, '|');
+        sscanf(act+1, "%d/%d/%d", &medAct.fechaMedicion.dia, &medAct.fechaMedicion.mes, &medAct.fechaMedicion.anio);
+        *act = '\0';
+
+        sscanf(linea, "%d", &medAct.nroCliente);
+
+        insertarEnListaOrdCDup(pl, &medAct, sizeof(Medicion), cmpMediciones);
+    }
+}
+
+void mostrarMedicion(void* elem, void* datosAccion)
+{
+    Medicion* medicion = (Medicion*)elem;
+    printf("%d|%d/%d/%d|%d\n", medicion->nroCliente, medicion->fechaMedicion.dia, medicion->fechaMedicion.mes, medicion->fechaMedicion.anio, medicion->valorMedidor);
+}
+
+int cmpMediciones(const void* e1, const void* e2)
+{
+    Medicion* m1 = (Medicion*)e1;
+    Medicion* m2 = (Medicion*)e2;
+
+    return m1->nroCliente-m2->nroCliente;
+}
+
+void mostrarFactura(Factura fac)
+{
+    printf("%d|%d|%d|%d|%lf\n", fac.nroFactura, fac.nroCliente, fac.fechaUltMedicion.mes, fac.valorMedidor, fac.consumoMes);
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1676326782 source:c:\users\franq\desktop\final-julio-27-2022-mesa-b-renata-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

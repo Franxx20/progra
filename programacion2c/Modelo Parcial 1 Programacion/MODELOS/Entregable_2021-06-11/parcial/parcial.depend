@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1623387590 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\entregable_2021-06-11\parcial\banco.c
+	<banco.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1623383808 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\entregable_2021-06-11\include\banco.h
+
+1623387617 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\entregable_2021-06-11\include\utilitarias.h
+	<banco.h>
+	<stdio.h>
+
+1623387499 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\entregable_2021-06-11\parcial\cola_estatica.c
+
+1623387443 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\entregable_2021-06-11\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1572639644 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\entregable_2021-06-11\parcial\utilitarias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<utilitarias.h>
+	<banco.h>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1668085985 source:d:\programacion\c\tp2\testarbolfranco2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Arbol3/arbol.h"
+
+1668085433 d:\programacion\c\tp2\arbol3\arbol.h
+	<stdio.h>
+	<stdbool.h>
+

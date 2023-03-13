@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1646488721 source:c:\users\laboratorios\desktop\final_c\final_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila/pila.h"
+
+1646488721 .h"
+
+1646487605 c:\users\laboratorios\desktop\final_c\final_c\pila\pila.h
+	<stdio.h>
+
+1646487605 
+
+1646487605 source:c:\users\laboratorios\desktop\final_c\final_c\pila\pila.c
+	<string.h>
+	<stdlib.h>
+	"pila.h"
+
+1646604045 source:/home/phosu/Downloads/final_MARCO_AGUSTIN_41572925/final_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila/pila.h"
+
+1646489345 /home/phosu/Downloads/final_MARCO_AGUSTIN_41572925/final_C/pila/pila.h
+	<stdio.h>
+
+1646489345 source:/home/phosu/Downloads/final_MARCO_AGUSTIN_41572925/final_C/pila/pila.c
+	<string.h>
+	<stdlib.h>
+	"pila.h"
+

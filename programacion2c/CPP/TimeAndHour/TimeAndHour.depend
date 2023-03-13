@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1662933067 source:/home/pilum/Facultad/programacion2c/CPP/TimeAndHour/main.cpp
+	<chrono>
+	<ctime>
+	<iomanip>
+	<iostream>
+	<sstream>
+	<string>
+

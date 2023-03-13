@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1638294968 source:h:\userdata\facultad\programmin_v2\parciales\pan\horav2\main.cpp
+	<iostream>
+	"Hora.h"
+
+1638295313 h:\userdata\facultad\programmin_v2\parciales\pan\horav2\hora.h
+	"iostream"
+
+1638294927 source:h:\userdata\facultad\programmin_v2\parciales\pan\horav2\hora.cpp
+	"Hora.h"
+

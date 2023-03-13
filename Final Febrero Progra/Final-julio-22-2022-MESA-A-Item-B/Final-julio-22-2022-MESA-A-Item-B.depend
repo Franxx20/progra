@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1676503918 source:c:\users\franq\desktop\final-julio-22-2022-mesa-a-item-b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

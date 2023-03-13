@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1670799943 source:c:\users\franq\desktop\progra\prografinal\test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../my_strings/my_strings.h"
+
+1670799126 c:\users\franq\desktop\progra\prografinal\my_strings\my_strings.h
+	<stddef.h>
+

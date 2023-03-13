@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1676995217 source:c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\empleado.cpp
+	"Empleado.h"
+
+1676995217 source:c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\main.cpp
+	"Persona.h"
+	"Empleado.h"
+	"EdadEmpleadoInvalidaException.h"
+
+1676995194 c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\persona.h
+	<iostream>
+
+1676993950 source:c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\persona.cpp
+	"Persona.h"
+
+1676995194 c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\empleado.h
+	"Persona.h"
+	"EdadEmpleadoInvalidaException.h"
+
+1676995277 c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\edadempleadoinvalidaexception.h
+	<iostream>
+
+1676993802 source:c:\users\seba_\onedrive\escritorio\programacion\c++\empleado\empleado\edadempleadoinvalidaexception.cpp
+	"EdadEmpleadoInvalidaException.h"
+

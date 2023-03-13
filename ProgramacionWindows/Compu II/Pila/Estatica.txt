@@ -1,0 +1,68 @@
+void crearPila_alu(Pila* pp)
+{
+    pp->tope=0;
+}
+
+void vaciarPila_alu(Pila* pp)
+{
+    pp->tope=0;
+}
+
+booleano apilar_alu(Pila* pp,const void* elem,size_t tamElem)
+{
+    if(tamElem+sizeof(size_t) > TAM_PILA-pp->tope)
+        return falso;
+
+    memcpy(DESTINO_PILA,elem,tamElem);
+    pp->tope+=tamElem;
+
+    *(size_t*)(DESTINO_PILA)=tamElem;
+
+    pp->tope+=sizeof(size_t);
+
+    return verdadero;
+}
+
+booleano desapilar_alu(Pila* pp,void* elem,size_t tamElem)
+{
+    if(pp->tope==0)
+        return falso;
+
+    pp->tope-=sizeof(size_t);
+
+    size_t tamElemAp=*(size_t*)(DESTINO_PILA);
+
+    pp->tope-=tamElemAp;
+
+    memcpy(elem,DESTINO_PILA,MIN(tamElemAp,tamElem));
+
+    return verdadero;
+}
+
+booleano verTopePila_alu(Pila* pp,void* elem,size_t tamElem)
+{
+    if(pp->tope==0)
+        return falso;
+
+    unsigned int tope=pp->tope;
+
+    tope-=sizeof(size_t);
+
+    size_t tamElemAp=*(size_t*)(pp->vPila+tope);
+
+    tope-=tamElemAp;
+
+    memcpy(elem,pp->vPila+tope,MIN(tamElemAp,tamElem));
+
+    return verdadero;
+}
+
+booleano pilaLLena(Pila* pp,size_t tamElem)
+{
+    return tamElem+sizeof(size_t)>TAM_PILA-pp->tope? verdadero:falso;
+}
+
+booleano pilaVacia_alu(Pila* pp)
+{
+    return !pp->tope? verdadero:falso;
+}

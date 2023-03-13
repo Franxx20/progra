@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1646487038 source:c:\users\laboratorios\desktop\final_c++\final_c++\llamada\llamada.cpp
+	<string.h>
+	<stdexcept>
+	"llamada.h"
+
+1646487038 "
+
+1646487038 c:\users\laboratorios\desktop\final_c++\final_c++\llamada\llamada.h
+	<iostream>
+
+1646487038 
+
+1646487119 source:c:\users\laboratorios\desktop\final_c++\final_c++\main.cpp
+	<iostream>
+	"Llamada/llamada.h"
+
+1646487119 lamada.h"
+
+1646606313 source:/home/phosu/Downloads/final_MARCO_AGUSTIN_41572925/final_C++/Llamada/llamada.cpp
+	<string.h>
+	<stdexcept>
+	"llamada.h"
+
+1646605294 /home/phosu/Downloads/final_MARCO_AGUSTIN_41572925/final_C++/Llamada/llamada.h
+	<iostream>
+
+1646605799 source:/home/phosu/Downloads/final_MARCO_AGUSTIN_41572925/final_C++/main.cpp
+	<iostream>
+	"Llamada/llamada.h"
+

@@ -1,0 +1,4 @@
+zana|z|80
+pera|p|45
+manza|m|10
+bana|b|115

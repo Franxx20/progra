@@ -1,0 +1,110 @@
+#ifndef RACIONAL_H
+#define RACIONAL_H
+
+#include "ostream"
+
+using namespace std;
+
+class Racional
+{
+    private:
+        int numerador;
+        int denominador;
+
+        int MCD(int a, int b);
+        void simplificar();
+
+    public:
+        Racional();
+        Racional(int numerador, int denominador);
+
+        float real();
+
+        Racional operator *(Racional& racProducto);
+        Racional operator +(const Racional& racSumador);
+
+        friend Racional operator +(const int entero, const Racional& racional);
+        friend ostream& operator <<(ostream& out, const Racional& racional);
+};
+
+Racional::Racional()
+{
+    this->numerador = 0;
+    this->denominador = 1;
+}
+
+Racional::Racional(int numerador, int denominador)
+{
+    this->denominador = denominador;
+    this->numerador = numerador;
+
+    this->simplificar();
+}
+
+Racional Racional::operator *(Racional& racional)
+{
+    int numProd = this->numerador*racional.numerador;
+    int denProd = this->denominador*racional.denominador ;
+
+    Racional racProd( numProd, denProd );
+
+    return racProd;
+}
+
+Racional Racional::operator +(const Racional& racional)
+{
+    int numSuma = this->numerador*racional.denominador + racional.numerador*this->denominador;
+    int denSuma = this->denominador*racional.denominador;
+
+    Racional racSuma(numSuma, denSuma);
+
+    return racSuma;
+}
+
+Racional operator +(const int x, const Racional& racional)
+{
+    Racional racInt(x, 1);
+
+    Racional racSuma;
+    racSuma = racInt+racional;
+
+    return racSuma;
+}
+
+int Racional::MCD(int a, int b)
+{
+    int aux;
+    while(a && b)
+    {
+        aux=a;
+        a=b;
+        b=aux%b;
+    }
+    if(!a)
+        return b;
+    return a;
+}
+
+void Racional::simplificar()
+{
+    int mcd = MCD(this->numerador, this->denominador);
+        this->numerador /= mcd;
+        this->denominador /= mcd;
+
+        if(this->denominador<0)
+        {
+            this->numerador*=-1;
+            this->denominador*=-1;
+        }
+}
+
+float Racional::real()
+{
+    return (this->numerador / (float)this->denominador);
+}
+
+ostream& operator <<(ostream& output, const Racional& racional ){
+    return output << racional.numerador << "/" << racional.denominador;
+}
+
+#endif // RACIONAL_H

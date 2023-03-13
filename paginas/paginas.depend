@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1673424700 source:c:\users\franq\desktop\paginas\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1673424700 source:c:\users\franq\desktop\progra\paginas\main.c
+	<stdio.h>
+	<stdlib.h>
+

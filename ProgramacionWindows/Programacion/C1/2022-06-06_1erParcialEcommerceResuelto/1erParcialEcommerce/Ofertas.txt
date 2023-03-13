@@ -1,0 +1,90 @@
+pepe100
+	noteHp15              39800.00	Si
+	monitorSam27          29800.00	Si
+	impresoraLaser         9800.00	Si
+	parlantesHp            4799.00	No
+	tecladoLogitech         899.10	No
+	mesaVintage           49800.00	Si
+	sillonGamer           29800.00	Si
+	sillaErgono           24800.00	Si
+	mouseNoga              4000.00	No
+juan200
+	noteHp15              39550.00	Si
+	monitorSam27          29550.00	Si
+	impresoraLaser         9550.00	Si
+	parlantesHp            4549.00	Si
+	tecladoLogitech         799.20	No
+	mesaVintage           49550.00	Si
+	sillonGamer           29550.00	Si
+	sillaErgono           24550.00	Si
+	mouseNoga              3750.00	No
+maria300
+	noteHp15              39500.00	Si
+	monitorSam27          29500.00	Si
+	impresoraLaser         9500.00	Si
+	parlantesHp            4499.00	No
+	tecladoLogitech         699.30	No
+	mesaVintage           49500.00	Si
+	sillonGamer           29500.00	Si
+	sillaErgono           24500.00	Si
+	mouseNoga              3700.00	No
+ana400
+	noteHp15              39400.00	Si
+	monitorSam27          29400.00	Si
+	impresoraLaser         9400.00	Si
+	parlantesHp            4399.00	Si
+	tecladoLogitech         649.35	No
+	mesaVintage           49400.00	Si
+	sillonGamer           29400.00	Si
+	sillaErgono           24400.00	Si
+	mouseNoga              3600.00	No
+jose500
+	noteHp15              39350.00	Si
+	monitorSam27          29350.00	Si
+	impresoraLaser         9350.00	Si
+	parlantesHp            4349.00	Si
+	tecladoLogitech         599.40	No
+	mesaVintage           49350.00	Si
+	sillonGamer           29350.00	Si
+	sillaErgono           24350.00	Si
+	mouseNoga              3550.00	Si
+luis600
+	noteHp15              39300.00	Si
+	monitorSam27          29300.00	Si
+	impresoraLaser         9300.00	Si
+	parlantesHp            4299.00	Si
+	tecladoLogitech         549.45	No
+	mesaVintage           49300.00	Si
+	sillonGamer           29300.00	Si
+	sillaErgono           24300.00	Si
+	mouseNoga              3500.00	Si
+pedro700
+	noteHp15              39800.00	Si
+	monitorSam27          29800.00	Si
+	impresoraLaser         9800.00	Si
+	parlantesHp            4799.00	No
+	tecladoLogitech         899.10	No
+	mesaVintage           49800.00	Si
+	sillonGamer           29800.00	Si
+	sillaErgono           24800.00	Si
+	mouseNoga              4000.00	No
+juan800
+	noteHp15              39550.00	Si
+	monitorSam27          29550.00	Si
+	impresoraLaser         9550.00	Si
+	parlantesHp            4549.00	Si
+	tecladoLogitech         799.20	No
+	mesaVintage           49550.00	Si
+	sillonGamer           29550.00	Si
+	sillaErgono           24550.00	Si
+	mouseNoga              3750.00	No
+maria900
+	noteHp15              39500.00	Si
+	monitorSam27          29500.00	Si
+	impresoraLaser         9500.00	Si
+	parlantesHp            4499.00	No
+	tecladoLogitech         699.30	No
+	mesaVintage           49500.00	Si
+	sillonGamer           29500.00	Si
+	sillaErgono           24500.00	Si
+	mouseNoga              3700.00	No

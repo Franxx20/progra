@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1663553800 source:/home/pilum/Facultad/programacion2c/C/tp2/ListaDeComprasCandela/main.c
+	"../TDALista/lista.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1663546686 /home/pilum/Facultad/programacion2c/C/tp2/TDALista/lista.h
+	<stdbool.h>
+	<stdio.h>
+

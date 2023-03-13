@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1477090392 source:c:\users\laboratorios.unlmlab\desktop\entregable_2016-10-21\ejercicio2\main.c
+	"matrices.h"
+
+1477089861 c:\users\laboratorios.unlmlab\desktop\entregable_2016-10-21\ejercicio2\matrices.h
+	<stdio.h>
+	<stdlib.h>
+
+1477090901 source:c:\users\laboratorios.unlmlab\desktop\entregable_2016-10-21\ejercicio2\matrices.c
+	"matrices.h"
+
+1477182152 source:e:\programacion\modelo de parcial\tejerinaezequiel\entregable_2016-10-21\ejercicio2\main.c
+	"matrices.h"
+
+1477182152 e:\programacion\modelo de parcial\tejerinaezequiel\entregable_2016-10-21\ejercicio2\matrices.h
+	<stdio.h>
+	<stdlib.h>
+
+1477178256 source:e:\programacion\modelo de parcial\tejerinaezequiel\entregable_2016-10-21\ejercicio2\matrices.c
+	"matrices.h"
+
+1623109027 source:d:\users\facu\desktop\programacion - 2021\practica parciales\combo parciales y demas\entregable_2016-10-21\ejercicio2\main.c
+	"matrices.h"
+
+1623176601 d:\users\facu\desktop\programacion - 2021\practica parciales\combo parciales y demas\entregable_2016-10-21\ejercicio2\matrices.h
+	<stdio.h>
+	<stdlib.h>
+
+1623176325 source:d:\users\facu\desktop\programacion - 2021\practica parciales\combo parciales y demas\entregable_2016-10-21\ejercicio2\matrices.c
+	"matrices.h"
+

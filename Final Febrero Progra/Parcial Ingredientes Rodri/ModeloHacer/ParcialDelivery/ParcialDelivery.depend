@@ -1,0 +1,101 @@
+# depslib dependency file v1.0
+1669640549 source:c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\parcialdelivery\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDACola/TDACola.h"
+	"../TDALista/TDALista.h"
+	"../SolucionDelivery/TiposDelivery.h"
+	"../SolucionDelivery/SolucionDelivery.h"
+	"../Utilitarias/Utilitarias.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\tdacola\tdacola.h
+	<stddef.h>
+	<stdbool.h>
+	"../TDAColaImplDinamica/TDAColaImplDinamica.h"
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\tdacolaimpldinamica\tdacolaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\nodo\nodo.h
+	<stddef.h>
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1669639416 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\comun\comun.h
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\nodo\nodod.h
+	<stddef.h>
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\soluciondelivery\tiposdelivery.h
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\soluciondelivery\soluciondelivery.h
+	<stdio.h>
+	"TiposDelivery.h"
+
+1669588162 c:\users\laboratorios\desktop\rec\2022-11-28_parcialdelivery_entregable\utilitarias\utilitarias.h
+	"../Comun/Comun.h"
+
+1669640549 source:d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\parcialdelivery\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDACola/TDACola.h"
+	"../TDALista/TDALista.h"
+	"../SolucionDelivery/TiposDelivery.h"
+	"../SolucionDelivery/SolucionDelivery.h"
+	"../Utilitarias/Utilitarias.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\tdacola\tdacola.h
+	<stddef.h>
+	<stdbool.h>
+	"../TDAColaImplDinamica/TDAColaImplDinamica.h"
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\tdacolaimpldinamica\tdacolaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\nodo\nodo.h
+	<stddef.h>
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1669639416 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\comun\comun.h
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\nodo\nodod.h
+	<stddef.h>
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\soluciondelivery\tiposdelivery.h
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\soluciondelivery\soluciondelivery.h
+	<stdio.h>
+	"TiposDelivery.h"
+
+1669588162 d:\bibliotecas\escritorio\2022-11-28_parcialdelivery_entregable\utilitarias\utilitarias.h
+	"../Comun/Comun.h"
+

@@ -1,0 +1,102 @@
+# depslib dependency file v1.0
+1638790990 source:c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\recalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../TDALista/TDAlista.h"
+	"../SolucionAlumnos/SolucionAlumnos.h"
+
+1638740462 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1636840240 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\comun\comun.h
+
+1623684532 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1636840234 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623682906 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059878 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\nodo\nodod.h
+	<stddef.h>
+
+1638744028 c:\users\laboratorios\desktop\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\solucionalumnos\solucionalumnos.h
+	<stdio.h>
+	"../TDALista/TDALista.h"
+
+1638898080 source:h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\recalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDALista/TDALista.h"
+	"../SolucionAlumnos/SolucionAlumnos.h"
+	"../Matematica/Matematica.h"
+
+1638740462 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1636840240 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\comun\comun.h
+
+1623684532 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1636840234 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623682906 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059878 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\nodo\nodod.h
+	<stddef.h>
+
+1638795150 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\solucionalumnos\solucionalumnos.h
+	<stdio.h>
+	"../TDALista/TDALista.h"
+	"../SolucionAlumnos/EstadoAlumnoMateria.h"
+
+1638885451 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\solucionalumnos\estadoalumnomateria.h
+
+1625948932 h:\userdata\facultad\programmin_v2\parciales\pan\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\matematica\matematica.h
+
+1638901063 source:c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\recalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDALista/TDALista.h"
+	"../SolucionAlumnos/SolucionAlumnos.h"
+	"../Matematica/Matematica.h"
+
+1638740462 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1636840240 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\comun\comun.h
+
+1623684532 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1636840234 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\nodo\nodo.h
+	<stddef.h>
+
+1623682906 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059878 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\nodo\nodod.h
+	<stddef.h>
+
+1638795150 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\solucionalumnos\solucionalumnos.h
+	<stdio.h>
+	"../TDALista/TDALista.h"
+	"../SolucionAlumnos/EstadoAlumnoMateria.h"
+
+1638885451 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\solucionalumnos\estadoalumnomateria.h
+
+1625948932 c:\users\franq\downloads\2021-12-06_recalumnos_entregable\2021-12-06_recalumnos_entregable\matematica\matematica.h
+

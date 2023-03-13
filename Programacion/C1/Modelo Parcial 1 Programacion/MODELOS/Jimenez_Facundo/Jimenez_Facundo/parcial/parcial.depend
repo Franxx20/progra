@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1623464639 source:d:\users\facu\desktop\parcial programacion\parcial\banco.c
+	<banco.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	"../include/cola_estatica.h"
+
+1623383808 d:\users\facu\desktop\parcial programacion\include\banco.h
+
+1623457784 d:\users\facu\desktop\parcial programacion\include\utilitarias.h
+	<banco.h>
+	<stdio.h>
+
+1623465133 source:d:\users\facu\desktop\parcial programacion\parcial\cola_estatica.c
+	"../include/cola_estatica.h"
+	<string.h>
+
+1623464676 source:d:\users\facu\desktop\parcial programacion\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1623461294 source:d:\users\facu\desktop\parcial programacion\parcial\utilitarias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<utilitarias.h>
+	<banco.h>
+
+1623459232 d:\users\facu\desktop\parcial programacion\include\cola_estatica.h
+
+1623466116 source:d:\users\facu\desktop\jimenez_facundo\parcial\banco.c
+	<banco.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	"../include/cola_estatica.h"
+
+1623383808 d:\users\facu\desktop\jimenez_facundo\include\banco.h
+
+1623466294 d:\users\facu\desktop\jimenez_facundo\include\utilitarias.h
+	<banco.h>
+	<stdio.h>
+
+1623459232 d:\users\facu\desktop\jimenez_facundo\include\cola_estatica.h
+
+1623465133 source:d:\users\facu\desktop\jimenez_facundo\parcial\cola_estatica.c
+	"../include/cola_estatica.h"
+	<string.h>
+
+1623465796 source:d:\users\facu\desktop\jimenez_facundo\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1623466328 source:d:\users\facu\desktop\jimenez_facundo\parcial\utilitarias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<utilitarias.h>
+	<banco.h>
+

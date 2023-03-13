@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1667169025 source:d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\1erparcialfabricascomputadoras\main.c
+	<stdio.h>
+	"../TDALista/TDALista.h"
+	"../Comun/Comun.h"
+	"../Cadena/Cadena.h"
+	"../Archivo/Archivo.h"
+	"../Solucion1erParcialFabricasComputadoras/Solucion1erParcialFabricasComputadoras.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\comun\comun.h
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\nodo\nodo.h
+	<stddef.h>
+
+1667144359 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\cadena\cadena.h
+	<stddef.h>
+
+1667144306 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\archivo\archivo.h
+	<stddef.h>
+
+1667145732 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01-lu-ju-m\examenes\1erparcial\1erparcialentregable\solucion1erparcialfabricascomputadoras\solucion1erparcialfabricascomputadoras.h
+
+1667169025 source:d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\1erparcialfabricascomputadoras\main.c
+	<stdio.h>
+	"../TDALista/TDALista.h"
+	"../Comun/Comun.h"
+	"../Cadena/Cadena.h"
+	"../Archivo/Archivo.h"
+	"../Solucion1erParcialFabricasComputadoras/Solucion1erParcialFabricasComputadoras.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\comun\comun.h
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648805 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\nodo\nodo.h
+	<stddef.h>
+
+1667144359 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\cadena\cadena.h
+	<stddef.h>
+
+1667144306 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\archivo\archivo.h
+	<stddef.h>
+
+1667145732 d:\onedrive - universidad nacional de la matanza\unlam\programacion\2022\2\01_lu_ju_m\examenes\1erparcial\1erparcialentregable\solucion1erparcialfabricascomputadoras\solucion1erparcialfabricascomputadoras.h
+
+1667876871 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\1erparcialfabricascomputadoras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDALista/TDALista.h"
+	"../Comun/Comun.h"
+	"../Cadena/Cadena.h"
+	"../Archivo/Archivo.h"
+	"../Solucion1erParcialFabricasComputadoras/Solucion1erParcialFabricasComputadoras.h"
+
+1653648805 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\comun\comun.h
+
+1653648805 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648805 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\nodo\nodo.h
+	<stddef.h>
+
+1667144359 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\cadena\cadena.h
+	<stddef.h>
+
+1667144306 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\archivo\archivo.h
+	<stddef.h>
+
+1667145732 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-10-31_1erparcialentregable_1\1erparcialentregable\solucion1erparcialfabricascomputadoras\solucion1erparcialfabricascomputadoras.h
+
+1675897088 source:c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\1erparcialfabricascomputadoras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+	"../TDALista/TDALista.h"
+	"../Comun/Comun.h"
+	"../Cadena/Cadena.h"
+	"../Archivo/Archivo.h"
+	"../Solucion1erParcialFabricasComputadoras/Solucion1erParcialFabricasComputadoras.h"
+
+1653648805 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1653648805 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\comun\comun.h
+
+1653648805 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1653648805 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\nodo\nodo.h
+	<stddef.h>
+
+1667144359 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\cadena\cadena.h
+	<stddef.h>
+
+1667144306 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\archivo\archivo.h
+	<stddef.h>
+
+1667145732 c:\users\franq\desktop\2022-10-31_1erparcialentregable_1\1erparcialentregable\solucion1erparcialfabricascomputadoras\solucion1erparcialfabricascomputadoras.h
+

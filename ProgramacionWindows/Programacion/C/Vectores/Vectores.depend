@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1661784451 source:c:\users\laboratorios\desktop\vectores\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Vectores.h"
+
+1661784451 h"
+
+1661782657 c:\users\laboratorios\desktop\vectores\vectores.h
+	<stdbool.h>
+
+1661784642 >
+
+1661784642 source:c:\users\laboratorios\desktop\vectores\vectores.c
+	<stdio.h>
+	<stdbool.h>
+
+1662040139 source:/home/pilum/Facultad/programacion2c/C/Vectores/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Vectores.h"
+
+1661782657 /home/pilum/Facultad/programacion2c/C/Vectores/Vectores.h
+	<stdbool.h>
+
+1662040238 source:/home/pilum/Facultad/programacion2c/C/Vectores/Vectores.c
+	<stdio.h>
+	<stdbool.h>
+

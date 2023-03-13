@@ -1,0 +1,65 @@
+PEDIDOS
+Nro     Cod. Receta     Cantidad
+1       EMPANADA        12
+2       PIZZA   2
+3       RAVIOLES        5
+4       FAINA   4
+5       ARROZCHINO      3
+
+RECETAS
+Rec: RAVIOLES | Ingr: HARINA | Cant: 200
+Rec: RAVIOLES | Ingr: SALSA | Cant: 20
+Rec: RAVIOLES | Ingr: QUESORALL | Cant: 25
+Rec: FAINA | Ingr: HARINAGAR | Cant: 80
+Rec: EMPANADA | Ingr: HARINA | Cant: 50
+Rec: EMPANADA | Ingr: CARNE | Cant: 100
+Rec: EMPANADA | Ingr: ACEITUNA | Cant: 3
+Rec: EMPANADA | Ingr: SALSA | Cant: 10
+Rec: ARROZCHINO | Ingr: ARROZ | Cant: 200
+Rec: ARROZCHINO | Ingr: CARNE | Cant: 30
+Rec: ARROZCHINO | Ingr: ACEITE | Cant: 30
+Rec: PIZZA | Ingr: MUZZARELLA | Cant: 250
+Rec: PIZZA | Ingr: HARINA | Cant: 300
+Rec: PIZZA | Ingr: SALSA | Cant: 20
+Rec: PIZZA | Ingr: ACEITE | Cant: 20
+Rec: PIZZA | Ingr: ACEITUNA | Cant: 8
+
+Ingredientes antes de la actualizacion
+INGREDIENTES
+Ingr: HARINA | Stock: 2200
+Ingr: SALSA | Stock: 300
+Ingr: QUESORALL | Stock: 200
+Ingr: HARINAGAR | Stock: 500
+Ingr: CARNE | Stock: 1500
+Ingr: ACEITUNA | Stock: 200
+Ingr: ARROZ | Stock: 1000
+Ingr: ACEITE | Stock: 400
+Ingr: MUZZARELLA | Stock: 550
+
+Ingredientes despues de la actualizacion
+INGREDIENTES
+Ingr: HARINA | Stock: 0
+Ingr: SALSA | Stock: 40
+Ingr: QUESORALL | Stock: 75
+Ingr: HARINAGAR | Stock: 180
+Ingr: CARNE | Stock: 210
+Ingr: ACEITUNA | Stock: 148
+Ingr: ARROZ | Stock: 400
+Ingr: ACEITE | Stock: 270
+Ingr: MUZZARELLA | Stock: 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

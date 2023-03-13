@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1507328562 source:c:\users\richi\downloads\1er cuatri p1 2017\parcial\actas.c
+	<actas.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1496794900 c:\users\richi\downloads\1er cuatri p1 2017\include\actas.h
+
+1496794898 c:\users\richi\downloads\1er cuatri p1 2017\include\lista.h
+	<tipos.h>
+
+1496794896 c:\users\richi\downloads\1er cuatri p1 2017\include\tipos.h
+
+1496794894 c:\users\richi\downloads\1er cuatri p1 2017\include\utilitarias.h
+	<tipos.h>
+
+1508294349 source:c:\users\richi\downloads\1er cuatri p1 2017\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+
+1507328562 source:c:\users\richi\downloads\1er cuatri p1 2017\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<actas.h>
+	<utilitarias.h>
+
+1496794880 source:c:\users\richi\downloads\1er cuatri p1 2017\parcial\utilitarias.c
+
+1507328564 source:c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\parcial\actas.c
+	<actas.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1496794900 c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\include\actas.h
+
+1496794898 c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\include\lista.h
+	<tipos.h>
+
+1496794896 c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\include\tipos.h
+
+1496794894 c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\include\utilitarias.h
+	<tipos.h>
+
+1507328688 source:c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+
+1507328564 source:c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<actas.h>
+	<utilitarias.h>
+
+1496794880 source:c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\parcial\utilitarias.c
+

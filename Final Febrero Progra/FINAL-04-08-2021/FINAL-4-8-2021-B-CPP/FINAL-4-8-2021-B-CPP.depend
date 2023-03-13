@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677535429 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\final-4-8-2021-b-cpp\horadeldia.cpp
+	"HoraDelDia.h"
+
+1677535703 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\final-4-8-2021-b-cpp\horadeldia.h
+	<iostream>
+
+1677535716 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\final-4-8-2021-b-cpp\main.cpp
+	<iostream>
+	<windows.h>
+	"HoraDelDia.h"
+

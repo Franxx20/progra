@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677372448 source:c:\users\franq\desktop\finalcadenacpp\src\cadena.cpp
+	"Cadena.h"
+
+1677372443 c:\users\franq\desktop\finalcadenacpp\include\cadena.h
+	<string.h>
+	<iostream>
+
+1677371591 source:c:\users\franq\desktop\finalcadenacpp\main.cpp
+	<iostream>
+	"Cadena.h"
+

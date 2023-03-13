@@ -1,0 +1,97 @@
+#include <iostream>
+using namespace std;
+#include <math.h>
+
+class Punto
+{
+    private:
+        double x, y;
+
+    public:
+        Punto();
+        Punto(double x, double y);
+
+        friend ostream& operator <<(ostream&, const Punto& punto);
+
+        friend class Recta;
+
+};
+
+Punto::Punto()
+:x(0),y(0)
+{}
+
+Punto::Punto(double x, double y)
+:x(x),y(y)
+{}
+
+ostream& operator <<(ostream& output, const Punto& punto)
+{
+    output << '(' << punto.x << ',' << punto.y << ')';
+
+    return output;
+}
+
+class Recta
+{
+    private:
+        Punto a, b;
+
+    public:
+        Recta();
+        Recta(Punto a, Punto b);
+
+        Punto operator &&(Recta& recta);
+        double operator -(Punto& punto);
+
+        friend ostream& operator <<(ostream&, const Recta& recta);
+};
+
+Recta::Recta()
+:a(0,0),b(0,0)
+{}
+
+Recta::Recta(Punto a, Punto b)
+:a(a),b(b)
+{}
+
+Punto Recta::operator &&(Recta& recta)
+{
+    #define x1 this->a.x
+    #define y1 this->a.y
+    #define x2 this->b.x
+    #define y2 this->b.y
+    #define x3 recta.a.x
+    #define y3 recta.a.y
+    #define x4 recta.b.x
+    #define y4 recta.b.y
+
+    double x, y;
+
+    x = ((x1*y2 - y1*x2)*(x3 - x4) - (x1 - x2)*(x3*y4 - y3*x4))/((x1 - x2)*(y3 - y4) - (y1 - y2)*(x3 - x4));
+
+    y = ((x1*y2 - y1*x2)*(y3 - y4) - (y1 - y2)*(x3*y4 - y3*x4))/((x1 - x2)*(y3 - y4) - (y1 - y2)*(x3 - x4));
+
+    Punto aux(x,y);
+
+    return aux;
+}
+
+double Recta::operator -(Punto& punto)
+{
+    #define x1 this->a.x
+    #define y1 this->a.y
+    #define x2 this->b.x
+    #define y2 this->b.y
+    #define x0 punto.x
+    #define y0 punto.y
+
+    return abs((y2 - y1)*x0 - (x2 - x1)*y0 + x2*y1 - y2*x1)/(sqrt(pow((y2 - y1),2) + pow((x2 - x1),2)));
+}
+
+ostream& operator <<(ostream& output, const Recta& recta)
+{
+    output << '(' << recta.a << ',' << recta.b << ')';
+
+    return output;
+}

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1634836378 source:/home/phosu/Downloads/EJ2_Circulo/Circulo.cpp
+	"Circulo.h"
+	<cmath>
+
+1634836365 /home/phosu/Downloads/EJ2_Circulo/Circulo.h
+	<iostream>
+
+1634835103 source:/home/phosu/Downloads/EJ2_Circulo/main.cpp
+	<iostream>
+	"Circulo.h"
+

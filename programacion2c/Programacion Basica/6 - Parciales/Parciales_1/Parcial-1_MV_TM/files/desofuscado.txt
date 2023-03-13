@@ -1,0 +1,25 @@
+Este ejercicio tipo parcial se debe resolver en aprox.
+tres horas.
+Antes de codificar piensa bien la estrategia de solucion,
+tomese un tiempo analizando lo pedido y las herramientas
+de las que dispone.
+Si la estrategia de solucion pensada esta relativamente acertada
+el examen se resuelve en una hora trienta como mucho.
+En cambio si falla con la estrategia o se demora con pequenas cosas
+que desconoce por no practicar entonces se complica desarrollar el parcial
+en cuatro o cinco horas.
+Observe bien cuando hay que desofuscar
+si es estrictamente necesario separar en palabras o bloques.
+Puede que no sea necesario pero revise tambien todos los puntos pedidos,
+ya que la necesidad de separar en palabras puede derivar de
+algun otro requerimiento.
+Nunca olvide que las cadenas, para ser consideradas como tales y noun simple array de caracteres terminan en barra cero
+Desarrolle el ejercicio de manera individual y luego comparta
+soluciones o alternativas posibles con sus companeros
+Si el ejercicio impide usar bibliotecas incluidas en la instalacion
+puede usarlas, llegar a un buen resultado y luego remplazarlas por
+sus propias versiones
+Usar las funciones de bibliotecas al inicio puede ayudar a mantener
+el codigo con un buen desacople.
+Se aclara que se evitan los acentos y letras no inglesas para evitar conflictos de impresion.
+

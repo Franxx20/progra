@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1662994041 source:c:\users\laboratorios\desktop\cmpthing\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cmp.h"
+
+1662993184 c:\users\laboratorios\desktop\cmpthing\cmp.h
+	<stddef.h>
+
+1662994221 source:c:\users\laboratorios\desktop\cmpthing\cmp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cmp.h"
+

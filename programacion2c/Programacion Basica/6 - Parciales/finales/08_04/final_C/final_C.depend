@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1638389360 source:/home/phosu/Documents/Programacion/Parciales_2/finales/08_04/final_C/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1638389810 source:/home/phosu/Documents/Programacion/finales/08_04/final_C/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

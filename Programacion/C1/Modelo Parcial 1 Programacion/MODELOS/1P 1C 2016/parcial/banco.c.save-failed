@@ -1,0 +1,67 @@
+#include<banco.h>
+#include<lista.h>
+#include<utilitarias.h>
+#include<string.h>
+#include<stdlib.h>
+
+void actualizar_cuentas(FILE * arch_ctas, FILE * arch_movs, FILE * arch_err, t_lista *plista)
+{
+    int comparador;
+    t_movimiento_banco regMov;
+    t_cuenta_banco regCuenta;
+    char cad[sizeof(t_movimiento_banco)+4];
+    char *eofMov=fgets(cad,sizeof(t_movimiento_banco)+4,arch_movs);
+    texto_a_movimiento(cad,&regMov);
+    fread(&regCuenta,sizeof(t_cuenta_banco),1,arch_ctas);
+    while(!feof(arch_ctas) && eofMov)
+    {
+        if(!validar_nro_cuenta_res(&regMov))
+        {
+            fprintf(arch_err,"%s, %c, %.2f\n",regMov.cod_cta,regMov.tipo_mov,regMov.importe);
+            eofMov=fgets(cad,sizeof(t_movimiento_banco)+4,arch_movs);
+            printf("XD");
+            texto_a_movimiento(cad,&regMov);
+
+        }
+        else
+        {
+            if((comparador=strcmp(regCuenta.cod_cta,regMov.cod_cta))==0)
+            {
+                if(regMov.tipo_mov=='D')
+                    regCuenta.saldo-=regMov.importe;
+                else
+                    regCuenta.saldo+=regMov.importe;
+                fseek(arch_ctas,-sizeof(t_cuenta_banco),SEEK_CUR);
+                fwrite(&regCuenta,sizeof(t_cuenta_banco),1,arch_ctas);
+                fseek(arch_ctas,0L,SEEK_CUR);
+                fread(&regCuenta,sizeof(t_cuenta_banco),1,arch_ctas);
+                eofMov=fgets(cad,sizeof(t_movimiento_banco)+4,arch_movs);
+                texto_a_movimiento(cad,&regMov);
+            }
+            else
+            {
+                if(comparador<0)
+                    fread(&regCuenta,sizeof(t_cuenta_banco),1,arch_ctas);
+                else
+                {
+                    fprintf(arch_err,"%s, %c, %.2f\n",regMov.cod_cta,regMov.tipo_mov,regMov.importe);
+                    eofMov=fgets(cad,sizeof(t_movimiento_banco)+4,arch_movs);
+                    texto_a_movimiento(cad,&regMov);
+                }
+            }
+        }
+    }
+    while(eofMov)
+    {
+        fprintf(arch_err,"%s, %c, %.2f\n",regMov.cod_cta,regMov.tipo_mov,regMov.importe);
+        eofMov=fgets(cad,sizeof(t_movimiento_banco)+4,arch_movs);
+        texto_a_movimiento_res(cad,&regMov);
+    }
+}
+
+
+int validar_nro_cuenta(const t_movimiento_banco * c1)
+{
+    ///Inserte el código aquí
+    return 1;
+}

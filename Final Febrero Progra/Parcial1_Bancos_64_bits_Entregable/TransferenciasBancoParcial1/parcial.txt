@@ -1,0 +1,217 @@
+
+Antes de actualizar:
+CUENTA                  TITULAR         MONTO
+Cuentas Patagania
+====================================================
+ACEITUNA.UVA.PERA       30100200        0045004.53
+BALCON.TERRAZA.TECHO    09876543        0890216.74
+CHOZA.BARCO.SILLA       44555666        0321341.50
+ENCHUFE.VENTANA.REJA    11222333        0050442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0489517.86
+PIZZA.CASA.FAROL        11222333        0050000.00
+TAZA.PLATO.TENEDOR      10101010        0235820.12
+TORNILLO.PESA.MESA      33444555        0123560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0127548.65
+
+Transferencias Patagania
+====================================================
+12-06-2021      TREN.COMPUTADORA.MUEBLE         Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0055000.00      N
+12-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       SOL.LUNA.PLANETA                YCBC            0100000.00      N
+12-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0025000.00      N
+13-06-2021      CHOZA.BARCO.SILLA               Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0225000.00      N
+13-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0027000.00      N
+13-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0150000.00      N
+13-06-2021      PIZZA.CASA.FAROL                Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0222000.00      N
+14-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0044000.00      N
+14-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0077000.00      N
+15-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0099000.00      N
+15-06-2021      PIZZA.CASA.FAROL                Patagania       SOL.LUNA.PLANETA                YCBC            0049000.00      N
+15-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0345000.00      N
+
+Transferencias Mergeadas:
+Transferencias Patagania
+====================================================
+12-06-2021      TORTA.FRIJOL.CUERDA             Sentander       PIZZA.CASA.FAROL                Patagania       0025000.00      N
+12-06-2021      TREN.COMPUTADORA.MUEBLE         Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0055000.00      N
+12-06-2021      SOL.LUNA.PLANETA                YCBC            PIZARRA.TIZA.BORRADOR           Patagania       0043000.20      N
+12-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       SOL.LUNA.PLANETA                YCBC            0100000.00      N
+12-06-2021      PELO.ARBOL.RUEDA                Sentander       PIEDRA.PUERTA.PLANTA            Patagania       0010000.00      N
+12-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0025000.00      N
+12-06-2021      TECLADO.MOUSE.MONITOR           YCBC            TREN.COMPUTADORA.MUEBLE         Patagania       0011000.30      N
+12-06-2021      CAMA.ARBOL.MARIPOSA             YCBC            PIZZA.CASA.FAROL                Patagania       0052000.40      N
+13-06-2021      TORTA.FRIJOL.CUERDA             Sentander       BALCON.TERRAZA.TECHO            Patagania       0050000.00      N
+13-06-2021      CHOZA.BARCO.SILLA               Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0225000.00      N
+13-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            TAZA.PLATO.TENEDOR              Patagania       0011111.11      N
+13-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0027000.00      N
+13-06-2021      PELO.ARBOL.RUEDA                Sentander       ACEITUNA.UVA.PERA               Patagania       0015000.00      N
+13-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0150000.00      N
+13-06-2021      SOL.LUNA.PLANETA                YCBC            TREN.COMPUTADORA.MUEBLE         Patagania       0025000.00      N
+13-06-2021      PIZZA.CASA.FAROL                Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0222000.00      N
+13-06-2021      TORTA.FRIJOL.CUERDA             Sentander       PIZZA.CASA.FAROL                Patagania       0028000.00      N
+13-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            TAZA.PLATO.TENEDOR              Patagania       0010000.00      N
+13-06-2021      VENTILADOR.PARED.PISO           YCBC            TORNILLO.PESA.MESA              Patagania       0050000.00      N
+14-06-2021      CALESITA.CABALLO.AUTO           Sentander       TORNILLO.PESA.MESA              Patagania       0100000.00      N
+14-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0044000.00      N
+14-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            BALCON.TERRAZA.TECHO            Patagania       0015000.00      N
+14-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0077000.00      N
+14-06-2021      TORTA.FRIJOL.CUERDA             Sentander       BALCON.TERRAZA.TECHO            Patagania       0250000.00      N
+14-06-2021      CAMA.ARBOL.MARIPOSA             YCBC            ENCHUFE.VENTANA.REJA            Patagania       0023000.00      N
+14-06-2021      CALESITA.CABALLO.AUTO           Sentander       ACEITUNA.UVA.PERA               Patagania       0022000.00      N
+15-06-2021      NOTEBOOK.ARMARIO.CAJON          Sentander       ENCHUFE.VENTANA.REJA            Patagania       0123000.00      N
+15-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0099000.00      N
+15-06-2021      SOL.LUNA.PLANETA                YCBC            BALCON.TERRAZA.TECHO            Patagania       0078000.00      N
+15-06-2021      PIZZA.CASA.FAROL                Patagania       SOL.LUNA.PLANETA                YCBC            0049000.00      N
+15-06-2021      CALESITA.CABALLO.AUTO           Sentander       ACEITUNA.UVA.PERA               Patagania       0321000.00      N
+15-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0345000.00      N
+
+
+Lista recien cargada del archivo cuentas
+ACEITUNA.UVA.PERA       30100200        0045004.53
+BALCON.TERRAZA.TECHO    09876543        0890216.74
+CHOZA.BARCO.SILLA       44555666        0321341.50
+ENCHUFE.VENTANA.REJA    11222333        0050442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0489517.86
+PIZZA.CASA.FAROL        11222333        0050000.00
+TAZA.PLATO.TENEDOR      10101010        0235820.12
+TORNILLO.PESA.MESA      33444555        0123560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0127548.65
+
+Lista Transferencias al terminar el lote 12-06-2021
+12-06-2021      TORTA.FRIJOL.CUERDA             Sentander       PIZZA.CASA.FAROL                Patagania       0025000.00      N
+12-06-2021      TREN.COMPUTADORA.MUEBLE         Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0055000.00      N
+12-06-2021      SOL.LUNA.PLANETA                YCBC            PIZARRA.TIZA.BORRADOR           Patagania       0043000.20      N
+12-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       SOL.LUNA.PLANETA                YCBC            0100000.00      N
+12-06-2021      PELO.ARBOL.RUEDA                Sentander       PIEDRA.PUERTA.PLANTA            Patagania       0010000.00      N
+12-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0025000.00      N
+12-06-2021      TECLADO.MOUSE.MONITOR           YCBC            TREN.COMPUTADORA.MUEBLE         Patagania       0011000.30      N
+12-06-2021      CAMA.ARBOL.MARIPOSA             YCBC            PIZZA.CASA.FAROL                Patagania       0052000.40      N
+
+Lista Cuentas al terminar el lote 12-06-2021
+ACEITUNA.UVA.PERA       30100200        0045004.53
+BALCON.TERRAZA.TECHO    09876543        0890216.74
+CHOZA.BARCO.SILLA       44555666        0321341.50
+ENCHUFE.VENTANA.REJA    11222333        0050442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0532518.06
+PIZZA.CASA.FAROL        11222333        0102000.40
+TAZA.PLATO.TENEDOR      10101010        0235820.12
+TORNILLO.PESA.MESA      33444555        0123560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0083548.95
+
+Lista Transferencias al terminar el lote 13-06-2021
+13-06-2021      TORTA.FRIJOL.CUERDA             Sentander       BALCON.TERRAZA.TECHO            Patagania       0050000.00      N
+13-06-2021      CHOZA.BARCO.SILLA               Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0225000.00      N
+13-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            TAZA.PLATO.TENEDOR              Patagania       0011111.11      N
+13-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0027000.00      N
+13-06-2021      PELO.ARBOL.RUEDA                Sentander       ACEITUNA.UVA.PERA               Patagania       0015000.00      N
+13-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0150000.00      N
+13-06-2021      SOL.LUNA.PLANETA                YCBC            TREN.COMPUTADORA.MUEBLE         Patagania       0025000.00      N
+13-06-2021      PIZZA.CASA.FAROL                Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0222000.00      N
+13-06-2021      TORTA.FRIJOL.CUERDA             Sentander       PIZZA.CASA.FAROL                Patagania       0028000.00      N
+13-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            TAZA.PLATO.TENEDOR              Patagania       0010000.00      N
+13-06-2021      VENTILADOR.PARED.PISO           YCBC            TORNILLO.PESA.MESA              Patagania       0050000.00      N
+
+Lista Cuentas al terminar el lote 13-06-2021
+ACEITUNA.UVA.PERA       30100200        0060004.53
+BALCON.TERRAZA.TECHO    09876543        0940216.74
+CHOZA.BARCO.SILLA       44555666        0096341.50
+ENCHUFE.VENTANA.REJA    11222333        0050442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0532518.06
+PIZZA.CASA.FAROL        11222333        0102000.40
+TAZA.PLATO.TENEDOR      10101010        0256931.23
+TORNILLO.PESA.MESA      33444555        0173560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0108548.95
+
+Lista Transferencias al terminar el lote 14-06-2021
+14-06-2021      CALESITA.CABALLO.AUTO           Sentander       TORNILLO.PESA.MESA              Patagania       0100000.00      N
+14-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0044000.00      N
+14-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            BALCON.TERRAZA.TECHO            Patagania       0015000.00      N
+14-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0077000.00      N
+14-06-2021      TORTA.FRIJOL.CUERDA             Sentander       BALCON.TERRAZA.TECHO            Patagania       0250000.00      N
+14-06-2021      CAMA.ARBOL.MARIPOSA             YCBC            ENCHUFE.VENTANA.REJA            Patagania       0023000.00      N
+14-06-2021      CALESITA.CABALLO.AUTO           Sentander       ACEITUNA.UVA.PERA               Patagania       0022000.00      N
+
+Lista Cuentas al terminar el lote 14-06-2021
+ACEITUNA.UVA.PERA       30100200        0082004.53
+BALCON.TERRAZA.TECHO    09876543        1205216.74
+CHOZA.BARCO.SILLA       44555666        0096341.50
+ENCHUFE.VENTANA.REJA    11222333        0073442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0532518.06
+PIZZA.CASA.FAROL        11222333        0025000.40
+TAZA.PLATO.TENEDOR      10101010        0256931.23
+TORNILLO.PESA.MESA      33444555        0229560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0108548.95
+
+Lista Transferencias al terminar el lote 15-06-2021
+15-06-2021      NOTEBOOK.ARMARIO.CAJON          Sentander       ENCHUFE.VENTANA.REJA            Patagania       0123000.00      N
+15-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0099000.00      N
+15-06-2021      SOL.LUNA.PLANETA                YCBC            BALCON.TERRAZA.TECHO            Patagania       0078000.00      N
+15-06-2021      PIZZA.CASA.FAROL                Patagania       SOL.LUNA.PLANETA                YCBC            0049000.00      N
+15-06-2021      CALESITA.CABALLO.AUTO           Sentander       ACEITUNA.UVA.PERA               Patagania       0321000.00      N
+15-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0345000.00      N
+
+Lista Cuentas al terminar el lote 15-06-2021
+ACEITUNA.UVA.PERA       30100200        0403004.53
+BALCON.TERRAZA.TECHO    09876543        1283216.74
+CHOZA.BARCO.SILLA       44555666        0096341.50
+ENCHUFE.VENTANA.REJA    11222333        0196442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0532518.06
+PIZZA.CASA.FAROL        11222333        0025000.40
+TAZA.PLATO.TENEDOR      10101010        0256931.23
+TORNILLO.PESA.MESA      33444555        0229560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0108548.95
+
+
+Despues de actualizar:
+Cuentas Patagania
+====================================================
+ACEITUNA.UVA.PERA       30100200        0403004.53
+BALCON.TERRAZA.TECHO    09876543        1283216.74
+CHOZA.BARCO.SILLA       44555666        0096341.50
+ENCHUFE.VENTANA.REJA    11222333        0196442.24
+PIEDRA.PUERTA.PLANTA    22333444        0045550.00
+PIZARRA.TIZA.BORRADOR   12345678        0532518.06
+PIZZA.CASA.FAROL        11222333        0025000.40
+TAZA.PLATO.TENEDOR      10101010        0256931.23
+TORNILLO.PESA.MESA      33444555        0229560.00
+TREN.COMPUTADORA.MUEBLE 22333444        0108548.95
+
+Transferencias Patagania
+====================================================
+12-06-2021      TORTA.FRIJOL.CUERDA             Sentander       PIZZA.CASA.FAROL                Patagania       0025000.00      S
+12-06-2021      TREN.COMPUTADORA.MUEBLE         Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0055000.00      S
+12-06-2021      SOL.LUNA.PLANETA                YCBC            PIZARRA.TIZA.BORRADOR           Patagania       0043000.20      S
+12-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       SOL.LUNA.PLANETA                YCBC            0100000.00      N
+12-06-2021      PELO.ARBOL.RUEDA                Sentander       PIEDRA.PUERTA.PLANTA            Patagania       0010000.00      N
+12-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0025000.00      S
+12-06-2021      TECLADO.MOUSE.MONITOR           YCBC            TREN.COMPUTADORA.MUEBLE         Patagania       0011000.30      S
+12-06-2021      CAMA.ARBOL.MARIPOSA             YCBC            PIZZA.CASA.FAROL                Patagania       0052000.40      S
+13-06-2021      TORTA.FRIJOL.CUERDA             Sentander       BALCON.TERRAZA.TECHO            Patagania       0050000.00      S
+13-06-2021      CHOZA.BARCO.SILLA               Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0225000.00      S
+13-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            TAZA.PLATO.TENEDOR              Patagania       0011111.11      S
+13-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0027000.00      N
+13-06-2021      PELO.ARBOL.RUEDA                Sentander       ACEITUNA.UVA.PERA               Patagania       0015000.00      S
+13-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0150000.00      N
+13-06-2021      SOL.LUNA.PLANETA                YCBC            TREN.COMPUTADORA.MUEBLE         Patagania       0025000.00      S
+13-06-2021      PIZZA.CASA.FAROL                Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0222000.00      N
+13-06-2021      TORTA.FRIJOL.CUERDA             Sentander       PIZZA.CASA.FAROL                Patagania       0028000.00      N
+13-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            TAZA.PLATO.TENEDOR              Patagania       0010000.00      S
+13-06-2021      VENTILADOR.PARED.PISO           YCBC            TORNILLO.PESA.MESA              Patagania       0050000.00      S
+14-06-2021      CALESITA.CABALLO.AUTO           Sentander       TORNILLO.PESA.MESA              Patagania       0100000.00      S
+14-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0044000.00      S
+14-06-2021      MANIJA.PEDESTAL.ESTATUA         YCBC            BALCON.TERRAZA.TECHO            Patagania       0015000.00      S
+14-06-2021      PIZZA.CASA.FAROL                Patagania       TORTA.FRIJOL.CUERDA             Sentantander    0077000.00      S
+14-06-2021      TORTA.FRIJOL.CUERDA             Sentander       BALCON.TERRAZA.TECHO            Patagania       0250000.00      S
+14-06-2021      CAMA.ARBOL.MARIPOSA             YCBC            ENCHUFE.VENTANA.REJA            Patagania       0023000.00      S
+14-06-2021      CALESITA.CABALLO.AUTO           Sentander       ACEITUNA.UVA.PERA               Patagania       0022000.00      S
+15-06-2021      NOTEBOOK.ARMARIO.CAJON          Sentander       ENCHUFE.VENTANA.REJA            Patagania       0123000.00      S
+15-06-2021      PIEDRA.PUERTA.PLANTA            Patagania       PELO.ARBOL.RUEDA                Sentantander    0099000.00      N
+15-06-2021      SOL.LUNA.PLANETA                YCBC            BALCON.TERRAZA.TECHO            Patagania       0078000.00      S
+15-06-2021      PIZZA.CASA.FAROL                Patagania       SOL.LUNA.PLANETA                YCBC            0049000.00      N
+15-06-2021      CALESITA.CABALLO.AUTO           Sentander       ACEITUNA.UVA.PERA               Patagania       0321000.00      S
+15-06-2021      TORNILLO.PESA.MESA              Patagania       CAMISA.TELEVISOR.ESTANTE        YCBC            0345000.00      N

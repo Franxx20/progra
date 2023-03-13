@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677626276 source:c:\users\franq\desktop\vectorenteros\main.cpp
+	<iostream>
+	"VectorEnteros.h"
+	<stdio.h>
+
+1677624626 c:\users\franq\desktop\vectorenteros\include\vectorenteros.h
+	<iostream>
+
+1677627988 source:c:\users\franq\desktop\vectorenteros\src\vectorenteros.cpp
+	"VectorEnteros.h"
+

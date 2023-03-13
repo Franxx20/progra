@@ -1,0 +1,98 @@
+void crearPila(Pila* pp)
+{
+    *pp = NULL;
+}
+
+booleano apilar(Pila* pp, const void* elem, size_t tamElem)
+{
+    Nodo* nue = (Nodo*)malloc(sizeof(Nodo));
+    void* elemNodo = malloc(tamElem);
+
+    if(!nue || !elemNodo)
+    {
+        free(nue);
+        free(elemNodo);
+        return FALSO;
+    }
+
+    if(*pp)
+    {
+        nue->sig = (*pp)->sig;
+        (*pp)->sig = nue;
+    }
+    else
+    {
+        *pp = nue;
+        nue->sig = nue;
+    }
+
+    memcpy(elemNodo, elem, tamElem);
+
+    return VERDADERO;
+}
+
+booleano desapilar(Pila* pp, void* elem, size_t tamElem)
+{
+    if(!*pp)
+        return FALSO;
+
+    Nodo* nae = (*pp)->sig;
+
+    if(nae != (*pp))
+        (*pp)->sig = nae->sig;
+    else
+        *pp = NULL;
+
+    memcpy(elem, nae->elem, min(tamElem, nae->tamElem));
+
+    free(nae->elem);
+    free(nae);
+
+    return VERDADERO;
+}
+
+booleano verTopeDePila(const Pila* pp, void* elem, size_t tamElem)
+{
+    if(!*pp)
+        return FALSO;
+
+    Nodo* tope = (*pp)->sig;
+
+    memcpy(elem, tope->elem, min(tope->tamElem, tamElem));
+
+    return VERDADERO;
+}
+
+booleano pilaVacia(const Pila* pp)
+{
+    return(!*pp);
+}
+
+booleano pilaLlena(const Pila* pp, size_t tamElem)
+{
+    void* nodo = malloc(sizeof(Nodo));
+    void* elem = malloc(tamElem);
+
+    free(nodo);
+    free(elem);
+
+    return(!nodo || !elem);
+}
+
+void vaciarPila(Pila* pp)
+{
+    Nodo* nae = (*pp)->sig;
+
+    while(nae != *pp)
+    {
+        (*pp)->sig = nae->sig;
+
+       free(nae->elem);
+       free(nae);
+
+       nae = (*pp)->sig;
+    }
+
+    free(nae->elem);
+    free(nae);
+}

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1660832282 source:/home/pilum/programacion/C/Fecha/main.c
+	"Fecha.h"
+	<stdio.h>
+	<stdlib.h>
+
+1660832064 source:/home/pilum/programacion/C/Fecha/Fecha.c
+	"Fecha.h"
+	<stdio.h>
+
+1660831690 /home/pilum/programacion/C/Fecha/Fecha.h
+
+1661432829 source:/home/pilum/Facultad/programacion/C/Fecha/Fecha.c
+	"Fecha.h"
+	<stdio.h>
+
+1661431123 /home/pilum/Facultad/programacion/C/Fecha/Fecha.h
+
+1661432900 source:/home/pilum/Facultad/programacion/C/Fecha/main.c
+	"Fecha.h"
+	<stdio.h>
+	<stdlib.h>
+

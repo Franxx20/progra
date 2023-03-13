@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1676932340 source:c:\users\seba_\onedrive\escritorio\programacion\matrizraga\main.c
+	"Funciones.h"
+
+1676931877 c:\users\seba_\onedrive\escritorio\programacion\matrizraga\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+
+1676932321 source:c:\users\seba_\onedrive\escritorio\programacion\matrizraga\funciones.c
+	"Funciones.h"
+

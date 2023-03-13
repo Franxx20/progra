@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677328195 source:c:\users\laboratorios\desktop\proyectocplusplus\main.cpp
+	<iostream>
+	"Cadena.h"
+
+1677334065 c:\users\laboratorios\desktop\proyectocplusplus\cadena.h
+	<string.h>
+	<iostream>
+
+1677334072 source:c:\users\laboratorios\desktop\proyectocplusplus\cadena.cpp
+	"Cadena.h"
+

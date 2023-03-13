@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1638119211 source:d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\2doparcialbonificacionclientes\main.c
+	<stdio.h>
+	"../Solucion2doParcialBonificacionClientes/Utilitarias2doParcialBonificacionClientes.h"
+	"../Solucion2doParcialBonificacionClientes/Solucion2doParcialBonificacionClientes.h"
+	"../Solucion2doParcialBonificacionClientes/TiposArchivos.h"
+	"../TDAArbol/TDAArbol.h"
+	"../TDALista/TDALista.h"
+
+1638109739 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\solucion2doparcialbonificacionclientes\utilitarias2doparcialbonificacionclientes.h
+
+1638106215 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\solucion2doparcialbonificacionclientes\solucion2doparcialbonificacionclientes.h
+
+1638110849 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\solucion2doparcialbonificacionclientes\tiposarchivos.h
+
+1638104328 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\tdaarbol\tdaarbol.h
+	"../Comun/Comun.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1636840239 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\comun\comun.h
+
+1624891480 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1638113870 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\nodo\nodoa.h
+	<stddef.h>
+
+1638060015 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1623682906 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1638059877 d:\2021-11-30_2dop_bonificacion_clientes_entregable\c_32_bits\nodo\nodod.h
+	<stddef.h>
+

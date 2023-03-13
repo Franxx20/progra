@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667830942 source:c:\users\laboratorios\desktop\pruebaarbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Arbol/Arbol.h"
+
+1667830508 c:\users\laboratorios\desktop\arbol\arbol.h
+	<stdio.h>
+

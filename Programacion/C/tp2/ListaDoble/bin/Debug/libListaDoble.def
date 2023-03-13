@@ -1,0 +1,7 @@
+EXPORTS
+    crearLista @1
+    crearNodo @2
+    destruirNodo @3
+    listaLlena @4
+    listaVacia @5
+    vaciarLista @6

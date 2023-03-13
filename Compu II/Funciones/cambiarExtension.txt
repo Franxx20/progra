@@ -1,0 +1,9 @@
+char* cambiarExtension_alu(char* cadena, const char* extension)
+{
+    char* resultado = (char*)malloc(strlen(cadena));
+    memcpy(resultado, cadena, strlen(cadena));
+    *(strrchr(resultado, '.')) = '\0';
+    strcat(resultado, extension);
+
+    return resultado;
+}

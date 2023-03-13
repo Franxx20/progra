@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1677344898 source:c:\users\franq\desktop\final-04-08-2021\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1677525821 source:c:\users\franq\desktop\final febrero progra\final-04-08-2021\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

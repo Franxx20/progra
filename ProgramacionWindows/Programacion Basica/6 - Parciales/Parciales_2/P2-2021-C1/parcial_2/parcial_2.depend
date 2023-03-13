@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1637871691 source:/home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/parcial_2/funres.c
+	<stdio.h>
+	<string.h>
+	"funres.h"
+
+1637871473 /home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/parcial_2/funres.h
+	"lista/lista.h"
+
+1637871002 source:/home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/parcial_2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funres.h"
+
+1637871431 /home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/parcial_2/lista/lista.h
+	<stdio.h>
+
+1637871614 source:/home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/parcial_2/lista/lista.c
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+

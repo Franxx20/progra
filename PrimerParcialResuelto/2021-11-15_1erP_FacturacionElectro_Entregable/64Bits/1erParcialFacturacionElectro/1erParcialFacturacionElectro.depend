@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1653869482 source:c:\users\agost_000\desktop\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\1erparcialfacturacionelectro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Comun/Comun.h"
+	"../Nodo/Nodo.h"
+	"../TDALista/TDALista.h"
+	"../Fecha/Fecha.h"
+	"../SolucionFacturacionElectro/SolucionFacturacionElectro.h"
+
+1636840239 c:\users\agost_000\desktop\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\comun\comun.h
+
+1636916330 c:\users\agost_000\desktop\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\solucionfacturacionelectro\solucionfacturacionelectro.h
+	"../Fecha/Fecha.h"
+
+1636900603 c:\users\agost_000\desktop\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\fecha\fecha.h
+
+1636840232 c:\users\agost_000\desktop\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\nodo\nodo.h
+	<stddef.h>
+
+1653865111 c:\users\agost_000\desktop\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+
+1653926678 source:c:\users\código86\desktop\unlam\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\1erparcialfacturacionelectro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Comun/Comun.h"
+	"../Nodo/Nodo.h"
+	"../TDALista/TDALista.h"
+	"../Fecha/Fecha.h"
+	"../SolucionFacturacionElectro/SolucionFacturacionElectro.h"
+
+1636840240 c:\users\código86\desktop\unlam\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\comun\comun.h
+
+1636840234 c:\users\código86\desktop\unlam\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\nodo\nodo.h
+	<stddef.h>
+
+1653865112 c:\users\código86\desktop\unlam\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+
+1636900604 c:\users\código86\desktop\unlam\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\fecha\fecha.h
+
+1636916332 c:\users\código86\desktop\unlam\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\solucionfacturacionelectro\solucionfacturacionelectro.h
+	"../Fecha/Fecha.h"
+
+1667061793 source:d:\codigo86\escritorio\programación i\parciales\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\1erparcialfacturacionelectro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Comun/Comun.h"
+	"../Nodo/Nodo.h"
+	"../TDALista/TDALista.h"
+	"../Fecha/Fecha.h"
+	"../SolucionFacturacionElectro/SolucionFacturacionElectro.h"
+
+1636840240 d:\codigo86\escritorio\programación i\parciales\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\comun\comun.h
+
+1636840234 d:\codigo86\escritorio\programación i\parciales\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\nodo\nodo.h
+	<stddef.h>
+
+1653865112 d:\codigo86\escritorio\programación i\parciales\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+
+1636900604 d:\codigo86\escritorio\programación i\parciales\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\fecha\fecha.h
+
+1636916332 d:\codigo86\escritorio\programación i\parciales\2021-11-15_1erp_facturacionelectro_entregable\2021-11-15_1erp_facturacionelectro_entregable\64bits\solucionfacturacionelectro\solucionfacturacionelectro.h
+	"../Fecha/Fecha.h"
+

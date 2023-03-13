@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1638498417 source:h:\userdata\facultad\programmin_v2\2021-11-30_2dop_bonificacion_clientes_entregable\racionalcpp\racional.cpp
+	"Racional.h"
+
+1638498772 h:\userdata\facultad\programmin_v2\2021-11-30_2dop_bonificacion_clientes_entregable\racionalcpp\racional.h
+	"ostream"
+
+1638498744 source:h:\userdata\facultad\programmin_v2\2021-11-30_2dop_bonificacion_clientes_entregable\racionalcpp\main.cpp
+	<iostream>
+	"Racional.h"
+

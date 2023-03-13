@@ -1,0 +1,1 @@
+#include "RectaException.h"

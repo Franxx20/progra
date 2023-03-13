@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1666572841 source:/home/pilum/Facultad/programacion2c/C/tp2/testLista4/main.c
+	"../Lista4/Lista.h"
+	<stdio.h>
+	<stdlib.h>
+
+1666571066 /home/pilum/Facultad/programacion2c/C/tp2/Lista4/Lista.h
+	<stdbool.h>
+
+1666975442 source:d:\programacion\c\tp2\testlista4\main.c
+	"../Lista4/Lista.h"
+	<stdio.h>
+	<stdlib.h>
+
+1666975440 d:\programacion\c\tp2\lista4\lista.h
+	<stdbool.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1662063770 source:/home/pilum/Facultad/programacion2c/C/Vector/main.c
+	"Vector.h"
+	<stdio.h>
+	<stdlib.h>
+
+1662063761 /home/pilum/Facultad/programacion2c/C/Vector/Vector.h
+	<stdbool.h>
+
+1662063768 source:/home/pilum/Facultad/programacion2c/C/Vector/Vector.c
+	"Vector.h"
+	<stdbool.h>
+	<stdio.h>
+

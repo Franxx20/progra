@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1663599052 source:c:\users\laboratorios.unlmlab\desktop\archivos\merge\main.c
+	<stdio.h>
+	<stdlib.h>
+	"merge.h"
+
+1663597779 c:\users\laboratorios.unlmlab\desktop\archivos\merge\merge.h
+	<stdbool.h>
+
+1663599860 source:c:\users\laboratorios.unlmlab\desktop\archivos\merge\merge.c
+	"merge.h"
+	<stdio.h>
+	<string.h>
+

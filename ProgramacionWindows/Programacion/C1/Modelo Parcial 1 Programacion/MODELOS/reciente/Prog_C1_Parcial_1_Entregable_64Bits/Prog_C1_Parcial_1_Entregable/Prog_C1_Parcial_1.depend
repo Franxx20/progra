@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1622723743 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\main.c
+	"main.h"
+
+1622663226 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\main.h
+	<stdio.h>
+	"funciones.h"
+	"que_hice.h"
+	<stdlib.h>
+	<string.h>
+
+1622673100 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\funciones.h
+	<stdio.h>
+	"que_hice.h"
+	"tda_definiciones.h"
+
+1622666694 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\que_hice.h
+
+1622643290 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\tda_definiciones.h
+
+1623895023 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\funciones.c
+	"funciones.h"
+
+1622723743 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\main.c
+	"main.h"
+
+1622663226 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\main.h
+	<stdio.h>
+	"funciones.h"
+	"que_hice.h"
+	<stdlib.h>
+	<string.h>
+
+1622673100 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\funciones.h
+	<stdio.h>
+	"que_hice.h"
+	"tda_definiciones.h"
+
+1622666694 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\que_hice.h
+
+1622643290 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\reciente\prog_c1_parcial_1_entregable_64bits\prog_c1_parcial_1_entregable\tda_definiciones.h
+

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1638399955 source:/home/phosu/Documents/Programacion/finales/08_04-2/final_C/lista/lista_simple.c
+	<stdlib.h>
+	<string.h>
+	"lista_simple.h"
+
+1638399872 /home/phosu/Documents/Programacion/finales/08_04-2/final_C/lista/lista_simple.h
+	<stdio.h>
+
+1638399771 source:/home/phosu/Documents/Programacion/finales/08_04-2/final_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	"res/res.h"
+
+1638400290 /home/phosu/Documents/Programacion/finales/08_04-2/final_C/res/res.h
+
+1638399854 source:/home/phosu/Documents/Programacion/finales/08_04-2/final_C/res/res.c
+	<stdio.h>
+	<string.h>
+	"../lista/lista_simple.h"
+	"res.h"
+

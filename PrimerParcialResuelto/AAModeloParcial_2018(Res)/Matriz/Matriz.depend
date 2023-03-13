@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1571778064 source:c:\users\lab265\desktop\mel y lu\matriz\funciones.c
+	"matriz.h"
+
+1571778064 c:\users\lab265\desktop\mel y lu\matriz\matriz.h
+	<stdio.h>
+	<stdlib.h>
+
+1571778064 source:c:\users\lab265\desktop\mel y lu\matriz\main.c
+	"matriz.h"
+

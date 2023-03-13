@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1638654087 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectas\punto.cpp
+	"Punto.h"
+
+1638651327 h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectas\punto.h
+	"ostream"
+
+1638717403 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectas\recta.cpp
+	"Recta.h"
+
+1638717382 h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectas\recta.h
+	"float.h"
+	"stdlib.h"
+	"math.h"
+	"Punto.h"
+
+1638717622 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectas\main.cpp
+	<iostream>
+	"Punto.h"
+	"Recta.h"
+
+1638717622 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectascpp\main.cpp
+	<iostream>
+	"Punto.h"
+	"Recta.h"
+
+1638651327 h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectascpp\punto.h
+	"ostream"
+
+1638717382 h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectascpp\recta.h
+	"float.h"
+	"stdlib.h"
+	"math.h"
+	"Punto.h"
+
+1638654087 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\puntosyrectascpp\punto.cpp
+	"Punto.h"
+

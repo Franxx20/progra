@@ -1,0 +1,10 @@
+#ifndef TDACOLAIMPLDINAMICACIRCULAR_H
+#define TDACOLAIMPLDINAMICACIRCULAR_H
+
+#include "../Nodo/Nodo.h"
+
+
+typedef Nodo* Cola;
+
+
+#endif // TDACOLAIMPLDINAMICACIRCULAR_H

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1626100727 source:c:\users\cb\desktop\2021_07_12_2doparcial_entregable_64bits\puntosyrectascpp\main.cpp
+	<iostream>
+	"Punto.h"
+	"Recta.h"
+
+1626105521 c:\users\cb\desktop\2021_07_12_2doparcial_entregable_64bits\puntosyrectascpp\punto.h
+	<iostream>
+
+1626105625 c:\users\cb\desktop\2021_07_12_2doparcial_entregable_64bits\puntosyrectascpp\recta.h
+	"Punto.h"
+	<iostream>
+
+1626102769 source:c:\users\cb\desktop\2021_07_12_2doparcial_entregable_64bits\puntosyrectascpp\punto.cpp
+	<math.h>
+	"Punto.h"
+
+1626105150 source:c:\users\cb\desktop\2021_07_12_2doparcial_entregable_64bits\puntosyrectascpp\recta.cpp
+	<math.h>
+	"Punto.h"
+	"Recta.h"
+

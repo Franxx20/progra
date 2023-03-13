@@ -1,0 +1,133 @@
+void crearCola_alu(Cola* pc)
+{
+    pc->frente = pc->fondo = 0; 
+    pc->tamDisponible=TAM_COLA;
+
+}
+
+void encolarSegmentado_alu(Cola* pc,const void* elem, size_t tamElem)
+{
+    size_t tamContiguo;
+    size_t cantACopiar1,cantACopiar2;
+
+    tamContiguo = pc->frente > pc->fondo? pc->tamDisponible: TAM_COLA - pc->fondo;
+
+    cantACopiar1 = MIN(tamElem,tamContiguo);
+    cantACopiar2 = tamElem - cantACopiar1;
+
+    memcpy(pc->vec + pc->fondo,elem,tamContiguo);
+    pc->fondo= (pc->fondo + cantACopiar1) % TAM_COLA;
+
+    if(cantACopiar2 > 0)
+    {
+        memcpy(pc->vec,elem + cantACopiar1,cantACopiar2);
+        pc->fondo += cantACopiar2;
+    }
+
+    pc->tamDisponible -= tamElem;
+
+}
+
+booleano encolar_alu(Cola* pc,const void* elem,size_t tamElem)
+{
+    if(tamElem + sizeof(size_t) > pc->tamDisponible)
+    {
+        return FALSO;
+    }
+
+    encolarSegmentado_alu(pc,&tamElem,sizeof(size_t));
+    encolarSegmentado_alu(pc,elem,tamElem);
+
+    pc->tamDisponible-=tamElem + sizeof(size_t);
+
+    return VERDADERO;
+}
+
+booleano desencolar_alu(Cola* pc,void* elem,size_t tamElem)
+{
+    if(pc->tamDisponible==TAM_COLA)
+    {
+        return FALSO;
+    }
+
+    size_t tamElemEncolado;
+
+    desencolarSegmentado_alu(pc,&tamElemEncolado,sizeof(size_t),sizeof(size_t));
+    desencolarSegmentado_alu(pc,elem,MIN(tamElemEncolado,tamElem),tamElemEncolado);
+}
+
+booleano verFrenteDeCola_alu(Cola* pc,void* elem, size_t tamElem)
+{
+    if(pc->tamDisponible==TAM_COLA)
+    {
+        return FALSO;
+    }
+
+    size_t tamElemEncolado;
+    unsigned frente = pc->frente;
+
+    desencolarSegmentado_alu(pc,&tamElemEncolado,sizeof(size_t),sizeof(size_t));
+    verFrenteSegmentado_alu(pc,elem,MIN(tamElemEncolado,tamElem),tamElemEncolado);
+    pc->frente=frente;
+}
+
+booleano colaVacia_alu(Cola* pc)
+{
+    return pc->tamDisponible == TAM_COLA;
+}
+
+booleano colaLLena_alu(Cola* pc,size_t tamElem)
+{
+    return tamElem + sizeof(size_t) > pc->tamDisponible;
+}
+
+void vaciarCola_alu(Cola* pc)
+{
+    pc->frente=pc->fondo=0;
+    pc->tamDisponible=TAM_COLA;
+}
+
+void verFrenteSegmentado_alu(const Cola* pc,void* elem, size_t tamElem, size_t tamElemEncolado)
+{
+    size_t cantACopiarTotal,cantACopiar1,cantACopiar2,tamElemContiguo;
+    unsigned frente = pc->frente;
+
+    cantACopiarTotal = MIN(tamElem,tamElemEncolado);
+
+    tamElemContiguo = frente > pc->fondo? MIN(tamElemEncolado,TAM_COLA-frente):tamElemEncolado;
+
+    cantACopiar1= MIN(tamElemContiguo,cantACopiarTotal);
+    cantACopiar2= cantACopiarTotal - cantACopiar1;
+
+    memcpy(elem,pc->vec + frente,cantACopiar1);
+
+    if(cantACopiar2>0)
+    {
+        memcpy(elem + cantACopiar1,pc->vec,cantACopiar2);   
+    }
+}
+
+void desencolarSegmentado_alu(Cola* pc,void* elem, size_t tamElem, size_t tamElemEncolado)
+{
+    size_t cantACopiarTotal,cantACopiar1,cantACopiar2,tamElemContiguo;
+
+    cantACopiarTotal = MIN(tamElem,tamElemEncolado);
+
+    tamElemContiguo = pc->frente > pc->fondo? MIN(tamElemEncolado,TAM_COLA-pc->frente):tamElemEncolado;
+
+    cantACopiar1= MIN(tamElemContiguo,cantACopiarTotal);
+    cantACopiar2= cantACopiarTotal - cantACopiar1;
+
+    memcpy(elem,pc->vec + pc->frente,cantACopiar1);
+    pc->frente = (pc->frente+tamElemContiguo) % TAM_COLA;
+
+    if(cantACopiar2>0)
+    {
+        memcpy(elem + cantACopiar1,pc->vec,cantACopiar2);   
+    }
+
+    pc->frente+=tamElemEncolado-tamElemContiguo;
+
+    pc->tamDisponible+=tamElemEncolado;
+}
+

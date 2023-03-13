@@ -1,0 +1,101 @@
+# depslib dependency file v1.0
+1669845759 source:d:\bibliotecas\escritorio\modelohacer\parcialdelivery\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDACola/TDACola.h"
+	"../TDALista/TDALista.h"
+	"../SolucionDelivery/TiposDelivery.h"
+	"../SolucionDelivery/SolucionDelivery.h"
+	"../Utilitarias/Utilitarias.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\tdacola\tdacola.h
+	<stddef.h>
+	<stdbool.h>
+	"../TDAColaImplDinamica/TDAColaImplDinamica.h"
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\tdacolaimpldinamica\tdacolaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\nodo\nodo.h
+	<stddef.h>
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1669639416 d:\bibliotecas\escritorio\modelohacer\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\comun\comun.h
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\nodo\nodod.h
+	<stddef.h>
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\soluciondelivery\tiposdelivery.h
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\soluciondelivery\soluciondelivery.h
+	<stdio.h>
+	"TiposDelivery.h"
+
+1669588162 d:\bibliotecas\escritorio\modelohacer\utilitarias\utilitarias.h
+	"../Comun/Comun.h"
+
+1676245037 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\parcialdelivery\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDACola/TDACola.h"
+	"../TDALista/TDALista.h"
+	"../SolucionDelivery/TiposDelivery.h"
+	"../SolucionDelivery/SolucionDelivery.h"
+	"../Utilitarias/Utilitarias.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\tdacola\tdacola.h
+	<stddef.h>
+	<stdbool.h>
+	"../TDAColaImplDinamica/TDAColaImplDinamica.h"
+	"../TDAColaImplDinamicaCircular/TDAColaImplDinamicaCircular.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\tdacolaimpldinamica\tdacolaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\nodo\nodo.h
+	<stddef.h>
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\tdacolaimpldinamicacircular\tdacolaimpldinamicacircular.h
+	"../Nodo/Nodo.h"
+
+1669639416 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\tdalista\tdalista.h
+	"../Comun/Comun.h"
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\comun\comun.h
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\nodo\nodod.h
+	<stddef.h>
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\soluciondelivery\tiposdelivery.h
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\soluciondelivery\soluciondelivery.h
+	<stdio.h>
+	"TiposDelivery.h"
+
+1669588162 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\parcial ingredientes\modelohacer\utilitarias\utilitarias.h
+	"../Comun/Comun.h"
+

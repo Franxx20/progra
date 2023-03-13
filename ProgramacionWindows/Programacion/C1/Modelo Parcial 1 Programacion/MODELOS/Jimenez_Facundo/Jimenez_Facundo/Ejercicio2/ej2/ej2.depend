@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1623451223 source:d:\users\facu\desktop\parcial programacion\ejercicio2\ej2\main.cpp
+	<iostream>
+	"Complejo.h"
+
+1623465038 d:\users\facu\desktop\parcial programacion\ejercicio2\ej2\complejo.h
+	<iostream>
+
+1623465004 source:d:\users\facu\desktop\parcial programacion\ejercicio2\ej2\complejo.cpp
+	"Complejo.h"
+
+1623465004 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\jimenez_facundo\jimenez_facundo\ejercicio2\ej2\complejo.cpp
+	"Complejo.h"
+
+1623465096 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\jimenez_facundo\jimenez_facundo\ejercicio2\ej2\complejo.h
+	<iostream>
+
+1623451223 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\jimenez_facundo\jimenez_facundo\ejercicio2\ej2\main.cpp
+	<iostream>
+	"Complejo.h"
+

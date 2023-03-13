@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1668396187 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\parciales\parciales\2022-07-11_recmueblesenunc\2022-07-11_recmueblesenunc\productoscpp\main.cpp
+	<iostream>
+	<string.h>
+	"ProductoConDescuento.h"
+

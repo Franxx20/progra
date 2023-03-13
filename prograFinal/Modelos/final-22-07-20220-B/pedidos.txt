@@ -1,0 +1,4 @@
+lap|a|40
+cua|b|40
+cartu|d|50
+Hojas|e|1000

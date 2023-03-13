@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1638738411 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\complejocpp\complejo.cpp
+	"Complejo.h"
+
+1638738398 h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\complejocpp\complejo.h
+	"iostream"
+
+1638738275 source:h:\userdata\facultad\programmin_v2\parciales\pan\c_plus_plus\complejocpp\main.cpp
+	<iostream>
+	"Complejo.h"
+

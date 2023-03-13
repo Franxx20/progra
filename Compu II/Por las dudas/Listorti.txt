@@ -1,0 +1,709 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <memory.h>
+#include "prototipos.h"
+
+NodoD* crearNodoD_alu(const void* elem, size_t tamElem)
+{
+    NodoD* nue = (NodoD*)malloc(sizeof(NodoD));
+    void* elemNodo = malloc(tamElem);
+
+    if(!nue || !elemNodo)
+    {
+        free(nue);
+        free(elemNodo);
+        return NULL;
+    }
+
+    memcpy(elemNodo, elem, tamElem);
+
+    nue->elem = elemNodo;
+    nue->tamElem = tamElem;
+    nue->sig = NULL;
+    nue->ant = NULL;
+
+    return nue;
+}
+
+
+void destruirNodoD_alu(NodoD* nae, void* elem, size_t tamElem)
+{
+    memcpy(elem, nae->elem, min(tamElem, nae->tamElem));
+    free(nae->elem);
+    free(nae);
+}
+
+
+///////////////////////////////////////////////
+
+void crearLista_alu(Lista* pl)
+{
+    *pl = NULL;
+}
+
+
+int insertarEnlistaOrd_alu(Lista* pl, const void* elem, size_t tamElem, Cmp cmp)
+{
+    NodoD* act = *pl;
+    NodoD* ant = NULL, * sig = NULL;
+
+    if(act)
+    {
+        while(act->ant && cmp(elem, act->elem) < 0)
+        {
+            act = act->ant;
+        }
+
+        while(act->sig && cmp(elem, act->elem) > 0)
+        {
+            act = act->sig;
+        }
+
+        int comp = cmp(elem, act->elem);
+
+        if(comp == 0)
+        {
+            return DUPLICADO;
+        }
+
+        if(comp < 0)
+        {
+            sig = act;
+            ant = act->ant;
+        }
+        else
+        {
+            ant = act;
+            sig = act->sig;
+        }
+    }
+
+    NodoD* nue = crearNodoD_alu(elem, tamElem);
+
+    if(!nue)
+    {
+        return SIN_MEM;
+    }
+    nue->ant = ant;
+    nue->sig = sig;
+
+    if(ant)
+    {
+        ant->sig = nue;
+    }
+
+    if(sig)
+    {
+        sig->ant = nue;
+    }
+
+    *pl = nue;
+
+    return TODO_OK;
+}
+
+
+int insertarEnlistaOrdDup_alu(Lista* pl, const void* elem, size_t tamElem, Cmp cmp)
+{
+    NodoD* act = *pl;
+    NodoD* ant = NULL, * sig = NULL;
+
+    if(act)
+    {
+        while(act->ant && cmp(elem, act->elem) < 0)
+        {
+            act = act->ant;
+        }
+
+        while(act->sig && cmp(elem, act->elem) > 0)
+        {
+            act = act->sig;
+        }
+
+        int comp = cmp(elem, act->elem);
+
+        if(comp == 0)
+        {
+            return DUPLICADO;
+        }
+
+        if(comp < 0)
+        {
+            sig = act;
+            ant = act->ant;
+        }
+        else
+        {
+            ant = act;
+            sig = act->sig;
+        }
+    }
+
+    NodoD* nue = crearNodoD_alu(elem, tamElem);
+
+    if(!nue)
+    {
+        return SIN_MEM;
+    }
+    nue->ant = ant;
+    nue->sig = sig;
+
+    if(ant)
+    {
+        ant->sig = nue;
+    }
+
+    if(sig)
+    {
+        sig->ant = nue;
+    }
+
+    *pl = nue;
+
+    return TODO_OK;
+}
+
+
+Booleano eliminarDeListaOrd_alu(Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    if(!*pl)
+    {
+        return FALSO;
+    }
+
+    NodoD* nae = *pl;
+
+    while(nae->ant && cmp(elem, nae->elem) < 0)
+    {
+        nae = nae->ant;
+    }
+
+    while(nae->sig && cmp(elem, nae->elem) > 0)
+    {
+        nae = nae->sig;
+    }
+
+    if(cmp(elem, nae->elem) != 0)
+    {
+        return FALSO;
+    }
+
+    if(nae->ant)
+    {
+        nae->ant->sig = nae->sig;
+    }
+
+    if(nae->sig)
+    {
+        nae->sig->ant = nae->ant;
+    }
+
+    if(nae == *pl)
+    {
+        if(nae->sig)
+        {
+            *pl = nae->sig;
+        }
+        else
+        {
+            *pl = nae->ant;
+        }
+    }
+
+    destruirNodoD_alu(nae, elem, tamElem);
+
+    return VERDADERO;
+}
+
+
+int sacarDeListaComienzo_alu(Lista* pl, void* elem, size_t tamElem) // anda mal
+{
+    NodoD* act = *pl;
+
+    if(!*pl)
+    {
+        return 0; //lista vacia
+    }
+
+    while(act->ant)
+    {
+        act = act->ant;
+    }
+
+    NodoD* nae = act;
+
+    if(nae == *pl)
+    {
+        *pl = nae->sig;
+    }
+
+    if(act->sig)
+    {
+        act->sig->ant = NULL;
+    }
+
+    destruirNodoD_alu(nae, elem, tamElem);
+
+    return 1;
+}
+
+
+int sacarDeListaFinal_alu(Lista* pl, void* elem, size_t tamElem)
+{
+    NodoD* nae = *pl;
+
+    if(!*pl)
+    {
+        return 0;
+    }
+
+    while(nae->sig)
+    {
+        nae = nae->sig;
+    }
+
+    if(*pl == nae)
+    {
+        if(nae->ant)
+        {
+            *pl = nae->ant;
+        }
+        else
+        {
+            *pl = NULL;
+        }
+    }
+
+    if(nae->ant)
+    {
+        nae->ant->sig = NULL;
+    }
+
+    destruirNodoD_alu(nae, elem, tamElem);
+
+    return 1;
+}
+
+
+int insertarEnListaAlFinal_alu(Lista* pl, const void* elem, size_t tamElem)
+{
+    NodoD* act = *pl;
+
+    NodoD* nue = crearNodoD_alu(elem, tamElem);
+
+    if(!*pl)
+    {
+        *pl = nue;
+        nue->sig = NULL;
+        nue->ant = NULL;
+
+        return 0;
+    }
+
+    while(act->sig)
+    {
+        act = act->sig;
+    }
+
+    act->sig = nue;
+
+    nue->ant = act;
+    nue->sig = NULL;
+
+    return 0;
+}
+
+
+Booleano buscarEnlistaOrd_alu(Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    NodoD* act = *pl;
+
+    if(!act) // lista vacia
+    {
+        return FALSO;
+    }
+
+    while(act && cmp(elem, act->elem) < 0)
+    {
+        act = (act)->ant;
+    }
+
+    while(act && cmp(elem, act->elem) > 0)
+    {
+        act = act->sig;
+    }
+
+    if(!act || cmp(elem, act->elem) != 0) // elemento no encontrado
+    {
+        return FALSO;
+    }
+
+    memcpy(elem, act->elem, min(act->tamElem, tamElem));
+
+    return VERDADERO;
+
+}
+
+
+int eliminarDuplicadosdeListaOrd_alu(Lista* pl, Cmp cmp)
+{
+    NodoD* act1 = *pl;
+    NodoD* act2 = *pl;
+    NodoD* nae;
+
+
+    if(!*pl)
+    {
+        return LISTA_VACIA;
+    }
+
+    while(act1 && act1->sig)
+    {
+
+        if(cmp(act1->elem, act1->sig->elem) == 0)
+        {
+            nae = act1->sig;
+
+            if(nae->sig)
+            {
+                act1->sig = nae->sig;
+                nae->sig->ant = act1;
+            }
+            else
+            {
+                act1->sig = NULL;
+            }
+
+            free(nae->elem);
+            free(nae);
+        }
+        else
+        {
+            act1 = act1->sig;
+        }
+    }
+
+
+    while(act2 && act2->ant)
+    {
+        if(cmp(act2->elem, act2->ant->elem) == 0)
+        {
+            nae = act2->ant;
+
+            if(nae->ant)
+            {
+                nae->ant->sig = act2;
+                act2->ant = nae->ant;
+            }
+            else
+            {
+                act2->ant = NULL;
+            }
+
+            free(nae->elem);
+            free(nae);
+        }
+        else
+        {
+            act2 = act2->ant;
+        }
+
+    }
+
+    return TODO_OK;
+
+}
+
+
+void eliminarDuplicadosdeListaDesord_alu(Lista* pl, Cmp cmp, Actualizar actualizar)
+{
+    NodoD* der = *pl;
+    NodoD* izq = *pl;
+
+    NodoD* nae = NULL;
+
+    NodoD* sig = NULL;
+    NodoD* ant = NULL;
+
+    while(der->sig || izq->ant)
+    {
+        sig = der->sig;
+        ant = izq->ant;
+
+        while(ant)
+        {
+            if(cmp(ant->elem, der->elem) == 0 || cmp(ant->elem, izq->elem) == 0)
+            {
+                nae = ant;
+
+                if(nae->ant)
+                {
+                    nae->ant->sig = nae->sig;
+                }
+
+                if(nae->sig)
+                {
+                    nae->sig->ant = nae->ant;
+                }
+
+		if(cmp(nae->dato, izq->dato) == 0)
+                {
+                    actualizar(izq->dato, nae->dato);
+                }
+                else
+                {
+                    actualizar(der->dato, nae->dato);
+                }
+		
+                ant = ant->ant;
+                free(nae->elem);
+                free(nae);
+            }
+            else
+            {
+                ant = ant->ant;
+            }
+        }
+
+        while(sig)
+        {
+            if(cmp(sig->elem, der->elem) == 0 || cmp(sig->elem, izq->elem) == 0)
+            {
+                nae = sig;
+
+                if(nae->ant)
+                {
+                    nae->ant->sig = nae->sig;
+                }
+
+                if(nae->sig)
+                {
+                    nae->sig->ant = nae->ant;
+                }
+
+		if(cmp(nae->dato, izq->dato) == 0)
+                {
+                    actualizar(izq->dato, nae->dato);
+                }
+                else
+                {
+                    actualizar(der->dato, nae->dato);
+                }
+
+                sig = sig->sig;
+                free(nae->elem);
+                free(nae);
+            }
+            else
+            {
+                sig = sig->sig;
+            }
+        }
+
+        if(der->sig)
+        {
+            der = der->sig;
+        }
+
+        if(izq->ant)
+        {
+            izq = izq->ant;
+        }
+    }
+
+    if(cmp(izq->dato, der->dato) == 0)
+    {
+        nae = der;
+
+        if(nae->ant)
+        {
+            nae->ant->sig = nae->sig;
+        }
+
+        if(nae->sig)
+        {
+            nae->sig->ant = nae->ant;
+        }
+
+        if(nae == *pl)
+        {
+            if(nae->sig)
+            {
+                *pl = nae->sig;
+            }
+            else
+            {
+                *pl = nae->ant;
+            }
+        }
+
+        actualizar(izq->dato, der->dato);
+
+        free(nae);
+        free(nae->dato);
+    }
+
+}
+
+
+Booleano eliminarDeListaDesord_alu(Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    NodoD* der;
+    NodoD* izq;
+    NodoD* nae;
+
+    if(!*pl)
+    {
+        return FALSO;
+    }
+
+    der = (*pl)->sig;
+    izq = (*pl);
+
+    while(der)
+    {
+        if(cmp(der->elem, elem) == 0)
+        {
+            nae = der;
+
+            if(nae->ant)
+            {
+                nae->ant->sig = nae ->sig;
+            }
+
+            if(nae->sig)
+            {
+                nae->sig->ant = nae->ant;
+            }
+
+            der = der->sig;
+
+            memcpy(elem, nae->elem, min(tamElem, nae->tamElem));
+
+            free(nae->elem);
+            free(nae);
+
+            return VERDADERO;
+        }
+        else
+        {
+            der = der->sig;
+        }
+    }
+
+    while(izq)
+    {
+        if(cmp(izq->elem, elem) == 0)
+        {
+            nae = izq;
+
+            if(nae->ant)
+            {
+                nae->ant->sig = nae ->sig;
+            }
+
+            if(nae->sig)
+            {
+                nae->sig->ant = nae->ant;
+            }
+
+            izq = izq->ant;
+
+            memcpy(elem, nae->elem, min(tamElem, nae->tamElem));
+
+            free(nae->elem);
+            free(nae);
+
+            return VERDADERO;
+        }
+        else
+        {
+            izq = izq->ant;
+        }
+    }
+
+    return FALSO;
+}
+
+
+NodoD* buscarMenorEnlista_alu(Lista* pl,Cmp cmp)
+{
+    NodoD* der;
+    NodoD* izq;
+    NodoD* menor = *pl;
+
+    if(!*pl)
+    {
+        return NULL;
+    }
+
+    der = (*pl)->sig;
+    izq = (*pl)->ant;
+
+    while(der)
+    {
+        if(cmp(der->elem, menor->elem) < 0)
+        {
+            menor = der;
+        }
+        der = der->sig;
+    }
+
+    while(izq)
+    {
+        if(cmp(izq->elem, menor->elem) < 0)
+        {
+            menor = izq;
+        }
+        izq = izq->ant;
+    }
+
+    return menor;
+}
+
+
+void ordenarLista_alu(Lista* pl, Cmp cmp)
+{
+    Lista Lord;
+    Lista* plo = &Lord;
+    *plo = NULL;
+
+    NodoD* menor;
+
+    while(*pl)
+    {
+        menor = buscarMenorEnlista_alu(pl, cmp);
+
+        if(menor->ant)
+        {
+            menor->ant->sig = menor->sig;
+        }
+
+        if(menor->sig)
+        {
+            menor->sig->ant = menor->ant;
+        }
+
+        if(*pl == menor)
+        {
+            if((*pl)->sig)
+            {
+                *pl = (*pl)->sig;
+            }
+            else
+            {
+                *pl = (*pl)->ant;
+            }
+        }
+
+        menor->ant = *plo;
+        menor->sig = NULL;
+
+        if(menor->ant)
+            menor->ant->sig = menor;
+
+        *plo = menor;
+    }
+
+    *pl = Lord;
+}

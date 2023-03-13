@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1625771184 source:c:\users\pabli\git\p2021c1\projects\parcial2\rtmuelles\funres.c
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"listaSimple.h"
+	"funres.h"
+
+1626111579 
+
+1625769963 c:\users\pabli\git\p2021c1\projects\parcial2\rtmuelles\listasimple.h
+
+1625763853 c:\users\pabli\git\p2021c1\projects\parcial2\rtmuelles\funres.h
+	"tipos.h"
+
+1625770278 c:\users\pabli\git\p2021c1\projects\parcial2\rtmuelles\tipos.h
+
+1625769998 source:c:\users\pabli\git\p2021c1\projects\parcial2\rtmuelles\listasimple.c
+	<stdlib.h>
+	<string.h>
+	"listaSimple.h"
+
+1626110128 le.h"
+
+1625770534 source:c:\users\pabli\git\p2021c1\projects\parcial2\rtmuelles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"funres.h"
+
+1626112104 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"funres.h"
+
+1625770278 c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregable\tipos.h
+
+1626111579 c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregable\funres.h
+	"tipos.h"
+
+1626110128 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-parcial2\listasimple.c
+	<stdlib.h>
+	<string.h>
+	"listaSimple.h"
+
+1626110048 c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-parcial2\listasimple.h
+
+1626111031 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregable\funres.c
+
+1626112113 source:/media/pablo/Acer/Users/pabli/git/P2021C1/Projects/Parcial2/Progra1110-EntregableLinux64/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"funres.h"
+
+1625770278 /media/pablo/Acer/Users/pabli/git/P2021C1/Projects/Parcial2/Progra1110-EntregableLinux64/tipos.h
+
+1626111579 /media/pablo/Acer/Users/pabli/git/P2021C1/Projects/Parcial2/Progra1110-EntregableLinux64/funres.h
+	"tipos.h"
+
+1637696759 source:/home/phosu/Documents/Programacion/Parciales_2/Nueva carpeta/Progra1110-EntregableLinux64/EjercicioC/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"funres.h"
+
+1637695649 /home/phosu/Documents/Programacion/Parciales_2/Nueva carpeta/Progra1110-EntregableLinux64/EjercicioC/tipos.h
+
+1637696747 /home/phosu/Documents/Programacion/Parciales_2/Nueva carpeta/Progra1110-EntregableLinux64/EjercicioC/funres.h
+	"tipos.h"
+
+1637698423 source:/home/phosu/Documents/Programacion/Parciales_2/Nueva carpeta/Progra1110-EntregableLinux64/EjercicioC/lista/lista.c
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1637698349 /home/phosu/Documents/Programacion/Parciales_2/Nueva carpeta/Progra1110-EntregableLinux64/EjercicioC/lista/lista.h
+	<stdio.h>
+
+1637698379 source:/home/phosu/Documents/Programacion/Parciales_2/Nueva carpeta/Progra1110-EntregableLinux64/EjercicioC/funres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"funres.h"
+	"lista/lista.h"
+
+1637876991 source:/home/phosu/Documents/Programacion/Parciales_2/Progra1110-EntregableLinux64/EjercicioC/funres.c
+	<stdio.h>
+	<string.h>
+	"funres.h"
+	"lista/lista.h"
+
+1637857417 /home/phosu/Documents/Programacion/Parciales_2/Progra1110-EntregableLinux64/EjercicioC/funres.h
+	"tipos.h"
+
+1637695649 /home/phosu/Documents/Programacion/Parciales_2/Progra1110-EntregableLinux64/EjercicioC/tipos.h
+
+1637860142 /home/phosu/Documents/Programacion/Parciales_2/Progra1110-EntregableLinux64/EjercicioC/lista/lista.h
+	<stdio.h>
+
+1637859172 source:/home/phosu/Documents/Programacion/Parciales_2/Progra1110-EntregableLinux64/EjercicioC/lista/lista.c
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1637859054 source:/home/phosu/Documents/Programacion/Parciales_2/Progra1110-EntregableLinux64/EjercicioC/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"funres.h"
+

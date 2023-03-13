@@ -1,0 +1,9 @@
+typedef int (*Cmp)(const void*,const void*);
+
+int cmpCod_alu(const void* d1, const void* d2)
+{
+    IndComponente e1 = *(IndComponente*)d1;
+    IndComponente e2 = *(IndComponente*)d2;
+
+    return(strcmp(e1.codigo,e2.codigo));
+}

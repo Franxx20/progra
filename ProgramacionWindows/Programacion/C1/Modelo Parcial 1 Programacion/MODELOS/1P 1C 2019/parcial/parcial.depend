@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1559955105 source:c:\users\laboratorios\desktop\herrera, christian\parcial\biblioteca.c
+	<biblioteca.h>
+	<utilitarias.h>
+	<string.h>
+	<lista.h>
+
+1559943025 c:\users\laboratorios\desktop\herrera, christian\include\biblioteca.h
+	<stdio.h>
+	<tipos.h>
+
+1559912046 c:\users\laboratorios\desktop\herrera, christian\include\tipos.h
+
+1559953670 c:\users\laboratorios\desktop\herrera, christian\include\utilitarias.h
+	<biblioteca.h>
+
+1559949385 c:\users\laboratorios\desktop\herrera, christian\include\lista.h
+	<tipos.h>
+
+1559954655 source:c:\users\laboratorios\desktop\herrera, christian\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	"lista.h"
+
+1559917712 source:c:\users\laboratorios\desktop\herrera, christian\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<biblioteca.h>
+	<utilitarias.h>
+
+1444706681 source:c:\users\laboratorios\desktop\herrera, christian\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<biblioteca.h>
+
+1622578467 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+	"lista.h"
+
+1559949385 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\include\lista.h
+	<tipos.h>
+
+1559912046 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\include\tipos.h
+
+1622578891 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<biblioteca.h>
+	<utilitarias.h>
+
+1622579980 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\include\biblioteca.h
+	<stdio.h>
+	<tipos.h>
+
+1622580694 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\include\utilitarias.h
+	<biblioteca.h>
+	<string.h>
+
+1622580644 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<biblioteca.h>
+
+1622580662 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\parciales fede\1p 1c 2019\parcial\biblioteca.c
+	<biblioteca.h>
+	<utilitarias.h>
+	<string.h>
+	<lista.h>
+
+1622580731 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\parcial\biblioteca.c
+	<biblioteca.h>
+	<utilitarias.h>
+	<string.h>
+	<lista.h>
+
+1622579980 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\include\biblioteca.h
+	<stdio.h>
+	<tipos.h>
+
+1559912046 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\include\tipos.h
+
+1622580694 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\include\utilitarias.h
+	<biblioteca.h>
+	<string.h>
+
+1559949385 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\include\lista.h
+	<tipos.h>
+
+1622578467 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+	"lista.h"
+
+1622578891 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<biblioteca.h>
+	<utilitarias.h>
+
+1622580644 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 1c 2019\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<biblioteca.h>
+

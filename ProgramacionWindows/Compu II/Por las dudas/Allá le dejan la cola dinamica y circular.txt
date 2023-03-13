@@ -1,0 +1,92 @@
+booleano encolar(Cola* pc, const void* elem, size_t tamElem)
+{
+    Nodo* nue = (Nodo*)malloc(sizeof(Nodo));
+    void* elemNodo = malloc(tamElem);
+
+    if(!nue || !elemNodo)
+    {
+        free(nue);
+        free(elemNodo);
+        return FALSO;
+    }
+
+    if(*pc)     //si NO es el primero en insertar.
+    {
+        nue->sig = (*pc)->sig;
+        (*pc)->sig = nue;
+    }
+    else
+        nue->sig = nue;
+
+    *pc = nue;
+    memcpy(elemNodo, elem, tamElem);
+
+    return VERDADERO;
+}
+
+booleano desencolar(Cola* pc, void* elem, size_t tamElem)
+{
+    if(!(*pc))
+        return FALSO;
+
+    Nodo* nae = (*pc)->sig; //esta sentencia es general para ambos casos, por eso va primero;
+
+    if(nae != (*pc))
+        (*pc)->sig = nae->sig;
+    else
+        *pc = NULL;
+
+    memcpy(elem, nae->elem, min(nae->tamElem, tamElem));
+    free(nae->elem);
+    free(nae);
+
+    return VERDADERO;
+}
+
+booleano verFrenteDeCola(const Cola* pc, void* elem, size_t(tamElem))
+{
+    if(!*pc)
+        return FALSO;
+
+    Nodo* frente = (*pc)->sig;
+
+    memcpy(elem, frente->elem, min(frente->tamElem, tamElem));
+
+    return VERDADERO;
+}
+
+booleano colaLLena(const Cola* pc, size_t tamElem)
+{
+    void* nue = malloc(sizeof(Nodo));
+    void* elem = malloc(tamElem);
+
+    free(nue);
+    free(elem);
+
+    return(!nue || !elem);
+}
+
+booleano colaVacia(const Cola* pc)
+{
+    return (!*pc);
+}
+
+void vaciarCola(Cola* pc)
+{
+    Nodo* nae = (*pc)->sig;
+
+    while(*pc != nae)
+    {
+        (*pc)->sig = nae->sig;
+
+        free(nae->elem);
+        free(nae);
+
+        nae = (*pc)->sig;
+    }
+
+    free(nae->elem);
+    free(nae);
+
+    *pc = NULL;
+}

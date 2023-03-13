@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1677335386 source:c:\users\laboratorios\desktop\proyectoc\funciones.c
+	"funciones.h"
+
+1677335316 c:\users\laboratorios\desktop\proyectoc\funciones.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1677335311 source:c:\users\laboratorios\desktop\proyectoc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1677335386 source:c:\users\laboratorios\desktop\nueva carpeta\proyectoc\funciones.c
+	"funciones.h"
+
+1677335316 c:\users\laboratorios\desktop\nueva carpeta\proyectoc\funciones.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1677335311 source:c:\users\laboratorios\desktop\nueva carpeta\proyectoc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1677335386 source:c:\users\franq\desktop\final febrero progra\maciel_kevin_42144635\proyectoc\funciones.c
+	"funciones.h"
+
+1677335316 c:\users\franq\desktop\final febrero progra\maciel_kevin_42144635\proyectoc\funciones.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1677335311 source:c:\users\franq\desktop\final febrero progra\maciel_kevin_42144635\proyectoc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

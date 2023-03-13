@@ -1,0 +1,16 @@
+Producto sprite
+ cantidad 1
+Producto queso rallado
+ cantidad 1
+Producto oregano
+ cantidad 1
+Producto condimento para pizza
+ cantidad 1
+Producto papas fritas
+ cantidad 3
+Producto azucar
+ cantidad 2
+Producto yerba de un kilo
+ cantidad 2
+Producto oreos
+ cantidad 4

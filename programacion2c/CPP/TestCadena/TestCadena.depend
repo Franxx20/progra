@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1663520637 source:/home/pilum/Facultad/programacion2c/CPP/TestCadena/main.cpp
+	"../Cadena/include/Cadena.h"
+	<cstdio>
+	<iostream>
+
+1663460813 /home/pilum/Facultad/programacion2c/CPP/Cadena/include/Cadena.h
+	<iostream>
+

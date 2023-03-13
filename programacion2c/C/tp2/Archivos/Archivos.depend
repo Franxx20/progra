@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1663304867 source:/home/pilum/Facultad/programacion2c/C/tp2/Archivos/main.c
+	"Lista.h"
+	"Producto.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1663292101 /home/pilum/Facultad/programacion2c/C/tp2/Archivos/Producto.h
+
+1663302556 source:/home/pilum/Facultad/programacion2c/C/tp2/Archivos/Lista.c
+	"Lista.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1663302677 /home/pilum/Facultad/programacion2c/C/tp2/Archivos/Lista.h
+	<stdbool.h>
+	<stdio.h>
+

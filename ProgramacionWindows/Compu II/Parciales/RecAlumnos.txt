@@ -1,0 +1,138 @@
+void procesarLista_ALU(Lista* plAM)
+{
+    eliminarDeListaDesordDuplicados(plAM, cmpAlumno_alu, actualizarNota_alu);
+    recorrerLista(plAM, calcularPromedio_alu, NULL);
+    ordenarLista(plAM, cmpNota_alu);
+}
+
+void calcularPromedio_alu(void* elem, void* datosAccion)
+{
+    EstadoAlumnoMateria* a1 = (EstadoAlumnoMateria*)elem;
+
+    int n1 = MAX(a1->notaP1, a1->notaR1);
+    int n2 = MAX(a1->notaP2, a1->notaR2);
+
+    if(n1>=7 && n2>=7)
+    {
+        a1->condicion = PR;
+        a1->notaFinal = round((double)(n1+n2)/2);
+    }
+    else if(n1>=4 && n2>=4)
+    {
+        a1->condicion = CU;
+        a1->notaFinal = round((double)(n1+n2)/2);
+        if(a1->notaFinal>=7)
+            a1->notaFinal = 6;
+    }
+    else if(n1 && n2)
+    {
+        a1->condicion = RE;
+        a1->notaFinal = 2;
+    }
+}
+
+int cmpAlumno_alu(const void* e1, const void* e2)
+{
+    EstadoAlumnoMateria a1 = *(EstadoAlumnoMateria*)e1;
+    EstadoAlumnoMateria a2 = *(EstadoAlumnoMateria*)e2;
+
+    int comp = strcmp(a1.apyn, a2.apyn);
+    if(comp == 0)
+        return strcmp(a1.materia, a2.materia);
+    return comp;
+}
+
+int cmpNota_alu(const void* e1, const void* e2)
+{
+    EstadoAlumnoMateria a1 = *(EstadoAlumnoMateria*)e1;
+    EstadoAlumnoMateria a2 = *(EstadoAlumnoMateria*)e2;
+
+    return -(a1.notaFinal-a2.notaFinal);
+}
+
+void actualizarNota_alu(void* actualizado, const void* actualizador)
+{
+    EstadoAlumnoMateria* a1 = (EstadoAlumnoMateria*)actualizado;
+    EstadoAlumnoMateria* a2 = (EstadoAlumnoMateria*)actualizador;
+
+    if(a2->notaP1)
+        a1->notaP1 = a2->notaP1;
+    else if(a2->notaP2)
+        a1->notaP2 = a2->notaP2;
+    else if(a2->notaR1)
+        a1->notaR1 = a2->notaR1;
+    else
+        a1->notaR2 = a2->notaR2;
+}
+
+///Lista
+void eliminarDeListaDesordDuplicados_alu(Lista* pl, Cmp cmp, Actualizar actualizar)
+{
+    Lista* plAct;
+    Nodo* nae;
+
+    while(*pl)
+    {
+        plAct = &(*pl)->sig;
+        while(*plAct)
+        {
+            if(cmp((*pl)->elem, (*plAct)->elem)==0)
+            {
+                nae = *plAct;
+                *plAct = nae->sig;
+
+                if(actualizar)
+                    actualizar((*pl)->elem, nae->elem);
+
+                free(nae->elem);
+                free(nae);
+            }
+            else
+            {
+                plAct = &(*plAct)->sig;
+            }
+        }
+        pl = &(*pl)->sig;
+    }
+}
+
+void recorrerLista_alu(Lista* pl, Accion accion, void* datosAccion)
+{
+    while(*pl)
+    {
+        accion((*pl)->elem, datosAccion);
+        pl = &(*pl)->sig;
+    }
+}
+
+void ordenarLista_alu(Lista* pl, Cmp cmp)
+{
+    Lista listaOrdenada;
+    Lista* plOrdenada = &listaOrdenada;
+    Lista* plMinimo;
+
+    while(*pl)
+    {
+        plMinimo = buscarMinimoDeLista_alu(pl,cmp);
+        *plOrdenada = *plMinimo;
+        *plMinimo = (*plMinimo)->sig;
+        plOrdenada = &(*plOrdenada)->sig;
+    }
+
+    *pl = listaOrdenada;
+}
+
+Lista* buscarMinimoDeLista_alu(Lista* pl,Cmp cmp)
+{
+    Lista* plMinimo = pl;
+    Lista* plAct = pl;
+
+    while(*plAct)
+    {
+        if(cmp((*plAct)->elem,(*plMinimo)->elem)<0)
+            plMinimo = plAct;
+        plAct = &(*plAct)->sig;
+    }
+
+    return plMinimo;
+}

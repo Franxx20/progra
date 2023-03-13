@@ -1,0 +1,5 @@
+kiwi k 200
+limon l 23
+manda m 79
+manza m 200
+naran n 75

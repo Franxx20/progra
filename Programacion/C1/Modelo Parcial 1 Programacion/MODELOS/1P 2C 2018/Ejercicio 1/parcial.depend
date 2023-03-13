@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1539994800 source:c:\users\laboratorios\desktop\entregable_2018-10-19\parcial\actas.c
+	<actas.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1539973183 c:\users\laboratorios\desktop\entregable_2018-10-19\include\actas.h
+	<tipos.h>
+	<stdio.h>
+
+1496423090 c:\users\laboratorios\desktop\entregable_2018-10-19\include\tipos.h
+
+1539993161 c:\users\laboratorios\desktop\entregable_2018-10-19\include\lista.h
+	<tipos.h>
+
+1496423436 c:\users\laboratorios\desktop\entregable_2018-10-19\include\utilitarias.h
+	<tipos.h>
+
+1539994994 source:c:\users\laboratorios\desktop\entregable_2018-10-19\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<actas.h>
+	<utilitarias.h>
+
+1539989963 source:c:\users\laboratorios\desktop\entregable_2018-10-19\parcial\utilitarias.c
+	"../include/utilitarias.h"
+
+1539994919 source:c:\users\laboratorios\desktop\entregable_2018-10-19\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<string.h>
+
+1541185406 source:c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\ejercicio 1\actas.c
+	<actas.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1539973184 c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\include\actas.h
+	<tipos.h>
+	<stdio.h>
+
+1496423090 c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\include\tipos.h
+
+1539993162 c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\include\lista.h
+	<tipos.h>
+
+1496423436 c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\include\utilitarias.h
+	<tipos.h>
+
+1539994920 source:c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\ejercicio 1\lista.c
+	<lista.h>
+	<stdlib.h>
+	<string.h>
+
+1539989964 source:c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\ejercicio 1\utilitarias.c
+	"../include/utilitarias.h"
+
+1541185555 source:c:\users\tomas\desktop\tomás\materias\entregable_2018-10-19\ejercicio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<actas.h>
+	<utilitarias.h>
+
+1559347282 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\ejercicio 1\lista.c
+	<lista.h>
+	<stdlib.h>
+	<string.h>
+
+1559347291 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\include\lista.h
+	<tipos.h>
+
+1559347292 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\include\tipos.h
+
+1559347282 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\ejercicio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<actas.h>
+	<utilitarias.h>
+
+1559347291 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\include\actas.h
+	<tipos.h>
+	<stdio.h>
+
+1559347292 c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\include\utilitarias.h
+	<tipos.h>
+
+1559347282 source:c:\users\caste\desktop\modelo parcial 1 programacion\modelos\1p 2c 2018\ejercicio 1\utilitarias.c
+	"../include/utilitarias.h"
+

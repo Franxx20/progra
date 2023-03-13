@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1634398357 source:/home/phosu/Documents/Programacion/Ejercicios C/laberinto/pilaDinamica/pila.c
+	<stdlib.h>
+	<string.h>
+	"pila.h"
+
+1633628894 /home/phosu/Documents/Programacion/Ejercicios C/laberinto/pilaDinamica/pila.h
+
+1634499477 source:/home/phosu/Documents/Programacion/Ejercicios C/laberinto/laberinto.c
+	"laberinto.h"
+
+1634401892 /home/phosu/Documents/Programacion/Ejercicios C/laberinto/laberinto.h
+	<stdio.h>
+	"pilaDinamica/pila.h"
+
+1634401957 source:/home/phosu/Documents/Programacion/Ejercicios C/laberinto/main.c
+	"laberinto.h"
+

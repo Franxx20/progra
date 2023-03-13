@@ -1,0 +1,6 @@
+A|Arvejas             |5
+B|Banana              |15
+C|Caracoles           |23
+F|Fideos              |30
+H|Harina              |10
+Y|Yerba Mate          |35

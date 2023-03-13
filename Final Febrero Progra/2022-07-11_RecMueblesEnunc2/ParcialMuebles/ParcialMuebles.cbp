@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ParcialMuebles" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug P1">
+				<Option output="bin/Debug/ParcialMuebles" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/libSolucionMueblesP1.a" />
+					<Add library="lib/libTDAListaImplDinamica.a" />
+				</Linker>
+			</Target>
+			<Target title="Debug P2">
+				<Option output="bin/Debug/ParcialMuebles" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/libSolucionMueblesP2.a" />
+					<Add library="lib/libTDAArbolImplDinamica.a" />
+					<Add library="lib/libTDAListaImplDinamicaDoble.a" />
+				</Linker>
+			</Target>
+			<Target title="Debug PI">
+				<Option output="bin/Debug/ParcialMuebles" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/libSolucionMueblesPI.a" />
+					<Add library="lib/libTDAArbolImplDinamica.a" />
+					<Add library="lib/libTDAListaImplDinamicaDoble.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../include" />
+		</Compiler>
+		<Linker>
+			<Add directory="../lib" />
+		</Linker>
+		<Unit filename="../Comun/Comun.h" />
+		<Unit filename="../Nodo/Nodo.h">
+			<Option target="Debug P1" />
+		</Unit>
+		<Unit filename="../Nodo/NodoA.h">
+			<Option target="Debug P2" />
+			<Option target="Debug PI" />
+		</Unit>
+		<Unit filename="../Nodo/NodoD.h">
+			<Option target="Debug P2" />
+			<Option target="Debug PI" />
+		</Unit>
+		<Unit filename="../SolucionMuebles/MueblesComun.h" />
+		<Unit filename="../SolucionMuebles/SolucionMuebles.h" />
+		<Unit filename="../TDAArbolImplDinamica/TDAArbolImplDinamica.h">
+			<Option target="Debug P2" />
+			<Option target="Debug PI" />
+		</Unit>
+		<Unit filename="../TDAArbol/TDAArbol.h">
+			<Option target="Debug P2" />
+			<Option target="Debug PI" />
+		</Unit>
+		<Unit filename="../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h">
+			<Option target="Debug P2" />
+			<Option target="Debug PI" />
+		</Unit>
+		<Unit filename="../TDAListaImplDinamica/TDAListaImplDinamica.h">
+			<Option target="Debug P1" />
+		</Unit>
+		<Unit filename="../TDALista/TDALista.h" />
+		<Unit filename="main2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

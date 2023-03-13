@@ -1,0 +1,349 @@
+void crearLista_alu(Lista* pl)
+{
+    *pl = NULL;
+}
+
+int insertarEnListaOrd_alu(Lista* pl, const void* elem, size_t tamElem, Cmp cmp)
+{
+    while(*pl && (cmp(elem, (*pl)->elem) > 0))
+        pl = &(*pl)->sig;
+
+    if(*pl && (cmp(elem, (*pl)->elem) == 0))
+        return DUPLICADO;
+
+    Nodo* nue = crearNodo(elem, tamElem);
+    if(!nue)
+        return SIN_MEM;
+
+    nue->sig = *pl;
+    *pl = nue;
+
+    return TODO_OK;
+}
+
+int insertarEnListaOrdCDup_alu(Lista* pl, const void* elem, size_t tamElem, Cmp cmp)
+{
+    while(*pl && (cmp(elem, (*pl)->elem) >= 0))
+        pl = &(*pl)->sig;
+
+    Nodo* nue = crearNodo(elem, tamElem);
+    if(!nue)
+        return SIN_MEM;
+
+    nue->sig = *pl;
+    *pl = nue;
+
+    return TODO_OK;
+}
+
+int insertarOActualizarEnListaOrd_alu(Lista* pl, const void* elem, size_t tamElem, Cmp cmp, Actualizar actualizar)
+{
+    while(*pl && (cmp(elem, (*pl)->elem) > 0))
+        pl = &(*pl)->sig;
+
+    if(*pl && (cmp(elem, (*pl)->elem) == 0))
+    {
+        actualizar((*pl)->elem, elem);
+        return DUPLICADO;
+    }
+
+    Nodo* nue = crearNodo(elem, tamElem);
+    if(!nue)
+        return SIN_MEM;
+
+    nue->sig = *pl;
+    *pl = nue;
+
+    return TODO_OK;
+}
+
+int insertarEnListaAlInicio_alu(Lista* pl, const void* elem, size_t tamElem)
+{
+    Nodo* nue = crearNodo_alu(elem,tamElem);
+
+    if(!nue)
+        return SIN_MEM;
+
+    nue->sig = *pl;
+    (*pl) = nue;
+
+    return TODO_OK;
+}
+
+int insertarEnListaAlFinal_alu(Lista* pl, const void* elem, size_t tamElem)
+{
+    Nodo* nue = crearNodo_alu(elem,tamElem);
+
+    if(!nue)
+        return SIN_MEMORIA;
+        
+    while(*pl)
+        pl = &(*pl)->sig;
+
+    (*pl) = nue;
+
+    return TODO_OK;
+}
+
+int insertarEnListaEnPosicion_alu(Lista* pl, const void* elem, size_t tamElem, unsigned pos)
+{
+    Nodo* nue = crearNodo_alu(elem,tamElem);
+    if(!nue)
+        return SIN_MEM;
+        
+    int cont = 1;
+
+    while(*pl && pos != cont)
+    {
+        pl = &(*pl)->sig;
+        cont++;
+    }
+
+    if(!(*pl))
+        return falso;
+
+    nue->sig = *pl;
+    *pl = nue;
+
+    return TODO_OK;
+}
+
+bool buscarEnListaOrd_alu(const Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    while(*pl && cmp(elem, (*pl)->elem) > 0)
+        pl = &(*pl)->sig;
+
+    if(!*pl || cmp(elem, (*pl)->elem) < 0)
+        return false;
+    
+    return true;
+}
+
+bool buscarEnListaDesord_alu(const Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    while((*pl) && cmp(elem,(*pl)->elem) != 0)
+        pl = &(*pl)->sig;
+
+    if(!(*pl))
+        return false;
+
+    return true;
+}
+
+bool verPrimeroDeLista_alu(const Lista* pl, void* elem, size_t tamElem)
+{
+    if(!*pl)
+        return false;
+    
+    memcpy((*pl)->elem, elem, MIN((*pl)->elem, elem));
+    
+    return true;
+}
+
+void recorrerLista_alu(Lista* pl, Accion accion, void* elemsAccion)
+{
+    while(*pl)
+    {
+        accion((*pl)->elem, elemsAccion);
+        pl = &(*pl)->sig;
+    }
+}
+
+bool eliminarDeListaOrdPorValor_alu(Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    Nodo* nae;
+    
+    while(*pl && cmp((*pl)->elem, elem) < 0)
+        pl = &(*pl)->sig;
+        
+    if(*pl && cmp((*pl)->elem, elem) == 0)
+        {
+            nae = *pl;
+            *pl = nae->sig;
+            eliminarNodo_alu(nae, elem, tamElem);
+            return true;
+        }
+        
+    return false;
+}
+
+bool eliminarDeListaDesordPorValor_alu(Lista* pl, void* elem, size_t tamElem, Cmp cmp)
+{
+    Nodo* nae;
+    while(*pl)
+    {
+        if(cmp((*pl)->elem, elem) == 0)
+        {
+            nae = *pl;
+            *pl = nae->sig;
+            eliminarNodo_alu(nae, elem, tamElem);
+            return true;
+        }
+        
+        pl = &(*pl)->sig;
+    }
+    return false;
+}
+
+void eliminarDeListaOrdPorCondicion_alu(Lista* pl, Condicion condicion)
+{
+    Nodo* nae;
+    while(*pl)
+    {
+        if(condicion((*pl)->elem))
+        {
+            nae = *pl;
+            *pl = nae->sig;
+            free(nae->elem);
+            free(nae);
+        }
+        else
+            pl = &(*pl)->sig;
+    }
+}
+
+bool eliminarDeListaPrimero_alu(Lista* pl, void* elem, size_t tamElem)
+{
+    if(!*pl)
+        return false;
+
+    Nodo* nae = *pl;
+    *pl = nae->sig;
+    
+    eliminarNodo_alu(nae,elem,tamElem);
+
+    return true;
+}
+
+bool eliminarDeListaUltimo_alu(Lista* pl, void* elem, size_t tamElem)
+{
+    if(!*pl)
+        return false;
+    
+    while((*pl)->sig)
+        pl = &(*pl)->sig;
+    
+    Nodo* nae = *pl;
+
+    *pl = NULL;
+
+    eliminarNodo_alu(nae,elem,tamElem);
+
+    return true;
+}
+
+int eliminarDeListaOrdDuplicados_alu(Lista* pl, Cmp cmp, Actualizar actualizar)
+{
+    Nodo* nae;
+
+    while(*pl)
+    {
+        while(cmp(*pl, (*pl)->sig)==0)
+        {
+            nae = (*pl)->sig;
+            (*pl)->sig = nae->sig;
+
+            if(actualizar)
+                actualizar((*pl)->elem, nae->elem);
+
+            free(nae->elem);
+            free(nae);
+        }
+        pl = &(*pl)->sig;
+    }
+}
+
+int eliminarDeListaDesordDuplicados_alu(Lista* pl, Cmp cmp, Actualizar actualizar)
+{
+    Lista* plAct;
+    Nodo* nae;
+
+    while(*pl)
+    {
+        plAct = &(*pl)->sig;
+        while(*plAct)
+        {
+            if(cmp((*pl)->elem, (*plAct)->elem)==0)
+            {
+                nae = *plAct;
+                *plAct = nae->sig;
+
+                if(actualizar)
+                    actualizar((*pl)->elem, nae->elem);
+
+                free(nae->elem);
+                free(nae);
+            }
+            else
+            {
+                plAct = &(*plAct)->sig;
+            }
+        }
+        pl = &(*pl)->sig;
+    }
+}
+
+void ordenarLista_alu(Lista* pl, Cmp cmp)
+{
+    Lista listaOrdenada;
+    Lista* plOrdenada = &listaOrdenada;
+    Lista* plMinimo;
+
+    while(*pl)
+    {
+        plMinimo = buscarMinimoDeLista_alu(pl,cmp);
+        *plOrdenada = *plMinimo;
+        *plMinimo = (*plMinimo)->sig;
+        plOrdenada = &(*plOrdenada)->sig;
+    }
+
+    *pl = listaOrdenada;
+}
+Lista* buscarMinimoDeLista_alu(Lista* pl,Cmp cmp)
+{
+    Lista* plMinimo = pl;
+    Lista* plAct = pl;
+
+    while(*plAct)
+    {
+        if(cmp((*plAct)->elem,(*plMinimo)->elem)<0)
+            plMinimo = plAct;
+        plAct = &(*plAct)->sig;
+    }
+
+    return plMinimo;
+}
+
+bool listaVacia_alu(const Lista* pl)
+{
+    if(!*pl)
+        return true;
+
+    return false;
+}
+
+bool listaLlena_alu(const Lista* pl, size_t tamElem)
+{
+    Nodo* nue = crearNodo_alu(elem,tamElem);
+
+    if(!nue)
+        return true;
+    
+    free(nue->elem);
+    free(nue);
+    
+    return false;
+}
+
+void vaciarLista_alu(Lista* pl)
+{
+    Nodo* nae;
+    while(*pl)
+    {
+        nae = *pl;
+        *pl = nae->sig;
+
+        free(nae->elem);
+        free(nae);
+    }
+}

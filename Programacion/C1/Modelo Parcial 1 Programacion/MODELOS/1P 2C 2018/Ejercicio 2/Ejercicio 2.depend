@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1539997324 source:c:\users\laboratorios\desktop\entregable_2018-10-19\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ejercicio 2.h"
+
+1539997331 source:c:\users\laboratorios\desktop\entregable_2018-10-19\ejercicio 2\ejercicio 2.c
+	"Ejercicio 2.h"
+
+1539997324 c:\users\laboratorios\desktop\entregable_2018-10-19\ejercicio 2\ejercicio 2.h
+
+1559347286 source:c:\users\christian\desktop\parciales programacion pezzola\entregable_2018-10-19\ejercicio 2\ejercicio 2.c
+	"Ejercicio 2.h"
+
+1559919027 c:\users\christian\desktop\parciales programacion pezzola\entregable_2018-10-19\ejercicio 2\ejercicio 2.h
+
+1559792592 source:c:\users\christian\desktop\parciales programacion pezzola\entregable_2018-10-19\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ejercicio 2.h"
+

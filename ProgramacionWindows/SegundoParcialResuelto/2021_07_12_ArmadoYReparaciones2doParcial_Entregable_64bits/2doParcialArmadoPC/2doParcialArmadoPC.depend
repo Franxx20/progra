@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1668369158 source:d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\2doparcialarmadopc\main.c
+	<locale.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"../Solucion2doParcialArmadoPC/Solucion2doParcialArmadoPC.h"
+	"../Solucion2doParcialArmadoPC/TiposArmadoPC.h"
+	"../TDALista/TDALista.h"
+	"../TDAArbol/TDAArbol.h"
+
+1625967550 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\solucion2doparcialarmadopc\solucion2doparcialarmadopc.h
+	"../TDAListaImplDinamicaDoble/TDAListaImplDinamicaDoble.h"
+	"../TDAArbolImplDinamica/TDAArbolImplDinamica.h"
+
+1623682906 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\tdalistaimpldinamicadoble\tdalistaimpldinamicadoble.h
+	"../Nodo/NodoD.h"
+
+1623682882 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\nodo\nodod.h
+	<stddef.h>
+
+1624891480 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\tdaarbolimpldinamica\tdaarbolimpldinamica.h
+	"../Nodo/NodoA.h"
+
+1625872474 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\nodo\nodoa.h
+	<stddef.h>
+
+1625870812 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\solucion2doparcialarmadopc\tiposarmadopc.h
+
+1625956802 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\tdalista\tdalista.h
+
+1625944558 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\tdaarbol\tdaarbol.h
+	"../TDA/TDA.h"
+
+1625502226 d:\codigo86\escritorio\parciales\c\2do parcial\2021_07_12_armadoyreparaciones2doparcial_entregable_64bits\tda\tda.h
+

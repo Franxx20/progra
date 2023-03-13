@@ -1,0 +1,5 @@
+Codigo ana Descripcion anana stock 100 precio 200.00
+Codigo ban Descripcion banana stock 120 precio 200.00
+Codigo cer Descripcion cereza stock 200 precio 300.00
+Codigo dur Descripcion durazno stock 150 precio 1000.00
+Codigo nar Descripcion naranja stock 120 precio 500.00

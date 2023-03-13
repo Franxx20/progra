@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1634934483 source:/home/phosu/Downloads/EJ1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"include/cuentas.h"
+
+1634933866 /home/phosu/Downloads/EJ1/include/cuentas.h
+
+1634934342 source:/home/phosu/Downloads/EJ1/src/cuentas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../include/cuentas.h"
+	"../include/pila.h"
+
+1633628894 /home/phosu/Downloads/EJ1/include/pila.h
+
+1634932704 source:/home/phosu/Downloads/EJ1/src/pila.c
+	<stdlib.h>
+	<string.h>
+	"../include/pila.h"
+
+1635279379 source:/home/phosu/Downloads/progra/parcial_1/EJ1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"include/cuentas.h"
+
+1634934651 /home/phosu/Downloads/progra/parcial_1/EJ1/include/cuentas.h
+
+1635279407 source:/home/phosu/Downloads/progra/parcial_1/EJ1/src/cuentas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../include/cuentas.h"
+	"../include/pila.h"
+
+1634934669 /home/phosu/Downloads/progra/parcial_1/EJ1/include/pila.h
+
+1634934664 source:/home/phosu/Downloads/progra/parcial_1/EJ1/src/pila.c
+	<stdlib.h>
+	<string.h>
+	"../include/pila.h"
+

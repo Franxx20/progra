@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1671133105 source:c:\users\franq\desktop\progra\prografinal\modelos\normalizar\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

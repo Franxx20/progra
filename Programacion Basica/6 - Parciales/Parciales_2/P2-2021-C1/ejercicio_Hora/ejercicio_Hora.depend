@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1637887195 source:/home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/ejercicio_Hora/main.cpp
+	<iostream>
+	"Hora.h"
+
+1637887153 /home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/ejercicio_Hora/include/Hora.h
+	<iostream>
+
+1637887697 source:/home/phosu/Documents/Programacion/Parciales_2/PII_P2_C1_2021_07_20-TT/ejercicio_Hora/src/Hora.cpp
+	<iomanip>
+	"Hora.h"
+

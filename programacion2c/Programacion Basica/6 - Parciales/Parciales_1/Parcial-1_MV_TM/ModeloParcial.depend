@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1634671612 source:/home/phosu/Downloads/ModeloParcial/main.c
+	<stdio.h>
+	"include/pila.h"
+	"include/descifrar.h"
+	"include/my_strings.h"
+
+1634505072 /home/phosu/Downloads/ModeloParcial/include/pila.h
+
+1634671593 /home/phosu/Downloads/ModeloParcial/include/descifrar.h
+	"pila.h"
+
+1634675982 source:/home/phosu/Downloads/ModeloParcial/src/descifrar.c
+	<stdlib.h>
+	"../include/descifrar.h"
+	"../include/my_strings.h"
+
+1634675795 source:/home/phosu/Downloads/ModeloParcial/src/my_strings.c
+	<stdlib.h>
+	"../include/my_strings.h"
+
+1634675786 /home/phosu/Downloads/ModeloParcial/include/my_strings.h
+
+1634598072 source:/home/phosu/Downloads/ModeloParcial/src/pila.c
+	<stdlib.h>
+	<string.h>
+	"../include/pila.h"
+
+1634671612 source:/home/phosu/Downloads/progra/ModeloParcial/main.c
+	<stdio.h>
+	"include/pila.h"
+	"include/descifrar.h"
+	"include/my_strings.h"
+
+1634505072 /home/phosu/Downloads/progra/ModeloParcial/include/pila.h
+
+1634671593 /home/phosu/Downloads/progra/ModeloParcial/include/descifrar.h
+	"pila.h"
+
+1634675786 /home/phosu/Downloads/progra/ModeloParcial/include/my_strings.h
+
+1634675982 source:/home/phosu/Downloads/progra/ModeloParcial/src/descifrar.c
+	<stdlib.h>
+	"../include/descifrar.h"
+	"../include/my_strings.h"
+
+1634675795 source:/home/phosu/Downloads/progra/ModeloParcial/src/my_strings.c
+	<stdlib.h>
+	"../include/my_strings.h"
+
+1634598072 source:/home/phosu/Downloads/progra/ModeloParcial/src/pila.c
+	<stdlib.h>
+	<string.h>
+	"../include/pila.h"
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1670897871 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\programacion\finalmiempresa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+

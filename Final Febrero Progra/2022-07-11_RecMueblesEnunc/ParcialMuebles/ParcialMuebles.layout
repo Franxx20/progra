@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug P2" />
+	<File name="..\SolucionMuebles\SolucionMuebles.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="56" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\SolucionMuebles\MueblesComun.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="318" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="..\Nodo\NodoA.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="163" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\TDAArbolImplDinamica\TDAArbolImplDinamica.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="159" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\TDAListaImplDinamica\TDAListaImplDinamica.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="107" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\TDAListaImplDinamicaDoble\TDAListaImplDinamicaDoble.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="121" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main3.c" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3042" topLine="106" />
+		</Cursor>
+	</File>
+	<File name="..\Comun\Comun.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="424" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\TDAArbol\TDAArbol.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="702" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Nodo\NodoD.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\TDALista\TDALista.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="297" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="..\Nodo\Nodo.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="114" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

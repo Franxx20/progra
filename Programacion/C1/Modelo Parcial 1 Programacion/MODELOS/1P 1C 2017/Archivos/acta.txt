@@ -1,0 +1,13 @@
+DNI      APELLIDO Y NOMBRES             P1 P2 R1 R2  NF  COND
+16230902 Boyd Chaney                     9  2  0  7   8  Pro
+16540430 Brennan Lee                    10  9  0  0   9  Pro
+16200214 Clark Scott                     4  5  0  0   4  Apr
+16870210 Cole Coby                       0  0  0  0   0  Aus
+16660110 Dale Isaac                      7  9  9  0   9  Pro
+16900207 Gallegos Nash                   6  7  4  0   4  Apr
+16860403 Gibbs Clinton                   4  2  0  4   4  Apr
+16231024 Guerra Oliver                   2  8  4  0   4  Apr
+16940212 Hunter Rajah                    4  4  7  6   0  Err
+16621004 Mcclain Ronan                   7  9  4  0   4  Apr
+16790215 Sosa Zeph                       4  0  0  0   0  Aus
+16001129 Wilkerson Berk                  4  7  8  0   7  Pro

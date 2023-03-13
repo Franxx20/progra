@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1666826412 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\64bits_1\prog_c1_parcial_1_entregable\main.c
+	"main.h"
+
+1622663226 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\64bits_1\prog_c1_parcial_1_entregable\main.h
+	<stdio.h>
+	"funciones.h"
+	"que_hice.h"
+	<stdlib.h>
+	<string.h>
+
+1666825821 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\64bits_1\prog_c1_parcial_1_entregable\funciones.h
+	<stdio.h>
+	"que_hice.h"
+	"tda_definiciones.h"
+
+1653175453 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\64bits_1\prog_c1_parcial_1_entregable\que_hice.h
+
+1622643290 c:\users\rodrigo\desktop\segundo cuatrimestre 2022\64bits_1\prog_c1_parcial_1_entregable\tda_definiciones.h
+
+1666826412 source:c:\users\rodrigo\desktop\segundo cuatrimestre 2022\64bits_1\prog_c1_parcial_1_entregable\funciones.c
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1666826414 source:c:\users\franq\desktop\prog_c1_parcial_1_entregable\main.c
+	"main.h"
+
+1622663228 c:\users\franq\desktop\prog_c1_parcial_1_entregable\main.h
+	<stdio.h>
+	"funciones.h"
+	"que_hice.h"
+	<stdlib.h>
+	<string.h>
+
+1666825822 c:\users\franq\desktop\prog_c1_parcial_1_entregable\funciones.h
+	<stdio.h>
+	"que_hice.h"
+	"tda_definiciones.h"
+
+1653175454 c:\users\franq\desktop\prog_c1_parcial_1_entregable\que_hice.h
+
+1622643292 c:\users\franq\desktop\prog_c1_parcial_1_entregable\tda_definiciones.h
+
+1666992460 source:c:\users\franq\desktop\prog_c1_parcial_1_entregable\funciones.c
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1601946924 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\main.cpp
+	<iostream>
+	"Recta.h"
+
+1626140301 c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\recta.h
+	<iostream>
+	"Punto.h"
+
+1626140283 c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\punto.h
+	<iostream>
+
+1601945686 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\punto.cpp
+	<math.h>
+	"Punto.h"
+
+1601946734 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\recta.cpp
+	<math.h>
+	"RectaException.h"
+	"Recta.h"
+
+1601945994 c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\rectaexception.h
+	<string>
+
+1601945968 source:c:\users\pabli\git\p2021c1\projects\parcial2\progra1110-entregablecpp\rectaexception.cpp
+	"RectaException.h"
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677799439 source:c:\users\laboratorios\desktop\garcete_franco_42875393\cpp\main.cpp
+	<iostream>
+	"Medicion.h"
+
+1677799519 c:\users\laboratorios\desktop\garcete_franco_42875393\cpp\medicion.h
+	<iostream>
+
+1677799595 source:c:\users\laboratorios\desktop\garcete_franco_42875393\cpp\medicion.cpp
+	"Medicion.h"
+	<string.h>
+

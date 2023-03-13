@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1665036842 source:/home/pilum/Facultad/programacion2c/C/tp2/Pila2/PilaDinamica/PilaDinamica.c
+	"../Pila/Pila.h"
+	<string.h>
+
+1665038359 /home/pilum/Facultad/programacion2c/C/tp2/Pila2/Pila/Pila.h
+	"../PilaEstatica/PilaEstatica.h"
+	"../PilaDinamica/PilaDinamica.h"
+	<stdbool.h>
+	<stddef.h>
+
+1665038704 /home/pilum/Facultad/programacion2c/C/tp2/Pila2/PilaEstatica/PilaEstatica.h
+
+1665036865 /home/pilum/Facultad/programacion2c/C/tp2/Pila2/PilaDinamica/PilaDinamica.h
+

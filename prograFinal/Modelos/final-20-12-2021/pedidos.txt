@@ -1,0 +1,6 @@
+1|lapicera|100|v|Facturacion
+2|lapicera|30|r|Recursos Humanos
+3|hojas|25|v|Tesoreria
+4|pantalla|3|a|Atencion Al Cliente
+5|lapicera|5|r|Gerencia
+6|pantalla|1|v|Recursos Humanos

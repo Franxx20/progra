@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1638471287 source:/home/phosu/Documents/Programacion/finales/horaDelDia/horaDelDia/main.cpp
+	<iostream>
+	<stdlib.h>
+	<unistd.h>
+	"include/HoraDelDia.h"
+
+1638471019 /home/phosu/Documents/Programacion/finales/horaDelDia/horaDelDia/include/HoraDelDia.h
+	<iostream>
+
+1638471280 source:/home/phosu/Documents/Programacion/finales/horaDelDia/horaDelDia/src/HoraDelDia.cpp
+	<iomanip>
+	"HoraDelDia.h"
+

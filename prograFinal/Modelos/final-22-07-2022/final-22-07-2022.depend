@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1671148412 source:c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022\arbol.c
+	"arbol.h"
+	<stdlib.h>
+	<string.h>
+
+1671148413 c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022\arbol.h
+
+1671241686 source:c:\users\franq\desktop\progra\prografinal\modelos\final-22-07-2022\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+

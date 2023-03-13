@@ -1,0 +1,48 @@
+int convertirTxtABinario_alu(const char* nombreTransfTxt, const char* nombreTransfBin)
+{
+	FILE* txt = fopen(nombreTransfTxt, "rt");
+	FILE* bin = fopen(nombreTransfBin, "wb");
+	if(!txt || !bin)
+    {
+        fclose(txt);
+        fclose(bin);
+        return 1;
+    }
+
+    char linea[256];
+    Transferencia transfAct;
+
+    while(fgets(linea,256,txt) != NULL)
+    {
+        char* act = strchr(linea,'\n');
+        if(!act)
+            return 2;
+        act = strrchr(linea, '|');
+        sscanf(act+1, "%lf", &transfAct.monto);
+        *act = '\0';
+
+        act = strrchr(linea, '|');
+        strncpy(transfAct.bancoDest,act+1,51);
+        *act = '\0';
+
+        act = strrchr(linea, '|');
+        strncpy(transfAct.cuentaDest,act+1,51);
+        *act = '\0';
+
+        act = strrchr(linea, '|');
+        strncpy(transfAct.bancoOrig,act+1,51);
+        *act = '\0';
+
+        act = strrchr(linea, '|');
+        strncpy(transfAct.cuentaOrig,act+1,51);
+        *act = '\0';
+
+        sscanf(linea, "%d-%d-%d", &transfAct.fecha.dia, &transfAct.fecha.mes, &transfAct.fecha.anio);
+        *act = '\0';
+
+        fwrite(&transfAct, sizeof(Transferencia), 1, bin);
+    }
+    fclose(txt);
+    fclose(bin);
+    return 0;
+}

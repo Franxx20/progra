@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1623880460 source:d:\onedrive - universidad nacional de la matanza\unlam\programacion\examenesenmaquina\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623880292 d:\onedrive - universidad nacional de la matanza\unlam\programacion\examenesenmaquina\2021-06-17_banco_nuevo\proyectos\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\onedrive - universidad nacional de la matanza\unlam\programacion\examenesenmaquina\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.h
+
+1623880460 source:d:\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623880292 d:\2021-06-17_banco_nuevo\proyectos\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\2021-06-17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.h
+
+1623889687 source:d:\2021_06_17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623884012 d:\2021_06_17_banco_nuevo\proyectos\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\2021_06_17_banco_nuevo\proyectos\transferenciasbancoparcial1\main.h
+
+1623902131 source:d:\2021_06_17_banco_nuevo\proyectos\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"main.h"
+
+1623901957 d:\2021_06_17_banco_nuevo\proyectos\parcial1_64_bits_entregable\solucionparcialbanco\solucionparcialbanco.h
+
+1623864345 d:\2021_06_17_banco_nuevo\proyectos\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.h
+
+1623983057 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../TDAListaImplDinamica/TDAListaImplDinamica.h"
+	"../TDALista/TDALista.h"
+	"main.h"
+	"../SolucionParcialBanco/SolucionParcialBanco.h"
+	"../SolucionParcialBanco/Transferencia.h"
+	"../SolucionParcialBanco/Cuenta.h"
+	"../Fecha/Fecha.h"
+
+1623956559 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\solucionparcialbanco\solucionparcialbanco.h
+
+1623959402 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\transferenciasbancoparcial1\main.h
+	"../SolucionParcialBanco/Transferencia.h"
+
+1623951469 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\solucionparcialbanco\transferencia.h
+	"../Fecha/Fecha.h"
+
+1623956854 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\fecha\fecha.h
+
+1623951482 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1623949277 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\nodo\nodo.h
+
+1623959619 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\tdalista\tdalista.h
+	<stddef.h>
+
+1623951469 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\solucionparcialbanco\cuenta.h
+
+1623981329 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\hacer\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\tdalistaimpldinamica\lista.c
+	<memory.h>
+	<stdlib.h>
+	"TDAListaImplDinamica.h"
+	"../TDALista/TDALista.h"
+
+1623981329 source:c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\done\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\tdalistaimpldinamica\lista.c
+	<memory.h>
+	<stdlib.h>
+	"TDAListaImplDinamica.h"
+	"../TDALista/TDALista.h"
+
+1623951482 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\done\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\tdalistaimpldinamica\tdalistaimpldinamica.h
+	"../Nodo/Nodo.h"
+
+1623949277 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\done\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\nodo\nodo.h
+
+1623959619 c:\users\marti\onedrive\documentos\facultad\2doa\1ercuatri\programacion\informacion\done\2021_06-17_parcial1_fix_enunciado\parcial1_64_bits_entregable\tdalista\tdalista.h
+	<stddef.h>
+

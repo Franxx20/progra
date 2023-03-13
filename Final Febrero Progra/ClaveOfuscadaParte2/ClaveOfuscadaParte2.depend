@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1677527963 source:c:\users\seba_\onedrive\escritorio\programacion\claveofuscadaparte2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

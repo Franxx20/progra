@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1661654983 source:/home/pilum/Facultad/programacion2c/CPP/TestFecha4/main.cpp
+	"../Fecha4/include/Fecha.h"
+	<iostream>
+	<locale.h>
+
+1661654913 /home/pilum/Facultad/programacion2c/CPP/Fecha4/include/Fecha.h
+	<iostream>
+

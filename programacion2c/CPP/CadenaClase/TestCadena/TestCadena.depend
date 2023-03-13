@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1664637846 source:c:\users\laboratorios.unlmlab\desktop\tcp-cpp-2022-2-m\tcp-cpp-2022-2-m\testcadena\main.cpp
+	<iostream>
+	<fstream>
+	"../Cadena/Cadena.h"
+
+1664636964 c:\users\laboratorios.unlmlab\desktop\tcp-cpp-2022-2-m\tcp-cpp-2022-2-m\cadena\cadena.h
+	<iostream>
+

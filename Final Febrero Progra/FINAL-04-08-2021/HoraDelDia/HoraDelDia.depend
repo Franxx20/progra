@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1677537214 source:c:\users\franq\desktop\final febrero progra\final-04-08-2021\horadeldia\src\horadeldia.cpp
+	"HoraDelDia.h"
+
+1677537099 c:\users\franq\desktop\final febrero progra\final-04-08-2021\horadeldia\include\horadeldia.h
+	<iostream>
+

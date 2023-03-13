@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1574644159 source:/home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/2doParcialCentroTele/main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion2doParcialCentroTele.h>
+
+1574644466 /home/nestor/Dropbox/UNLaM/Programacion/ExamenesEnMaquina/Bibliotecas/include/Solucion2doParcialCentroTele.h
+
+1574644159 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-27_centrotele\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion2doParcialCentroTele.h>
+
+1574644466 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-27_centrotele\include\solucion2doparcialcentrotele.h
+
+1574644159 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-27_centrotele\2019-11-27_entregable\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Solucion2doParcialCentroTele.h>
+
+1574644466 g:\dropbox\unlam\programacion\examenesenmaquina\2019-11-27_centrotele\2019-11-27_entregable\include\solucion2doparcialcentrotele.h
+
+1575129830 source:c:\users\lab3\desktop\2019-11-28_entregable\2doparcialcentrotele\arbol.c
+	"../include/Arbol.h"
+
+1575128835 source:c:\users\lab3\desktop\2019-11-28_entregable\2doparcialcentrotele\listad.c
+	"ListaD.h"
+
+1575130306 source:c:\users\lab3\desktop\2019-11-28_entregable\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Solucion2doParcialCentroTele.h>
+
+1574946210 c:\users\lab3\desktop\2019-11-28_entregable\include\solucion2doparcialcentrotele.h
+	<../include/Arbol.h>
+	<../include/ListaD.h>
+
+1575126582 c:\users\lab3\desktop\2019-11-28_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+	<stdio.h>
+	<stdlib.h>
+	"Defs.h"
+
+1574638636 c:\users\lab3\desktop\2019-11-28_entregable\include\tipotda.h
+	<TiposCentroTele.h>
+
+1574641038 c:\users\lab3\desktop\2019-11-28_entregable\include\tiposcentrotele.h
+	<Fecha.h>
+
+1559173220 c:\users\lab3\desktop\2019-11-28_entregable\include\fecha.h
+
+1464182110 c:\users\lab3\desktop\2019-11-28_entregable\include\punterosafuncion.h
+
+1574953136 c:\users\lab3\desktop\2019-11-28_entregable\include\listad.h
+	<TipoTDA.h>
+	<Defs.h>
+	<PunterosAFuncion.h>
+	<stdio.h>
+	<stdlib.h>
+
+1479070042 c:\users\lab3\desktop\2019-11-28_entregable\include\defs.h
+
+1574953040 source:i:\programación\2019\2019-11-28_entregable\2doparcialcentrotele\arbol.c
+	"../include/Arbol.h"
+
+1574942094 i:\programación\2019\2019-11-28_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+	<stdio.h>
+	<stdlib.h>
+	"Defs.h"
+
+1574638636 i:\programación\2019\2019-11-28_entregable\include\tipotda.h
+	<TiposCentroTele.h>
+
+1574641038 i:\programación\2019\2019-11-28_entregable\include\tiposcentrotele.h
+	<Fecha.h>
+
+1559173220 i:\programación\2019\2019-11-28_entregable\include\fecha.h
+
+1464182110 i:\programación\2019\2019-11-28_entregable\include\punterosafuncion.h
+
+1574953136 i:\programación\2019\2019-11-28_entregable\include\listad.h
+	<TipoTDA.h>
+	<Defs.h>
+	<PunterosAFuncion.h>
+	<stdio.h>
+	<stdlib.h>
+
+1479070042 i:\programación\2019\2019-11-28_entregable\include\defs.h
+
+1574953128 source:i:\programación\2019\2019-11-28_entregable\2doparcialcentrotele\listad.c
+	"ListaD.h"
+
+1575122798 source:i:\programación\2019\2019-11-28_entregable\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Solucion2doParcialCentroTele.h>
+
+1574946210 i:\programación\2019\2019-11-28_entregable\include\solucion2doparcialcentrotele.h
+	<../include/Arbol.h>
+	<../include/ListaD.h>
+
+1575129832 source:e:\programación\2019\2019-11-28_entregable resuelto\2doparcialcentrotele\arbol.c
+	"../include/Arbol.h"
+
+1575126584 e:\programación\2019\2019-11-28_entregable resuelto\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+	<stdio.h>
+	<stdlib.h>
+	"Defs.h"
+
+1574638636 e:\programación\2019\2019-11-28_entregable resuelto\include\tipotda.h
+	<TiposCentroTele.h>
+
+1574641038 e:\programación\2019\2019-11-28_entregable resuelto\include\tiposcentrotele.h
+	<Fecha.h>
+
+1559173220 e:\programación\2019\2019-11-28_entregable resuelto\include\fecha.h
+
+1464182110 e:\programación\2019\2019-11-28_entregable resuelto\include\punterosafuncion.h
+
+1575235380 e:\programación\2019\2019-11-28_entregable resuelto\include\listad.h
+	<TipoTDA.h>
+	<Defs.h>
+	<PunterosAFuncion.h>
+	<stdio.h>
+	<stdlib.h>
+
+1479070042 e:\programación\2019\2019-11-28_entregable resuelto\include\defs.h
+
+1575243150 source:e:\programación\2019\2019-11-28_entregable resuelto\2doparcialcentrotele\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Solucion2doParcialCentroTele.h>
+
+1574946210 e:\programación\2019\2019-11-28_entregable resuelto\include\solucion2doparcialcentrotele.h
+	<../include/Arbol.h>
+	<../include/ListaD.h>
+
+1575243890 source:e:\programación\2019\2019-11-28_entregable resuelto\2doparcialcentrotele\listad.c
+	"ListaD.h"
+

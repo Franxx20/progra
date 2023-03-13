@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1634934961 source:/home/phosu/Downloads/EJ2/main.cpp
+	<iostream>
+	"VectorEnteros.h"
+
+1634934965 /home/phosu/Downloads/EJ2/include/VectorEnteros.h
+	<iostream>
+
+1634940260 source:/home/phosu/Downloads/EJ2/src/VectorEnteros.cpp
+	"VectorEnteros.h"
+	<stdlib.h>
+

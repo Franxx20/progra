@@ -1,0 +1,36 @@
+---------------------
+Nombre: Reisen
+Apellido: UdongeinInaba
+DNI: 12345687
+Salario: 2025.540000
+---------------------
+---------------------
+Nombre: Reimu
+Apellido: Hakurei
+DNI: 42789456
+Salario: 1489.560000
+---------------------
+---------------------
+Nombre: Kasen
+Apellido: Ibaraki
+DNI: 45631879
+Salario: 2042.480000
+---------------------
+---------------------
+Nombre: Shion
+Apellido: Yorigami
+DNI: 68457894
+Salario: 1004.000000
+---------------------
+---------------------
+Nombre: Ran
+Apellido: Yakumo
+DNI: 78945625
+Salario: 3579.460000
+---------------------
+---------------------
+Nombre: Marisa
+Apellido: Kirisame
+DNI: 98795433
+Salario: 1758.897000
+---------------------

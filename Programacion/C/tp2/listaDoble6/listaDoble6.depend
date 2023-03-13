@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1668377674 source:d:\programacion\c\tp2\listadoble6\lista.c
+	"lista.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1668278686 d:\programacion\c\tp2\listadoble6\lista.h
+	<stdbool.h>
+

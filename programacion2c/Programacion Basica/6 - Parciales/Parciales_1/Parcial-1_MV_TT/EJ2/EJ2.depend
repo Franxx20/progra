@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1634484576 source:/home/phosu/Downloads/EJ2/main.cpp
+	<iostream>
+	"Medicion.h"
+
+1634484543 /home/phosu/Downloads/EJ2/include/Medicion.h
+	<iostream>
+	<cstring>
+
+1634484576 source:/home/phosu/Downloads/EJ2/src/Medicion.cpp
+	"Medicion.h"
+

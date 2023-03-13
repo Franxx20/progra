@@ -1,0 +1,82 @@
+Lo primero que considero es la conexion entre archivos:
+
+nivel (Clientes.dat) -> nivel (Reglas.txt)
+
+y los datos necesarios para el archivo final Ofertas:
+
+usuario (Clientes.dat), producto (codigo de Productos.dat), precio (A Calcular), envioGratis (minimoParaEnvioGratis de Reglas.txt < precio Ofertas.dat/.txt)
+
+
+Lo segundo seria descubrir la ecuacion para calcular el precio y ya poder comprender todo lo necesario para llenar el archivo Ofertas:
+
+descuento = precio * (100 - porcDescuento) / 100
+descuento = (precio - descuento <= topeDescuento)? descuento : precio - topeDescuento
+
+
+Okay, una vez deciframos que chota crear faltaria pensar en como crearlo, es decir el flujo de nuestro programa
+
+- Para Ofertas.dat -
+- Omitimos la primer linea en Reglas.txt
+- Por regla en Reglas.txt:
+    - Parseamos la linea de texto
+    - La guardamos en la lista
+- Por clientes en Clientes.dat:
+    - Buscamos en reglasLista la Regla para el nivel del cliente
+    - Por producto en Productos.dat:
+        - Calculamos el descuento
+        - Escribimos en Ofertas.dat el usuario, codigo del producto, descuento y envioGratis (0 o 1)
+
+- Para Ofertas.txt -
+- Creamos una variable actual_usuario vacia
+- Por oferta en Ofertas.dat:
+    - Si usuario en oferta es distinto a actual_usuario:
+        - actual_usuario = oferta.usuario
+        - Escribimos actual_usuario en Ofertas.txt
+    - Escribimos en Ofertas.txt el codigo del producto, descuento y envioGratis (No o Si)
+
+
+Bueno para comenzar el desarrollo del programa hay unos tips:
+1. Aprovechar las librerias de Pan.
+    Como el ya implemento la lista y las estructuras de datos es recomendable usar esos primero 
+    y luego crear las tuyas una vez estes seguro que el programa funcione correctamente,
+    asi podes reducir el margen de error.
+    1.1. Pan es un pelotudo.
+          No tiene implementada ninguna funcion para ver elementos de la lista,
+          asi que no queda otra que implementar la nuestra para siquiera hacer algo.
+
+2. Asegurarse de que funciones de lista realmente necesitas.
+    Considerando el archivo Reglas ya esta ordenado, insertarAlFinal bastaria para guardar los elementos,
+    una para buscar la posicion de un elemento y otra para copiar el elemento de la posicion buscada.
+    (O fucionar estas dos ultima)
+
+3. Siempre que uses memoria inmediatamente cerrala, asi no te olvidas despues, ejemplo:
+    [Abrimos un archivo]
+    FILE *file = fopen("file.txt", "rt");
+
+    [Mucho codigo]
+
+    [Lo cerramos]
+    fclose(file);
+
+    Pero puede pasar que entre ese [Mucho codigo] nos terminemos por olvidar de cerrar el archivo
+    es por eso que recomiendo hacer:
+    [Abrimos un archivo]
+    FILE *file = fopen("file.txt", "rt");
+
+    [Lo cerramos]
+    fclose(file);
+
+    y luego escribir el [Mucho codigo] en el medio
+
+4. string, String, STRINGS!! (Safety):
+    4.1. Copiar una string, SIEMPRE PERO SIEMPRE USA strNcpy, va a copiar n caracteres de
+         una string a la otra y si queda espacio lo llena de \0.
+         strcpy nunca te asegura que la cadena copiada termine propiamente
+    4.2. Lo mismo se puede aplicar a strcmp (osea usar strncmp) pero si estas en un entorno
+         controlado, en el caso del parcial siempre me aseguro que antes de usar strcmp
+         las cadenas involucradas tenga un \0.
+    4.3. Dinamicas o Estaticas:
+         Para leer los archivos de la primera funcion uso dos cadenas estaticas de 512 bytes,
+         es una movida facil y legal.
+         Pero si queres ser mas quirky y a modo de enseñanza para la segunda funcion
+         utilizo una string de tamaño variable

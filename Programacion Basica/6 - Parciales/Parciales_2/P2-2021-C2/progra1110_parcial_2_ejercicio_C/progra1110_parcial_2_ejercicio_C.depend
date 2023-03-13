@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1637952085 source:c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial_2_ejercicio_c\funres.c
+	<stdio.h>
+	<string.h>
+	"lista.h"
+	"funres.h"
+
+1637952226 
+
+1637951015 c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial_2_ejercicio_c\lista.h
+	<stdio.h>
+
+1637947542 c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial_2_ejercicio_c\funres.h
+
+1637952226 source:c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial_2_ejercicio_c\lista.c
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1637951201 source:c:\users\laboratorios\desktop\progra1110 - p2\progra1110_parcial_2_ejercicio_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funres.h"
+
+1638384053 source:/home/phosu/Downloads/progra1110_parcial_2_ejercicio_C/funres.c
+	<stdio.h>
+	<string.h>
+	"lista.h"
+	"funres.h"
+
+1638381004 /home/phosu/Downloads/progra1110_parcial_2_ejercicio_C/lista.h
+	<stdio.h>
+
+1638381568 /home/phosu/Downloads/progra1110_parcial_2_ejercicio_C/funres.h
+
+1638381458 source:/home/phosu/Downloads/progra1110_parcial_2_ejercicio_C/lista.c
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1638381681 source:/home/phosu/Downloads/progra1110_parcial_2_ejercicio_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funres.h"
+
